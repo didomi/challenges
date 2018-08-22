@@ -39,7 +39,6 @@ The application should use one of the following stacks:
 - [Angular 4+](https://angular.io/) with [Angular Material](https://material.angular.io/)
 - [React](https://reactjs.org/) with Redux and a Material library
 
-Because we are mostly an Angular shop, we have a small preference for Angular but if you have never worked with it before then React can also be used.  
 Except for these requirements, feel free to use whichever libraries, frameworks or tools you deem necessary.
 
 ## HTTP API calls
