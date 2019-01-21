@@ -4,7 +4,7 @@ This challenge is used by Didomi for evaluating candidates for front-end develop
 In some specific cases, companies need to collect consent from consumers before using their data. For instance, website visitors might need to explicitly consent to receive email newsletters through a form before a company can send emails to those visitors.
 
 # The challenge
-The goal of this challenge is to build the simplest possible consent collection and management application where a user can enter its information and agree to a list of data processes. It's not very user-friendly but that'll do the trick for this time.
+The goal of this challenge is to build the simplest possible consent collection and management application where a user can enter its information and agree to a list of data processing. It's not very user-friendly but that'll do the trick for this time.
 
 ## Product specification
 The application is composed of two views.
@@ -54,8 +54,8 @@ You can then mock the HTTP calls by mocking the `XMLHttpRequest` object or the `
 Other methods of mocking are also acceptable as long as there is no actual HTTP calls sent out.
 
 ## Expectations
-Your code will serve as the base for a discussion in interviews.
-We want to see how you approach working on a complete project and strongly recommend that you work on this challenge alone.
+Your code will be reviewed by multiple engineers at Didomi and will serve as the base for a discussion in interviews.  
+We want to see how you approach working on a complete project and strongly recommend that you work on this challenge alone. We will particularly focus on your attention to details and expect the code to be professionally structured, commented, documented, and tested.
 
 If anything is unclear, feel free to ask any question that might help you understand the specifications or requirements better.
 
