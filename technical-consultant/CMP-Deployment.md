@@ -24,12 +24,16 @@ You can use the following API key for your notice: **89a1965c-e470-462e-9467-613
 
 We expect the consent notice to have the following properties:
 
+### Notice Configuration
+
  - Be a popin that blocks access to the page until consent has been given/denied
  - Use red as its main theme color
  - Collect consent for all IAB vendors, Google, and one custom vendor
  - Allow French and English as languages with English as the default language
 
-**Bonus question:** Ensure that consent is collected when the user scrolls more than 30% of the page.  
+### Notice Behavior
+
+As an additional feature, ensure that consent is collected when the user scrolls more than 30% of the page.  
 Note that there is no configuration option to enable this so it has to be coded in JavaScript with the [Didomi SDK API](https://developers.didomi.io/cmp/web-sdk/reference/api).
 
 Here is what the result should look like:
