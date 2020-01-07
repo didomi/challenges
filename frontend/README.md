@@ -1,26 +1,5 @@
 This challenge is used by Didomi for evaluating candidates for front-end development positions.
 
-# Background
-In some specific cases, companies need to collect consent from consumers before using their data. For instance, website visitors might need to explicitly consent to receive email newsletters through a form before a company can send emails to those visitors.
-
-# The challenge
-The goal of this challenge is to build the simplest possible consent collection and management application where a user can enter its information and agree to a list of data processing. It's not very user-friendly but that'll do the trick for this time.
-
-## Product specification
-The application is composed of two views.
-
-### 1. Consent collection form
-A form that allows a user to enter her name, email address and to select data processes that she agrees to.
-
-When the user fills out the form and clicks on the "Give consent" button, the consent gets added to the list of consents that appears on the second view.
-
-![Mockup](https://github.com/didomi/challenges/raw/master/frontend/wireframes/1%20-%20Give%20consent.png)
-
-### 2. Consent management
-A list of consents that were given by users. This view simply displays items from a list with client-side pagination.
-
-![Mockup](https://github.com/didomi/challenges/raw/master/frontend/wireframes/2%20-%20Collected%20consents.png)
-
 # Rules of the game
 This challenge is a chance for engineers at Didomi to see how you code and organize a project to implement a specification.
 
@@ -61,3 +40,23 @@ If anything is unclear, feel free to ask any question that might help you unders
 
 ## Delivery
 Your application can be sent to us as a GitHub repository (in which case you are welcome to fork this repository) or as a compressed archive containing all the deliverables. 
+
+# The challenge
+In some specific cases, companies need to collect consent from consumers before using their data. For instance, website visitors might need to explicitly consent to receive email newsletters through a form before a company can send emails to those visitors.
+
+The goal of this challenge is to build the simplest possible consent collection and management application where a user can enter its information and agree to a list of data processing. It's not very user-friendly but that'll do the trick for this time.
+
+## Product specification
+The application is composed of two views.
+
+### 1. Consent collection form
+A form that allows a user to enter her name, email address and to select data processes that she agrees to.
+
+When the user fills out the form and clicks on the "Give consent" button, the consent gets added to the list of consents that appears on the second view.
+
+![Mockup](https://github.com/didomi/challenges/raw/master/frontend/wireframes/1%20-%20Give%20consent.png)
+
+### 2. Consent management
+A list of consents that were given by users. This view simply displays items from a list with client-side pagination.
+
+![Mockup](https://github.com/didomi/challenges/raw/master/frontend/wireframes/2%20-%20Collected%20consents.png)

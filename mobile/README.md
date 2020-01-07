@@ -1,9 +1,31 @@
 This challenge is used by Didomi for evaluating candidates for mobile development positions.
 
-# Background
-In some specific cases, companies need to collect consent from consumers before using their data. For instance, app users might need to explicitly consent to share their geolocation before a company can use it for advertising.
+# Rules of the game
+This challenge is a chance for engineers at Didomi to see how you code and organize a project to implement a specification.
+
+## Deliverables
+The expected deliverable is a fully functional project that includes the following:
+
+- Code of the library
+- Tests of the library
+- Documentation for launching a development environment and running the library
+- An app that embeds the library so that we can test it
+ 
+## Technical stack
+Feel free to use whichever third-party libraries, frameworks or tools you deem necessary. Keep in mind that the library is intended to be included into apps so size should be kept to a reasonable minimum.
+
+## Expectations
+Your code will be reviewed by multiple engineers at Didomi and will serve as the base for a discussion in interviews.  
+We want to see how you approach working on a complete project and strongly recommend that you work on this challenge alone. We will particularly focus on your attention to details and expect the code to be professionally structured, commented, documented, and tested.
+
+If anything is unclear, feel free to ask any question that might help you understand the specifications or requirements better.
+
+## Delivery
+Your application can be sent to us as a GitHub repository (in which case you are welcome to fork this repository) or as a compressed archive containing all the deliverables. 
 
 # The challenge
+In some specific cases, companies need to collect consent from consumers before using their data. For instance, app users might need to explicitly consent to share their geolocation before a company can use it for advertising.
+
 The goal of this challenge is to build a very simple library that can be embedded in a mobile app to collect the user consent. It's not very user-friendly but it's good enough for this challenge.
 
 ## Product specification
@@ -15,7 +37,7 @@ The library should be built either in Java (Android library) or Swift (iOS frame
 ### Workflow
 The library's job is to show a view to collect the user consent. The library should store the user consent status in the local storage (`SharedPreferences` or `NSUserDefaults`). The user can have 3 consent status: `undefined` (nothing stored in the local storage), `deny` (user has denied consent), or `accept` (user has given consent).
 
-When the app gets launched and the library initialized, the library should check if the user has already given consent. If there is no consent status in the local storage, the library should display a view to collect consent from the user. If the user has already given consent previously, the library should not display the view.
+When the app gets launched and the library is initialized, the library should check if the user has already given consent. If there is no consent status in the local storage, the library should display a view to collect consent from the user. If the user has already given consent previously, the library should not display the view.
 
 ### API
 The library should expose (at least) the following methods to the host application:
@@ -25,7 +47,6 @@ The library should expose (at least) the following methods to the host applicati
 Feel free to add other methods that could be required for interacting with the library and setting up the view.
 
 ### View
-
 If the user has not made a choice yet, show a dialog with two options: Deny and Accept. Hide the dialog after the user makes a choice.
 
 ![Mockup](./wireframes/1-Mobile-App.png)
@@ -46,26 +67,3 @@ Example of JSON body:
     "date": "2020-01-07T20:24:31Z"
 }
 ```
-
-# Rules of the game
-This challenge is a chance for engineers at Didomi to see how you code and organize a project to implement a specification.
-
-## Deliverables
-The expected deliverable is a fully functional project that includes the following:
-
-- Code of the library
-- Tests of the library
-- Documentation for launching a development environment and running the library
-- An app that embeds the library so that we can test it
- 
-## Technical stack
-Feel free to use whichever third-party libraries, frameworks or tools you deem necessary. Keep in mind that the library is intended to be included into apps so size should be kept to a minimum.
-
-## Expectations
-Your code will be reviewed by multiple engineers at Didomi and will serve as the base for a discussion in interviews.  
-We want to see how you approach working on a complete project and strongly recommend that you work on this challenge alone. We will particularly focus on your attention to details and expect the code to be professionally structured, commented, documented, and tested.
-
-If anything is unclear, feel free to ask any question that might help you understand the specifications or requirements better.
-
-## Delivery
-Your application can be sent to us as a GitHub repository (in which case you are welcome to fork this repository) or as a compressed archive containing all the deliverables. 
