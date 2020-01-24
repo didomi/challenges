@@ -17,7 +17,7 @@ This challenge is composed of 3 steps:
 
 One of the key requirements of GDPR is that user consent is needed before personal data is used for any purpose like targeted advertising, personalization, analytics, etc. One of the tools that Didomi offers to comply with this requirement is "consent notices".
 
-A consent notice asks the user for consent to a set of purposes (what will the collected personal data be used for) and vendors (who will collect personal data). It can be a small banner at the top or bottom of a website or mobile app, a full-screen popin, etc.
+A consent notice asks the user for consent to a set of purposes (what will the collected personal data be used for) and vendors (who will collect personal data). It can be a small banner at the top or bottom of a website or mobile app, a full screen popin, etc.
 
 Using the [Getting Started](https://developers.didomi.io/cmp/web-sdk/getting-started) section of the Didomi documentation, create an HTML page that displays a consent notice to collect consent from the user.  
 You can use the following API key for your notice: **89a1965c-e470-462e-9467-6132bb46ab94**.
