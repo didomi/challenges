@@ -26,7 +26,7 @@ This challenge requires HTTP API calls when a user adds a consent or to populate
 What we recommend is to implement the calls as standard HTTP requests to a REST API with the following specification:
 
  - `GET /consents`: Returns a list of consents along with pagination data.
- - `POST /consent`: Add a new consent.
+ - `POST /consents`: Add a new consent.
 
 You can then mock the HTTP calls by mocking the `XMLHttpRequest` object or the `fetch` method in the browser. The mock should have a pre-populated list of objects and add a new object to the list when a `POST` request is sent.
 
