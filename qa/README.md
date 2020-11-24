@@ -1,4 +1,4 @@
-# QA engineering challengee
+# QA engineering challenge
 
 This challenge is used by Didomi for evaluating candidates for QA engineering positions.
 
