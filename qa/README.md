@@ -43,7 +43,7 @@ Create an automate test suite that validates the correct behavior of the notice:
 - Give consent by clicking on "Agree and Close"
 - Validate that the notice gets closed
 - Validate that an HTTP POST request is sent to `https://api.privacy-center.org/v1/events` with `type = consent.given`
-- Validate that the function `Didomi.getUserConsentStatusForAll()` (<https://developers.didomi.io/cmp/web-sdk/reference/api#getuserconsentstatusforall>) responds with the correct values
+- Validate that the function `Didomi.getUserStatus()` (<https://developers.didomi.io/cmp/web-sdk/reference/api#getuserstatus>) responds with the correct values
 
 #### Technical stack
 
