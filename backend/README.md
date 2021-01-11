@@ -45,11 +45,11 @@ The goal of this challenge is to build the simplest possible consent and user st
 The API you are building supports CRUD operations on `user` and `event` entities with the following rules:
 
 - A user can have multiple events that, when applied in the order of their creation, will generate the current user consent status.
+- It is possible to backfill an event by providing the `created_at` field in the event creation request body. This allows for creating events in the past.
 - A user accepts only one required field (`email`) that must be a valid email address and unique. If any of the requirements are not satisfied, the API must return a 422 response code.
 - Consent IDs can be one of the following: `email_notifications` or `sms_notifications`.
 - Consent change events can only be read and created, not update or deleted.
 - A consent change event belongs to a single user.
-- The `created_at` column on `event` can be specified in the create request.
 
 ### Example
 
