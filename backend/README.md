@@ -28,7 +28,7 @@ If anything is unclear, feel free to ask any questions that might help you under
 
 ## Delivery
 
-Your application can be sent to us as a GitHub repository (in which case you are welcome to fork this repository) or as a compressed archive containing all the deliverables.
+Your application can be sent to us as a GitHub repository or as a compressed archive containing all the deliverables.
 
 # The challenge
 
@@ -45,11 +45,15 @@ The goal of this challenge is to build the simplest possible consent and user st
 The API you are building supports CRUD operations on `user` and `event` entities with the following rules:
 
 - A user can have multiple events that, when applied in the order of their creation, will generate the current user consent status.
-- It is possible to backfill an event by providing the `created_at` field in the event creation request body. This allows for creating events in the past.
-- A user accepts only one required field (`email`) that must be a valid email address and unique. If any of the requirements are not satisfied, the API must return a 422 response code.
+- A user accepts only one required field (`email`) that must be a valid email address and unique. If any of the requirements are not satisfied, the API must return a 422 response.
 - Consent IDs can be one of the following: `email_notifications` or `sms_notifications`.
 - Consent change events can only be read and created, not update or deleted.
 - A consent change event belongs to a single user.
+
+To keep the challenge as short as possible the mandatory routes and methods are the following:
+
+- `/users` [`GET`, `POST`, `DELETE`]
+- `/events` [`POST`]
 
 ### Example
 
