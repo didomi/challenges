@@ -47,7 +47,11 @@ Create an automate test suite that validates the correct behavior of the notice:
 
 #### Technical stack
 
-The test library should use JavaScript and an E2E testing framework like Cypress, TestCafe, or Protractor.
+The test library should use the following technologies:
+
+- JavaScript or TypeScript
+- Gherkin for defining scenarios
+- CucumberJS and Cypress for running the tests
 
 Except for these requirements, feel free to use whichever libraries, frameworks or tools you deem necessary.
 
@@ -64,7 +68,7 @@ In this part, we expect you to present how you would design and execute the enti
 - How you would manage a database of tests that grows with new features
 - What tests would be run manually vs automatically
 - How the work of creating and automating test cases would be distributed between product managers, engineers, etc.
-- How every project that is part of the product (backend, frontend, SDKs) would be tested and you would test the whole chain
+- How every component that is part of the product (backend, frontend, SDKs) would be tested and you would test the whole chain
 
 From a user perspective, you can focus on designing a testing strategy for the most common scenario, which is the following:
 
