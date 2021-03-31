@@ -119,3 +119,21 @@ The resulting user (GET request) will be:
   ]
 }
 ```
+
+## Review session
+
+After receiving your code challenge, we organize a review session with you and a few engineers from Didomi. During the review session, we will:
+
+- Ask you to share you screen and do a quick demo of the app you built
+- Ask you to present your project structure and walk us through the code (the different components, the state management, etc.)
+- Ask you general technical questions related to your project and backend architecture
+- Do an architecture exercise where you will sketch out an architecture (think about APIs, clients, queues, jobs, etc) using <http://draw.io/>, <http://miro.com/> or a similar tool of your choice
+
+A few examples of the topic that we like to discuss in more details:
+
+- API formats and documentation
+- Schema management and migrations
+- Microservices and loose coupling
+- Secrets and encryption
+- Queues and event-driven architecture
+- Testing
