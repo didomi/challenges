@@ -1,6 +1,6 @@
-This challenge is used by Didomi for evaluating candidates for data engineering positions.
+# Data engineering challenge
 
-# Rules of the game
+This challenge is used by Didomi for evaluating candidates for data engineering positions.
 
 This challenge is a chance for engineers at Didomi to see how you code and organize a project to implement a specification.
 
