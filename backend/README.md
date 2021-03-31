@@ -1,6 +1,6 @@
-This challenge is used by Didomi for evaluating candidates for backend development positions.
+# Backend engineering challenge
 
-# Rules of the game
+This challenge is used by Didomi for evaluating candidates for backend development positions.
 
 This challenge is a chance for engineers at Didomi to see how you code, organize a project and gather information to implement a specification.
 

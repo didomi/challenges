@@ -1,6 +1,6 @@
-This challenge is used by Didomi for evaluating candidates for front-end development positions.
+# Front-end engineering challenge
 
-# Rules of the game
+This challenge is used by Didomi for evaluating candidates for front-end development positions.
 
 This challenge is a chance for engineers at Didomi to see how you code and organize a project to implement a specification.
 
@@ -70,3 +70,22 @@ When the user fills out the form and clicks on the "Give consent" button, the co
 A list of consents that were given by users. This view simply displays items from a list with client-side pagination.
 
 ![Mockup](https://github.com/didomi/challenges/raw/master/frontend/wireframes/2%20-%20Collected%20consents.png)
+
+## Review session
+
+After receiving your code challenge, we organize a review session with you and a few engineers from Didomi. During the review session, we will:
+
+- Ask you to share you screen and do a quick demo of the app you built
+- Ask you to present your project structure and walk us through the code (the different components, the state management, etc.)
+- Ask you general technical questions related to your project and frontend architecture
+
+A few examples of the topic that we like to discuss in more details:
+
+- How to scale a big front-end application (modularization, lazy loading, etc.)
+- Smart/dumb components
+- UI libraries
+- State management
+- Fat reducers vs. fat actions
+- Side effects for actions
+- Styling (BEM, SASS, etc)
+- Testing (unit, integration, E2E)
