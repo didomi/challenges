@@ -81,11 +81,9 @@ After receiving your code challenge, we organize a review session with you and a
 
 A few examples of the topic that we like to discuss in more details:
 
-- How to scale a big front-end application (modularization, lazy loading, etc.)
+- Scaling of an SPA
 - Smart/dumb components
 - UI libraries
 - State management
-- Fat reducers vs. fat actions
-- Side effects for actions
-- Styling (BEM, SASS, etc)
-- Testing (unit, integration, E2E)
+- Styling
+- Testing
