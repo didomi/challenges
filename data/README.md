@@ -32,7 +32,7 @@ If anything is unclear, feel free to ask any question that might help you unders
 
 Your application can be sent to us as a GitHub repository (in which case you are welcome to fork this repository) or as a compressed archive containing all the deliverables.
 
-# The challenge
+## The challenge
 
 In some specific cases, companies need to collect consent from consumers before using their data. For instance, app users might need to explicitly consent to share their geolocation before a company can use it for advertising.
 
@@ -60,8 +60,8 @@ Events are stored as JSON Lines files with the following format:
     "domain": "www.website.com",
     "user": {
         "id": "09fcb803-2779-4096-bcfd-0fb1afef684a",
-        "consent": true,
-        "country": "US"
+        "country": "US",
+        "token": "{\"vendors\":{\"enabled\":[\"vendor\"],\"disabled\":[]},\"purposes\":{\"enabled\":[\"analytics\"],\"disabled\":[]}}",
     }
 }
 ```
@@ -73,8 +73,12 @@ Events are stored as JSON Lines files with the following format:
 | `type`         | `pageview`, `consent.given`, `consent.asked` | Event type                           |
 | `domain`       | Domain name                                  | Domain where the event was collected |
 | `user.id`      | UUID                                         | Unique user ID                       |
-| `user.consent` | Boolean                                      | Consent status of the user           |
+| `user.token`   | JSON-String                                  | Contains status of purposes/vendors  |
 | `user.country` | ISO 3166-1 alpha-2 country code              | Country of the user                  |
+
+### Consent status
+
+We consider an event as positive consent when at least one purpose is enabled.
 
 ### Partitioning
 
@@ -87,12 +91,11 @@ The Spark job is expected to compute the following metrics:
 | Metric                        | Description                                                                      |
 | ----------------------------- | -------------------------------------------------------------------------------- |
 | `pageviews`                   | Number of events of type `pageview`                                              |
-| `pageviews_with_consent`      | Number of events of type `pageview` with consent (ie `user.consent = true`)      |
+| `pageviews_with_consent`      | Number of events of type `pageview` with consent (at least one enabled purpose)  |
 | `consents_asked`              | Number of events of type `consent.asked`                                         |
-| `consents_asked_with_consent` | Number of events of type `consent.asked` with consent (ie `user.consent = true`) |
 | `consents_given`              | Number of events of type `consent.given`                                         |
-| `consents_given_with_consent` | Number of events of type `consent.given` with consent (ie `user.consent = true`) |
-| `users`                       | Number of unique users                                                           |
+| `consents_given_with_consent` | Number of events of type `consent.given` with consent                            |
+| `avg_pageviews_per_user`      | Average number of events of type `pageviews` per user                            |
 
 The metrics should be grouped by the following dimensions:
 
