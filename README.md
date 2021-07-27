@@ -15,6 +15,7 @@ We use the following challenges for our review sessions:
 
 - [Backend engineering](./backend/README.md)
 - [Data engineering](./data/README.md)
+- [Devops](./devops/README.md)
 - [Frontend engineering](./frontend/README.md)
 - [Mobile engineering](./mobile/README.md)
 - [QA engineering](./qa/README.md)
