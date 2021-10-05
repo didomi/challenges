@@ -1,0 +1,12 @@
+{
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "extends": [
+    "plugin:@stencil/recommended"
+  ],
+  "rules": {
+    "@stencil/strict-boolean-conditions": "off",
+    "@stencil/prefer-vdom-listener": "off" // https://github.com/ionic-team/stencil-eslint/issues/10
+  }
+}

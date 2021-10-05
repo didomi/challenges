@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  --space-1: 10px;
+  --space-2: 20px;
+  --primary-color: #265973;
+
+  display: flex;
+  height: 100vh;
+  margin: 0;
+}
+
+sidebar {
+  background-color: var(--primary-color);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-top: var(--space-2);
+  width: 200px;
+}
+
+sidebar a {
+  border-left: 5px solid transparent;
+  color: #fff;
+  opacity: 0.7;
+  padding: var(--space-1) var(--space-2);
+  text-decoration: none;
+}
+
+sidebar a.link-active {
+  border-left-color: #fff;
+  opacity: 1;
+}
+
+main {
+  border-radius: 10px;
+  border: 2px dotted var(--primary-color);
+  display: grid;
+  flex-grow: 1;
+  margin: var(--space-1);
+  padding: var(--space-1);
+  place-items: center;
+}
