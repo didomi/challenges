@@ -19,5 +19,6 @@ We use the following challenges for our review sessions:
 - [Frontend engineering](./frontend/README.md)
 - [Mobile engineering](./mobile/README.md)
 - [QA engineering](./qa/README.md)
+- [Webx engineering](./webx/README.md)
 
 Candidates for a full-stack position can do either the [Backend engineering](./backend/README.md) or the [Frontend engineering](./frontend/README.md) challenge.
