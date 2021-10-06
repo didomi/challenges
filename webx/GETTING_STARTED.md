@@ -88,7 +88,7 @@ $ yarn micro-fe:start
 
 #### Testing
 
-Run e2e tests(Jets+Puppeteer) for UI Library:
+Run e2e tests(Jest+Puppeteer) for UI Library:
 
 ```shell
 $ cd packages/ui-library && yarn test
