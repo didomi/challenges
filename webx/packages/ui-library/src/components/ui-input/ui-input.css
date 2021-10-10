@@ -1,0 +1,71 @@
+:host-context(.sign-in-form) {
+  width: 100%;
+}
+
+.ui-input,
+label {
+  display: inline-block;
+  width: inherit;
+}
+
+label span {
+  display: block;
+  height: 18px;
+  font: bold 12px 'IBM Plex Sans';
+  line-height: 18px;
+  color: #1d4153;
+  margin-bottom: 4px;
+}
+
+label span.ui-input-el-disabled {
+  color: #526e7a;
+}
+
+.ui-input-el {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: 1px solid #9ebdcb;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0px 4px 0px 16px;
+  height: 56px;
+  color: #1D4153;
+  font: normal 16px 'IBM Plex Sans';
+  line-height: 24px;
+  outline: none;
+  width: inherit;
+}
+
+.ui-input-el::placeholder {
+  color: #526e7a;
+}
+
+.ui-input-el:focus {
+  border: 1px solid #265973;
+  color: #1d4153;
+}
+
+.ui-input-el:disabled {
+  cursor: not-allowed;
+  background: #f9fafa;
+  border: 1px solid #9ebdcb;
+  color: #668a99;
+}
+
+.ui-input-el.ui-input-el-error {
+  border-color: #b10e00;
+}
+
+.ui-input-error {
+  font: normal 12px 'IBM Plex Sans';
+  line-height: 18px;
+  color: #b10e00;
+  margin-top: 4px;
+  display: none;
+}
+
+.ui-input-error.ui-input-error-active {
+  display: block;
+}

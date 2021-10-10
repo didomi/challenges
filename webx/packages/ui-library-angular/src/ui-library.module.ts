@@ -5,9 +5,9 @@ import { DIRECTIVES } from './directives/proxy-list';
 import { appInitialize } from './app-initialize';
 
 @NgModule({
-  declarations: [...DIRECTIVES],
   imports: [CommonModule],
-  exports: [...DIRECTIVES,],
+  declarations: [DIRECTIVES],
+  exports: [DIRECTIVES,],
 })
 export class UILibraryModule {
   static forRoot(): ModuleWithProviders<UILibraryModule> {

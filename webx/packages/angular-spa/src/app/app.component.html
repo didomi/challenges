@@ -1,7 +1,21 @@
 <section>
   <h1 class="sign-in-title">Sign in</h1>
 
-  <div>
-    <ui-button>Sign in</ui-button>
-  </div>
+  <form [formGroup]="form" (ngSubmit)="submit()" class="sign-in-form">
+    <ui-input
+      label="Email"
+      type="email"
+      placeholder="Please enter your email"
+      [error]="errorList?.email"
+      (inputEvent)="inputChanged($event)"
+    ></ui-input>
+    <ui-input
+      label="Password"
+      type="password"
+      placeholder="Please enter your password"
+      [error]="errorList?.password"
+      (inputEvent)="inputChanged($event)"
+    ></ui-input>
+    <ui-button type="submit">Sign in</ui-button>
+  </form>
 </section>

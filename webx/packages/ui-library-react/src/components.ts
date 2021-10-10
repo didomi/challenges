@@ -8,3 +8,4 @@ import type { JSX } from 'ui-library';
 
 
 export const UiButton = /*@__PURE__*/createReactComponent<JSX.UiButton, HTMLUiButtonElement>('ui-button');
+export const UiInput = /*@__PURE__*/createReactComponent<JSX.UiInput, HTMLUiInputElement>('ui-input');

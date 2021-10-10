@@ -1,5 +1,28 @@
+section {
+	width: 300px;
+}
+
 .sign-in-title {
-  color: #1D4153;
-  font-family: 'IBM Plex Serif';
-  font-weight: normal;
+	color: #1d4153;
+	font-family: 'IBM Plex Serif';
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 32px;
+}
+
+.sign-in-form {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: flex-start;
+}
+
+ui-input {
+	display: block;
+  margin-bottom: 16px;
+}
+
+ui-button {
+	display: block;
+  margin: 16px 0;
 }

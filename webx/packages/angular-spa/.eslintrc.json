@@ -34,7 +34,8 @@
             "prefix": "app",
             "style": "kebab-case"
           }
-        ]
+        ],
+        "max-len": [120]
       }
     },
     {

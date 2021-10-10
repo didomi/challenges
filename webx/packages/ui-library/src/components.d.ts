@@ -5,7 +5,11 @@
  * It contains typing information for all components that exist in this project.
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
-import { ButtonType } from "./components/ui-button/ui-button-types";
+import { ButtonType } from "./components/ui-button/ui-button-type.type";
+import { ButtonTheme } from "./components/ui-button/ui-button-theme.type";
+import { ButtonSize } from "./components/ui-button/ui-button-size.type";
+import { InputType } from "./components/ui-input/ui-input-type.type";
+import { InputChangedEvent } from "./components/ui-input/interfaces";
 export namespace Components {
     interface UiButton {
         /**
@@ -13,9 +17,43 @@ export namespace Components {
          */
         "disabled": boolean;
         /**
+          * Whether the button size is big or small
+         */
+        "size": ButtonSize;
+        /**
+          * Whether the button theme is primary or not
+         */
+        "theme": ButtonTheme;
+        /**
           * Type of the button
          */
         "type"?: ButtonType;
+    }
+    interface UiInput {
+        /**
+          * Input disable state
+         */
+        "disabled": boolean;
+        /**
+          * Input error state
+         */
+        "error"?: string | null;
+        /**
+          * Input label or title
+         */
+        "label": string;
+        /**
+          * Input placeholder text
+         */
+        "placeholder"?: string;
+        /**
+          * Input type
+         */
+        "type": InputType;
+        /**
+          * Input field value
+         */
+        "value"?: string;
     }
 }
 declare global {
@@ -25,8 +63,15 @@ declare global {
         prototype: HTMLUiButtonElement;
         new (): HTMLUiButtonElement;
     };
+    interface HTMLUiInputElement extends Components.UiInput, HTMLStencilElement {
+    }
+    var HTMLUiInputElement: {
+        prototype: HTMLUiInputElement;
+        new (): HTMLUiInputElement;
+    };
     interface HTMLElementTagNameMap {
         "ui-button": HTMLUiButtonElement;
+        "ui-input": HTMLUiInputElement;
     }
 }
 declare namespace LocalJSX {
@@ -36,12 +81,55 @@ declare namespace LocalJSX {
          */
         "disabled"?: boolean;
         /**
+          * Emit event to parent component on click
+         */
+        "onClickEvent"?: (event: CustomEvent<void>) => void;
+        /**
+          * Whether the button size is big or small
+         */
+        "size"?: ButtonSize;
+        /**
+          * Whether the button theme is primary or not
+         */
+        "theme"?: ButtonTheme;
+        /**
           * Type of the button
          */
         "type"?: ButtonType;
     }
+    interface UiInput {
+        /**
+          * Input disable state
+         */
+        "disabled"?: boolean;
+        /**
+          * Input error state
+         */
+        "error"?: string | null;
+        /**
+          * Input label or title
+         */
+        "label"?: string;
+        /**
+          * Emit event to parent component on click
+         */
+        "onInputEvent"?: (event: CustomEvent<InputChangedEvent>) => void;
+        /**
+          * Input placeholder text
+         */
+        "placeholder"?: string;
+        /**
+          * Input type
+         */
+        "type"?: InputType;
+        /**
+          * Input field value
+         */
+        "value"?: string;
+    }
     interface IntrinsicElements {
         "ui-button": UiButton;
+        "ui-input": UiInput;
     }
 }
 export { LocalJSX as JSX };
@@ -49,6 +137,7 @@ declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
             "ui-button": LocalJSX.UiButton & JSXBase.HTMLAttributes<HTMLUiButtonElement>;
+            "ui-input": LocalJSX.UiInput & JSXBase.HTMLAttributes<HTMLUiInputElement>;
         }
     }
 }
