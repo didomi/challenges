@@ -1,7 +1,5 @@
 import { Component, Event, Host, h, Prop, EventEmitter } from '@stencil/core';
-import { ButtonSize } from './ui-button-size.type';
-import { ButtonTheme } from './ui-button-theme.type';
-import { ButtonType } from './ui-button-type.type';
+import { ButtonSize, ButtonTheme, ButtonType } from './typings';
 
 @Component({
   tag: 'ui-button',

@@ -18,11 +18,9 @@ section {
 }
 
 ui-input {
-	display: block;
   margin-bottom: 16px;
 }
 
 ui-button {
-	display: block;
   margin: 16px 0;
 }

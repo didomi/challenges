@@ -1,9 +1,9 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { InputChangedEvent } from './interfaces';
+import { InputChangedEvent } from 'ui-library';
 
-export interface ErrorList {
-  [k: string]: string[];
+interface ErrorList {
+  [key: string]: string[];
 }
 
 @Component({

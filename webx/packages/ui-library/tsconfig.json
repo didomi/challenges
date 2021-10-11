@@ -15,7 +15,11 @@
     "noUnusedParameters": true,
     "jsx": "react",
     "jsxFactory": "h",
-    "types": ["jest"]
+    "types": ["jest"],
+    "paths": {
+      "ui-button": ["./src/typings/ui-button"],
+      "ui-input": ["./src/typings/ui-input"]
+    }
   },
   "include": [
     "src"

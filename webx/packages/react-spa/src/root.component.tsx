@@ -1,8 +1,7 @@
 import { UiButton, UiInput } from 'ui-library-react';
+import { InputChangedEvent } from 'ui-library';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
-
-import { InputChangedEvent } from './interfaces/';
 
 import './root.component.css';
 

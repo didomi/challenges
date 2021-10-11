@@ -5,11 +5,8 @@
  * It contains typing information for all components that exist in this project.
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
-import { ButtonType } from "./components/ui-button/ui-button-type.type";
-import { ButtonTheme } from "./components/ui-button/ui-button-theme.type";
-import { ButtonSize } from "./components/ui-button/ui-button-size.type";
-import { InputType } from "./components/ui-input/ui-input-type.type";
-import { InputChangedEvent } from "./components/ui-input/interfaces";
+import { ButtonSize, ButtonTheme, ButtonType } from "./components/ui-button/typings";
+import { InputChangedEvent, InputType } from "./components/ui-input/typings";
 export namespace Components {
     interface UiButton {
         /**

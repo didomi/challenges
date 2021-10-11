@@ -1,6 +1,4 @@
-import { ButtonSize } from './ui-button-size.type';
-import { ButtonTheme } from './ui-button-theme.type';
-import { ButtonType } from './ui-button-type.type';
+import { UiButtonArgs } from './typings';
 
 export default {
   title: 'UI Library/Form elements/UI Button',
@@ -47,18 +45,11 @@ export default {
       options: ['button', 'submit', 'reset'],
       control: 'select',
       table: {
-        category: 'Props'
-      }
-    }
+        category: 'Props',
+      },
+    },
   },
 };
-
-interface UiButtonArgs {
-  disabled: boolean;
-  size: ButtonSize;
-  theme: ButtonTheme;
-  type: ButtonType;
-}
 
 const themeName = (theme: string): string => theme.charAt(0).toUpperCase() + theme.slice(1);
 

@@ -5,6 +5,7 @@
     "lerna-bootstrap": "lerna bootstrap",
     "start": "concurrently --kill-others \"npm run root:start\" \"npm run react:start\" \"npm run angular:start\"",
     "micro-fe:start": "npm run start",
+    "ui-library:build": "npm run build --prefix packages/ui-library",
     "ui-library:build:watch": "npm run build:watch --prefix packages/ui-library",
     "storybook": "npm run storybook --prefix packages/ui-library",
     "ui-wrappers:build": "npm run react-wrapper:build && npm run angular-wrapper:build",

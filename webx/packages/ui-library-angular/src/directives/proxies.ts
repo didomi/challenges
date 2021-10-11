@@ -5,7 +5,6 @@ import { ProxyCmp, proxyOutputs } from './angular-component-lib/utils';
 
 import { Components } from 'ui-library';
 
-import { UiButton as IUiButton } from 'ui-library/dist/custom-elements/components/ui-button/ui-button';
 export declare interface UiButton extends Components.UiButton {}
 @ProxyCmp({
   inputs: ['disabled', 'size', 'theme', 'type']
@@ -19,7 +18,7 @@ export declare interface UiButton extends Components.UiButton {}
 })
 export class UiButton {
   /** Emit event to parent component on click */
-  clickEvent!: IUiButton['clickEvent'];
+  clickEvent!: this['clickEvent'];
   protected el: HTMLElement;
   constructor(c: ChangeDetectorRef, r: ElementRef, protected z: NgZone) {
     c.detach();
@@ -28,7 +27,6 @@ export class UiButton {
   }
 }
 
-import { UiInput as IUiInput } from 'ui-library/dist/custom-elements/components/ui-input/ui-input';
 export declare interface UiInput extends Components.UiInput {}
 @ProxyCmp({
   inputs: ['disabled', 'error', 'label', 'placeholder', 'type', 'value']
@@ -42,7 +40,7 @@ export declare interface UiInput extends Components.UiInput {}
 })
 export class UiInput {
   /** Emit event to parent component on click */
-  inputEvent!: IUiInput['inputEvent'];
+  inputEvent!: this['inputEvent'];
   protected el: HTMLElement;
   constructor(c: ChangeDetectorRef, r: ElementRef, protected z: NgZone) {
     c.detach();

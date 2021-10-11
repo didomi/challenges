@@ -1,11 +1,6 @@
 import { Component, Event, Host, h, Prop, EventEmitter } from '@stencil/core';
-import { InputChangedEvent } from './interfaces';
-import { InputType } from './ui-input-type.type';
-
-const ERROR_LABELS = {
-  email: 'Sorry, email seems wrong',
-  required: 'This field is mandatory'
-}
+import { ERROR_LABELS } from './constants';
+import { InputChangedEvent, InputType } from './typings';
 
 @Component({
   tag: 'ui-input',
