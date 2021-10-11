@@ -11,7 +11,7 @@
     "react-wrapper:build": "npm run build --prefix packages/ui-library-react",
     "angular-wrapper:build": "npm run build --prefix packages/ui-library-angular",
     "lint": "concurrently \"npm run root:lint\" \"npm run react:lint\" \"npm run angular:lint\" \"npm run ui-library:lint\"",
-    "test": "concurrently \"npm run root:test\" \"npm run react:test\" \"npm run angular:test\" \"npm run ui-library:test\"",
+    "test": "concurrently \"npm run react:test\" \"npm run angular:test\" \"npm run ui-library:test\"",
     "root:start": "npm run start --prefix packages/root-config",
     "react:start": "npm run start --prefix packages/react-spa",
     "angular:start": "npm run start --prefix packages/angular-spa",
@@ -19,6 +19,9 @@
     "react:lint": "npm run lint --prefix packages/react-spa",
     "angular:lint": "npm run lint --prefix packages/angular-spa",
     "ui-library:lint": "npm run lint --prefix packages/ui-library",
+    "react:test": "npm run test --prefix packages/react-spa",
+    "angular:test": "npm run test --prefix packages/angular-spa",
+    "ui-library:test": "npm run test --prefix packages/ui-library",
     "postinstall": "ngcc"
   },
   "devDependencies": {

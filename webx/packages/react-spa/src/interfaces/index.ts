@@ -1,1 +1,1 @@
-export { InputChangedEvent } from './input-changed-event.interface'
+export { InputChangedEvent } from './input-changed-event.interface';

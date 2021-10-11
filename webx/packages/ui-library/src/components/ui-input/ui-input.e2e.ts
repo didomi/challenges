@@ -47,4 +47,15 @@ describe('ui-input', () => {
 
     expect(event).toHaveReceivedEventTimes(4);
   });
+
+  it('should not trigger event on input when disabled', async () => {
+    element.setAttribute('disabled', true);
+    const inputElement = await page.find('ui-input >>> input');
+    const event = await inputElement.spyOnEvent('input');
+
+    await page.waitForChanges();
+    await inputElement.type('text');
+
+    expect(event).toHaveReceivedEventTimes(0);
+  });
 });
