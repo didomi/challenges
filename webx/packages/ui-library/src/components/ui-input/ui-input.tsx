@@ -16,7 +16,7 @@ export class UiInput {
   /**
    * Input field value
    */
-  @Prop() value?: string;
+  @Prop({ reflect: true, mutable: true }) value?: string;
 
   /**
    * Input type
