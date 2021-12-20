@@ -89,7 +89,7 @@ The data is partitioned by date/hour with Hive partition structure.
 The Spark job is expected to output the following grouped metrics as a Parquet table:
 
 | Column                        | Type      | Description                                                                      |
-| ----------------------------- | --------- | -------------------------------------------------------------------------------- | --- |
+| ----------------------------- | --------- | -------------------------------------------------------------------------------- |
 | `datehour`                    | Dimension | Date and hour (YYYY-MM-DD-HH) dimension                                          |
 | `domain`                      | Dimension | Domain                                                                           |
 | `country`                     | Dimension | User country                                                                     |
@@ -99,7 +99,7 @@ The Spark job is expected to output the following grouped metrics as a Parquet t
 | `consents_asked_with_consent` | Metric    | Number of events of type `consent.asked` with consent (ie `user.consent = true`) |
 | `consents_given`              | Metric    | Number of events of type `consent.given`                                         |
 | `consents_given_with_consent` | Metric    | Number of events of type `consent.given` with consent (ie `user.consent = true`) |
-| `avg_pageviews_per_user`      | Metric    | Average number of events of type `pageview` per user                             |     |
+| `avg_pageviews_per_user`      | Metric    | Average number of events of type `pageview` per user                             |
 
 ## Processing
 
