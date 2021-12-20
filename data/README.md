@@ -86,22 +86,20 @@ The data is partitioned by date/hour with Hive partition structure.
 
 ## Output
 
-The Spark job is expected to compute the following metrics:
+The Spark job is expected to output the following grouped metrics as a Parquet table:
 
-| Metric                        | Description                                                                      |
-| ----------------------------- | -------------------------------------------------------------------------------- |
-| `pageviews`                   | Number of events of type `pageview`                                              |
-| `pageviews_with_consent`      | Number of events of type `pageview` with consent (at least one enabled purpose)  |
-| `consents_asked`              | Number of events of type `consent.asked`                                         |
-| `consents_given`              | Number of events of type `consent.given`                                         |
-| `consents_given_with_consent` | Number of events of type `consent.given` with consent                            |
-| `avg_pageviews_per_user`      | Average number of events of type `pageviews` per user                            |
-
-The metrics should be grouped by the following dimensions:
-
-- Date and hour (YYYY-MM-DD-HH)
-- Domain
-- User country
+| Column                        | Type      | Description                                                                      |
+| ----------------------------- | --------- | -------------------------------------------------------------------------------- | --- |
+| `datehour`                    | Dimension | Date and hour (YYYY-MM-DD-HH) dimension                                          |
+| `domain`                      | Dimension | Domain                                                                           |
+| `country`                     | Dimension | User country                                                                     |
+| `pageviews`                   | Metric    | Number of events of type `pageview`                                              |
+| `pageviews_with_consent`      | Metric    | Number of events of type `pageview` with consent (ie `user.consent = true`)      |
+| `consents_asked`              | Metric    | Number of events of type `consent.asked`                                         |
+| `consents_asked_with_consent` | Metric    | Number of events of type `consent.asked` with consent (ie `user.consent = true`) |
+| `consents_given`              | Metric    | Number of events of type `consent.given`                                         |
+| `consents_given_with_consent` | Metric    | Number of events of type `consent.given` with consent (ie `user.consent = true`) |
+| `avg_pageviews_per_user`      | Metric    | Average number of events of type `pageview` per user                             |     |
 
 ## Processing
 
