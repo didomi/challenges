@@ -2,18 +2,17 @@ import { resolve } from 'path';
 import { readFileSync } from 'fs';
 
 import 'reflect-metadata';
+
 import Pino from 'pino';
-
-import * as pg from 'pg';
-import { container } from 'tsyringe';
 import express from 'express';
+import { Client, Pool } from 'pg';
+import { container } from 'tsyringe';
 
+import PostgreSQL from './infrastructure/postgre-sql';
 import UsersController from './controllers/users-controller';
 import EventsController from './controllers/events-controller';
-
 import userRouter from './routes/users-router';
 import eventsRouter from './routes/events-router';
-import PostgreSQL from './infrastructure/postgre-sql';
 
 const logger = Pino();
 
@@ -23,9 +22,7 @@ const logger = Pino();
     require('dotenv').config();
   }
 
-  const pool = new pg.Pool();
-  container.register('PGPool', { useValue: pool });
-
+  container.register('PGPool', { useValue: new Pool() });
   container.register('Logger', { useValue: logger });
 })();
 
@@ -57,7 +54,7 @@ app.get('/', (_, res) => {
 
   while (check) {
     try {
-      const c = new pg.Client();
+      const c = new Client();
       await c.connect();
       await c.end();
       check = false;
@@ -67,6 +64,7 @@ app.get('/', (_, res) => {
           'failed to connect to postgres server even after retrying for 10 seconds'
         );
         process.exit(1);
+        return;
       }
     }
   }
