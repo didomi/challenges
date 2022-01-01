@@ -22,7 +22,7 @@ describe('UsersController', () => {
         consents: []
       };
 
-      let mockedResponseSend: jest.Mock;
+      let mockedResponseJson: jest.Mock;
       let mockedResponseStatus: jest.Mock;
       let createRequest: UserCreateRequest;
 
@@ -43,12 +43,11 @@ describe('UsersController', () => {
           }
         };
 
-        mockedResponseSend = jest.fn();
-        mockedResponseStatus = jest.fn(() => ({ send: mockedResponseSend }));
+        mockedResponseJson = jest.fn();
+        mockedResponseStatus = jest.fn(() => ({ json: mockedResponseJson }));
 
         const res = {
-          status: mockedResponseStatus,
-          send: mockedResponseSend
+          status: mockedResponseStatus
         };
 
         await controller.create(req as Request, res as unknown as Response);
@@ -59,17 +58,17 @@ describe('UsersController', () => {
         expect(createRequest).toBeInstanceOf(UserCreateRequest);
       });
 
-      it('returns created', () => {
+      it('returns http status code created', () => {
         expect(mockedResponseStatus).toHaveBeenCalledWith(201);
       });
 
       it('sends user', () => {
-        expect(mockedResponseSend).toHaveBeenCalledWith(user);
+        expect(mockedResponseJson).toHaveBeenCalledWith(user);
       });
     });
 
     describe('existent', () => {
-      let mockedResponseSend: jest.Mock;
+      let mockedResponseJson: jest.Mock;
       let mockedResponseStatus: jest.Mock;
       let createRequest: UserCreateRequest;
       let response;
@@ -91,24 +90,23 @@ describe('UsersController', () => {
           }
         };
 
-        mockedResponseSend = jest.fn();
-        mockedResponseStatus = jest.fn(() => ({ send: mockedResponseSend }));
+        mockedResponseJson = jest.fn();
+        mockedResponseStatus = jest.fn(() => ({ json: mockedResponseJson }));
 
         const res = {
-          status: mockedResponseStatus,
-          send: mockedResponseSend
+          status: mockedResponseStatus
         };
 
         await controller.create(req as Request, res as unknown as Response);
         createRequest = mockedMediatorSend.mock.calls[0][0];
-        response = mockedResponseSend.mock.calls[0][0];
+        response = mockedResponseJson.mock.calls[0][0];
       });
 
       it('uses mediator', () => {
         expect(createRequest).toBeInstanceOf(UserCreateRequest);
       });
 
-      it('returns unprocessable entity', () => {
+      it('returns http status code unprocessable entity', () => {
         expect(mockedResponseStatus).toHaveBeenCalledWith(422);
       });
 
@@ -144,8 +142,7 @@ describe('UsersController', () => {
       mockedResponseStatus = jest.fn(() => ({ end: mockedResponseEnd }));
 
       const res = {
-        status: mockedResponseStatus,
-        end: mockedResponseEnd
+        status: mockedResponseStatus
       };
 
       await controller.delete(
@@ -159,7 +156,7 @@ describe('UsersController', () => {
       expect(deleteRequest).toBeInstanceOf(UserDeleteRequest);
     });
 
-    it('returns no content', () => {
+    it('returns http status code no content', () => {
       expect(mockedResponseStatus).toHaveBeenCalledWith(204);
     });
 
@@ -176,7 +173,7 @@ describe('UsersController', () => {
         consents: []
       };
 
-      let mockedResponseSend: jest.Mock;
+      let mockedResponseJson: jest.Mock;
       let getRequest: UserGetRequest;
 
       beforeAll(async () => {
@@ -196,10 +193,10 @@ describe('UsersController', () => {
           }
         };
 
-        mockedResponseSend = jest.fn();
+        mockedResponseJson = jest.fn();
 
         const res = {
-          send: mockedResponseSend
+          json: mockedResponseJson
         };
 
         await controller.detail(
@@ -214,7 +211,7 @@ describe('UsersController', () => {
       });
 
       it('sends user', () => {
-        expect(mockedResponseSend).toHaveBeenCalledWith(user);
+        expect(mockedResponseJson).toHaveBeenCalledWith(user);
       });
     });
 
@@ -244,8 +241,7 @@ describe('UsersController', () => {
         mockedResponseStatus = jest.fn(() => ({ end: mockedResponseEnd }));
 
         const res = {
-          status: mockedResponseStatus,
-          end: mockedResponseEnd
+          status: mockedResponseStatus
         };
 
         await controller.detail(
@@ -259,7 +255,7 @@ describe('UsersController', () => {
         expect(getRequest).toBeInstanceOf(UserGetRequest);
       });
 
-      it('returns not found', () => {
+      it('returns http status code not found', () => {
         expect(mockedResponseStatus).toHaveBeenCalledWith(404);
       });
 

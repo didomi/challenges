@@ -18,11 +18,11 @@ export default class UsersController {
     const result = await this._mediator.send<IUser, UserCreateRequest>(request);
 
     if (!result) {
-      res.status(422).send({ errors: ['Email already exists!'] });
+      res.status(422).json({ errors: ['Email already exists!'] });
       return;
     }
 
-    res.status(201).send(result);
+    res.status(201).json(result);
   }
 
   async delete(req: Request, res: Response): Promise<void> {
@@ -43,9 +43,10 @@ export default class UsersController {
     const result = await this._mediator.send<IUser, UserGetRequest>(request);
 
     if (!result) {
-      return res.status(404).end();
+      res.status(404).end();
+      return;
     }
 
-    res.send(result);
+    res.json(result);
   }
 }

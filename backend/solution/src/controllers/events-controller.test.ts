@@ -53,8 +53,7 @@ describe('EventsController', () => {
         mockedResponseStatus = jest.fn(() => ({ end: mockedResponseEnd }));
 
         const res = {
-          status: mockedResponseStatus,
-          end: mockedResponseEnd
+          status: mockedResponseStatus
         };
 
         await controller.create(
@@ -69,7 +68,7 @@ describe('EventsController', () => {
         expect(createRequest).toBeInstanceOf(EventCreateRequest);
       });
 
-      it('returns created', () => {
+      it('returns http status code created', () => {
         expect(mockedResponseStatus).toHaveBeenCalledWith(201);
       });
 
@@ -104,8 +103,7 @@ describe('EventsController', () => {
         mockedResponseStatus = jest.fn(() => ({ end: mockedResponseEnd }));
 
         const res = {
-          status: mockedResponseStatus,
-          end: mockedResponseEnd
+          status: mockedResponseStatus
         };
 
         await controller.create(
@@ -120,7 +118,7 @@ describe('EventsController', () => {
         expect(createRequest).toBeInstanceOf(EventCreateRequest);
       });
 
-      it('returns unprocessable entity', () => {
+      it('returns http status code unprocessable entity', () => {
         expect(mockedResponseStatus).toHaveBeenCalledWith(422);
       });
 
