@@ -19,7 +19,7 @@ You are expected to match the mockups and use the right components as needed.
 The application should use one of the following stacks:
 
 - [Angular](https://angular.io/) with [Angular Material](https://material.angular.io/)
-- [React](https://reactjs.org/) with Redux and a Material library
+- [React](https://reactjs.org/) with a Material library
 
 Except for these requirements, feel free to use whichever libraries, frameworks or tools you deem necessary.
 
