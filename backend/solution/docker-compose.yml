@@ -1,0 +1,21 @@
+version: "3"
+services:
+  postgres:
+    image: "postgres:14.1-alpine3.15"
+    environment:
+      POSTGRES_PASSWORD: "test123"
+      POSTGRES_DB: "consents"
+  api:
+    build: .
+    ports:
+      - "5001:5001"
+    environment:
+      PGHOST: "postgres"
+      PGUSER: "postgres"
+      PGPASSWORD: "test123"
+      PGDATABASE: "consents"
+      PORT: "5001"
+      NODE_ENV: "production"
+    depends_on:
+      - postgres
+    restart: on-failure
