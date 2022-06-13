@@ -54,7 +54,7 @@ Events are stored as JSON Lines files with the following format:
 
 ```js
 {
-    "timestamp": "2020-01-21T15:19:34Z",
+    "datetime":"2021-01-23 11:28:37",
     "id": "94cabac0-088c-43d3-976a-88756d21132a",
     "type": "pageview",
     "domain": "www.website.com",
@@ -68,7 +68,7 @@ Events are stored as JSON Lines files with the following format:
 
 | Property       | Values                                       | Description                          |
 | -------------- | -------------------------------------------- | ------------------------------------ |
-| `timestamp`    | ISO 8601 date                                | Date of the event                    |
+| `datetime`     | ISO 8601 date                                | Date of the event                    |
 | `id`           | UUID                                         | Unique event ID                      |
 | `type`         | `pageview`, `consent.given`, `consent.asked` | Event type                           |
 | `domain`       | Domain name                                  | Domain where the event was collected |
