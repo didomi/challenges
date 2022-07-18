@@ -1,0 +1,27 @@
+[
+  {
+    "negative_action": "button only",
+    "min": 66,
+    "max": 85
+  },
+  {
+    "negative_action": "close cross + button",
+    "min": 60,
+    "max": 73
+  },
+  {
+    "negative_action": "cross only",
+    "min": 63,
+    "max": 63
+  },
+  {
+    "negative_action": "link only",
+    "min": 70,
+    "max": 87
+  },
+  {
+    "negative_action": "no negative action",
+    "min": 90,
+    "max": 98
+  }
+]
