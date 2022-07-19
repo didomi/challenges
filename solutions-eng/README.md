@@ -1,17 +1,18 @@
-This challenge is used by Didomi for evaluating candidates for technical consultant positions.
+# Solutions engineering challenge
 
-As a technical consultant, you will work closely with Didomi's clients throughout the sales and implementation processes. You will guide them through the Didomi platform and the correct integration paths for their existing applications.
+This challenge is used by Didomi for evaluating candidates for solutions engineering positions.
 
-# The challenge
+As a solutions engineer, you will work closely with Didomi's clients throughout the sales and implementation processes. You will guide them through the Didomi platform and the correct integration paths for their existing applications.
 
 The goal of this challenge is to walk you through the different stages of integrating the Didomi platform and give you a chance to see how our clients do it every day.  
 Throughout this challenge, the [Didomi documentation](https://developers.didomi.io) will help you understand how to configure and deploy our platform.
 
-This challenge is composed of 3 steps:
+This challenge is composed of 4 steps:
 
 1. Create a consent notice
 2. Validate a CMP deployment
 3. Use our API to manage user consents
+4. Pass consent to third-parties in the backend
 
 ## Step 1 - Create a consent notice
 
@@ -20,7 +21,7 @@ One of the key requirements of GDPR is that user consent is needed before person
 A consent notice asks the user for consent to a set of purposes (what will the collected personal data be used for) and vendors (who will collect personal data). It can be a small banner at the top or bottom of a website or mobile app, a full screen popin, etc.
 
 Using the [Getting Started](https://developers.didomi.io/cmp/web-sdk/getting-started) section of the Didomi documentation, create an HTML page that displays a consent notice to collect consent from the user.  
-You can use the following API key for your notice: **89a1965c-e470-462e-9467-6132bb46ab94**.
+You can use the following public API key for your notice: **89a1965c-e470-462e-9467-6132bb46ab94**.
 
 We expect the consent notice to have the following properties:
 
@@ -46,7 +47,7 @@ Your HTML file should be sent to us as the deliverable. Comments in the HTML are
 
 ## Step 2 - Validate a CMP deployment
 
-Our clients usually configure their CMP through the Didomi Console. Once their setup is done, Didomi often double-checks their configuration and confirm that the setup is correct.
+Our clients usually configure their CMP through the Didomi Console (and not by writing their own JSON configuration). Once their setup is done, Didomi often double-checks their configuration and confirms that the setup is correct.
 
 If you were tasked with validating a CMP deployment for a client, how would you validate the following elements:
 
@@ -68,9 +69,9 @@ The API allows clients to get the consent status of their users as well as updat
 
 Using the Didomi API, write a script that:
 
-1.  Creates 10 consent events for 10 different users with a positive consent for the purpose `cookies` and the vendor `google`
-2.  Gets the consent status for these 10 users as well as their Didomi ID and displays it
-3.  Updates the consent status for these 10 users to disable the purpose `cookies`
+1. Creates 10 consent events for 10 different users with a positive consent for the purpose `cookies` and the vendor `google`
+2. Gets the consent status for these 10 users as well as their Didomi ID and displays it
+3. Updates the consent status for these 10 users to disable the purpose `cookies`
 
 Your script can be written in any language that you are familiar with.
 
@@ -83,3 +84,17 @@ The following documentation sections should be useful:
 ### Deliverable
 
 Your script should be sent to us as the deliverable. Comments in the code are welcome.
+
+## Step 4 - Pass consent to third-parties in the backend
+
+The consents that are collected via consent notices then need to be passed to third-party vendors (advertising, marketing, analytics, etc.) that companies work with to ensure that the user choice is respected. For instance, if a user denies consent, you want to ensure that your marketing vendors are not using the user personal data for advertising or sending emails.
+
+In this step, we want to show the engineering team of a prospect how to integrate Didomi into their systems and pass consents collected from their websites to their internal databases and to Salesforce Marketing Cloud.
+
+The [Integrations section of our documentation](https://developers.didomi.io/integrations/introduction) presents the integration options that Didomi offers.
+
+### Deliverable
+
+Provide an architecture schema that shows the different components and the Didomi integrations used for passing consents between Didomi and the client/Salesforce.
+
+You can assume that the setup fo collecting consent via a consent notice is already done and that consents are automatically sent from the user browser to the Didomi API.
