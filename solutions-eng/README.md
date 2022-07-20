@@ -97,4 +97,4 @@ The [Integrations section of our documentation](https://developers.didomi.io/int
 
 Provide an architecture schema that shows the different components and the Didomi integrations used for passing consents between Didomi and the client/Salesforce.
 
-You can assume that the setup fo collecting consent via a consent notice is already done and that consents are automatically sent from the user browser to the Didomi API.
+You can assume that the setup for collecting consent via a consent notice is already done and that consents are automatically sent from the user browser to the Didomi API.
