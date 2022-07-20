@@ -4,7 +4,8 @@ This challenge is used by Didomi for evaluating candidates for solutions enginee
 
 As a solutions engineer, you will work closely with Didomi's clients throughout the sales and implementation processes. You will guide them through the Didomi platform and the correct integration paths for their existing applications.
 
-The goal of this challenge is to walk you through the different stages of integrating the Didomi platform and give you a chance to see how our clients do it every day.  
+The goal of this challenge is to walk you through the different stages of integrating the Didomi platform and give you a chance to see how our clients do it every day.
+
 Throughout this challenge, the [Didomi documentation](https://developers.didomi.io) will help you understand how to configure and deploy our platform.
 
 This challenge is composed of 4 steps:
@@ -20,7 +21,8 @@ One of the key requirements of GDPR is that user consent is needed before person
 
 A consent notice asks the user for consent to a set of purposes (what will the collected personal data be used for) and vendors (who will collect personal data). It can be a small banner at the top or bottom of a website or mobile app, a full screen popin, etc.
 
-Using the [Getting Started](https://developers.didomi.io/cmp/web-sdk/getting-started) section of the Didomi documentation, create an HTML page that displays a consent notice to collect consent from the user.  
+Using the [Getting Started](https://developers.didomi.io/cmp/web-sdk/getting-started) section of the Didomi documentation, create an HTML page that displays a consent notice to collect consent from the user.
+
 You can use the following public API key for your notice: **89a1965c-e470-462e-9467-6132bb46ab94**.
 
 We expect the consent notice to have the following properties:
@@ -34,7 +36,8 @@ We expect the consent notice to have the following properties:
 
 ### Notice Behavior
 
-As an additional feature, ensure that consent is collected when the user scrolls more than 30% of the page.  
+As an additional feature, ensure that consent is collected when the user scrolls more than 30% of the page.
+
 Note that there is no configuration option to enable this so it has to be coded in JavaScript with the [Didomi SDK API](https://developers.didomi.io/cmp/web-sdk/reference/api).
 
 Here is what the result should look like:
@@ -59,12 +62,14 @@ You can use the following website to run some of your tests: [Le Parisien](http:
 
 ### Deliverable
 
-We expect you to present your findings and thought process during one of your interviews. No written answer is expected for this step.  
+We expect you to present your findings and thought process during one of your interviews. No written answer is expected for this step.
+
 We understand that you might not be familiar with some of the tools listed (DFP, GTM, etc.), in which case you can ignore that part or do only one of them.
 
 ## Step 3 - Use our API to manage user consents
 
-The Didomi platform exposes an API to manage user consents: <https://developers.didomi.io/api/guides/consents>  
+The Didomi platform exposes an API to manage user consents: <https://developers.didomi.io/api/guides/consents>.
+
 The API allows clients to get the consent status of their users as well as update it when they collect new consent.
 
 Using the Didomi API, write a script that:
