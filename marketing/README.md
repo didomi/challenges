@@ -8,8 +8,6 @@ This challenge is a chance for engineers at Didomi to see how you code and organ
 
 The expected deliverable is a fully functional website module that includes the following:
 
-
-
 * Code of the module using databases
 * Presentation of the module
 * Documentation for launching the development 
@@ -17,8 +15,6 @@ The expected deliverable is a fully functional website module that includes the 
 **Technical stack**
 
 The application should use one of the following stacks:
-
-
 
 * React with a Material library
 * Except for these requirements, feel free to use whichever libraries, frameworks or tools you deem necessary.
@@ -42,7 +38,6 @@ Companies need to collect consent from consumers before using their data. For in
 At Didomi, we have the [Data Privacy Barometer](https://privacy-barometer.didomi.io/en) as one of our websites that enables the possibility to educate, engage and empower the visitor with a knowledge bank consisting of:
 
 
-
 * A look at the evolution of privacy and data regulations around the world over the past decade
 * Information about specific countries and their stance on data privacy laws
 * Exclusive insights on data collection practices per industries and purposes
@@ -55,17 +50,16 @@ Here you have the module:
 ![Screenshot](./wireframes/screenshot.png)
 
 
-The goal of this challenge is to, using the JSON databases attached, recreate and improve this existing module.
+The goal of this challenge is to, using the images and JSON databases attached, recreate and improve this existing module.
 
 The objective is to:
 
-* Rebuild the filters with the format of banners.
-* Add the country filter since each country has its regulation and their specific banner needs (`countries` JSON file). The data in the JSON will allow you to display the recommended format by country.
-* Rebuild the bottom graph displaying the consent rate and improve it in order to make it clearer.
+* Rebuild the filters with the format of banners (svg files).
+* Add a second module with the country filter since each country has its regulation and their specific banner needs (`countries` JSON file). The data in the JSON will allow you to display the list of countries.
 
 Do not worry too much about the copywriting, you can use the same title and texts. However, you are free to reorganize the page layout the way you want.
 
-You can recreate the consent rate barometer at the bottom with a UI library (we recommend D3.js but it is not a requirement). You have full freedom to add more charts or any text, add design elements you think might make sense to improve the existing page.
+You can create the filter by country component at the bottom the way you want, with a UI library or from scratch. You have full freedom to add more charts or any text, add design elements you think might make sense to improve the existing page.
 
 **Review session**
 
