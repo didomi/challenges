@@ -17,7 +17,7 @@ The expected deliverable is a fully functional project that includes the followi
 The application should use the following stack:
 
 - [Spark](https://spark.apache.org/)
-- Python or Scala
+- Python or Scala/Java
 
 Except for these requirements, feel free to use whichever libraries, frameworks or tools you deem necessary.
 
@@ -30,7 +30,7 @@ If anything is unclear, feel free to ask any question that might help you unders
 
 ## Delivery
 
-Your application can be sent to us as a GitHub repository (in which case you are welcome to fork this repository) or as a compressed archive containing all the deliverables.
+Your application should be sent as a compressed archive containing all the deliverables.
 
 ## The challenge
 
