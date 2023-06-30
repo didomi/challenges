@@ -59,4 +59,3 @@ Lors de l'entretien technique avec l'équipe, vous présenterez votre solution p
 ## Glossaire
 
 Environnement de recettage nightly: environnement dédié permettant le recettage fonctionnel des US livrées par les équipes de developpement. Cet environnement bénéficie de jeux de données spécifiques permettant d'évoluer dans un environnement maitrisé.
-
