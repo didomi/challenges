@@ -1,0 +1,155 @@
+openapi: 3.0.0
+paths:
+  /api/caretracks:
+    post:
+      operationId: SuiviController_create
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateCaretrackDto'
+      responses:
+        '201':
+          description: Suivi crée
+      tags: &ref_0
+        - digikare
+    get:
+      operationId: SuiviController_getData
+      parameters: []
+      responses:
+        default:
+          description: Liste de mes suivis
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Caretrack'
+      tags: *ref_0
+  /api/caretracks/{id}:
+    get:
+      operationId: SuiviController_getSingle
+      parameters: []
+      responses:
+        default:
+          description: Détail du suivi
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FullCaretrack'
+      tags: *ref_0
+  /api/caretracks/{id}/cancel:
+    put:
+      operationId: SuiviController_cancel
+      parameters: []
+      responses:
+        '201':
+          description: Suivi annulé
+        '403':
+          description: Forbidden.
+      tags: *ref_0
+info:
+  title: Digikare API
+  description: 'API Test technique Digikare '
+  version: '1.0'
+  contact: {}
+tags:
+  - name: digikare
+    description: ''
+servers: []
+components:
+  schemas:
+    CreateCaretrackDto:
+      type: object
+      properties:
+        email:
+          type: string
+        interventionDate:
+          type: string
+        firstName:
+          type: string
+        lastName:
+          type: string
+        sex:
+          type: string
+          enum:
+            - MALE
+            - FEMALE
+        operationId:
+          type: string
+          enum:
+            - ptg
+            - pth
+            - lca
+      required:
+        - email
+        - interventionDate
+        - firstName
+        - lastName
+        - sex
+        - operationId
+    Operation:
+      type: object
+      properties:
+        id:
+          type: string
+        title:
+          type: string
+      required:
+        - id
+        - title
+    Caretrack:
+      type: object
+      properties:
+        id:
+          type: string
+        operation:
+          $ref: '#/components/schemas/Operation'
+        emailPatient:
+          type: string
+        interventionDate:
+          format: date-time
+          type: string
+      required:
+        - id
+        - operation
+        - emailPatient
+        - interventionDate
+    Patient:
+      type: object
+      properties:
+        email:
+          type: string
+        firstName:
+          type: string
+        lastName:
+          type: string
+        sex:
+          type: string
+          enum:
+            - MALE
+            - FEMALE
+      required:
+        - email
+        - firstName
+        - lastName
+        - sex
+    FullCaretrack:
+      type: object
+      properties:
+        id:
+          type: string
+        operation:
+          $ref: '#/components/schemas/Operation'
+        patient:
+          $ref: '#/components/schemas/Patient'
+        interventionDate:
+          format: date-time
+          type: string
+      required:
+        - id
+        - operation
+        - patient
+        - interventionDate

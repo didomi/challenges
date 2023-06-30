@@ -1,89 +1,61 @@
-# Front-end engineering challenge
+# Test technique Front End Digikare
 
-This challenge is used by Didomi for evaluating candidates for front-end development positions.
+# Introduction
 
-This challenge is a chance for engineers at Didomi to see how you code and organize a project to implement a specification.
+Bienvenue chez Digikare ! Nous recherchons des développeurs front-end talentueux pour rejoindre notre équipe. Dans cet exercice, nous vous proposons de créer une application web de suivi des patients.
 
-## Deliverables
+## Contexte
 
-The expected deliverable is a fully functional project that includes the following:
+L'objectif de cet exercice est de développer une application qui permettra de créer des suivis de patients, de lister les suivis précédemment créés et de visualiser les détails d'un suivi en particulier. De plus, nous souhaitons que vous implémentiez la fonctionnalité d'annulation d'un suivi, mais uniquement si la date d'intervention n'est pas encore passée.
 
-- Code of the application
-- Tests of the application
-- Documentation for launching a development environment and running the application
+## **Explications de l'exercice**
 
-You are expected to match the mockups and use the right components as needed.
+Vous devez développer une application front-end avec le Framework de votre choix en Typescript (React et Angular de préférence), qui comprendra les fonctionnalités suivantes :
 
-## Technical stack
+1. **Créer un suivi patient** : En tant qu’utilisateur “chirurgien” je peux créer un suivi patient, y compris les informations sur le patient lui-même et les détails de l'intervention. Les champs obligatoires doivent être correctement validés avant d'enregistrer les données.
+    1. Un email
+    2. Une date d’intervention
+    3. Un prénom / Nom / Sexe
+    4. Le type d’intervention
+        1. Prothèse de genou
+        2. Prothèse de hanche
+        3. Ligament croisé Antérieur
+2. **Lister les suivis précédemment créés** : Une fois qu'un suivi a été créé, il devrait être répertorié dans une vue de liste. Les informations clés telles que le nom du patient, la date d'intervention, etc., doivent être affichées pour chaque suivi.
+3. **Afficher les détails d'un suivi** : Lorsque l'utilisateur sélectionne un suivi dans la liste, les détails complets du suivi doivent être affichés. Cela comprend toutes les informations fournies lors de la création du suivi.
+4. **Annuler un suivi** : L'utilisateur devrait avoir la possibilité d'annuler un suivi tant que la date d'intervention n'est pas encore passée. Si la date d'intervention est déjà passée, l'option d'annulation ne doit pas être disponible.
 
-The application should use one of the following stacks:
+# API :
 
-- [Angular](https://angular.io/) with [Angular Material](https://material.angular.io/)
-- [React](https://reactjs.org/) with a Material library
+Le fichier API Swagger décrivant l’API est disponible dans [./docs/api-swagger.yaml](`docs/api-swagger.yaml`)
 
-Except for these requirements, feel free to use whichever libraries, frameworks or tools you deem necessary.
+## **Bonus**
 
-## HTTP API calls
+En tant qu'équipe chez Digikare, nous valorisons les bonnes pratiques de développement. Si vous pouvez démontrer votre compréhension et votre application des concepts suivants, cela sera considéré comme un avantage supplémentaire :
 
-This challenge requires HTTP API calls when a user adds a consent or to populate the list of consents.
+- **Clean Architecture**
+- **Tests automatisés**
+- **State Management**
+- **Mobile first**
+- **Test-Driven Development (TDD)**
+- **SOLID**
+- **Domain-Driven Design (DDD)**
 
-What we recommend is to implement the calls as standard HTTP requests to a REST API with the following specification:
+## **Instructions supplémentaires**
 
-- `GET /consents`: Returns a list of consents along with pagination data.
-- `POST /consents`: Add a new consent.
+- Vous êtes libre d'utiliser les bibliothèques ou les outils qui vous semblent appropriés pour mener à bien cette tâche.
+- Assurez-vous de bien structurer votre code, en respectant les conventions de nommage et les bonnes pratiques.
+- Veillez à ce que votre code soit propre, lisible.
 
-You can then mock the HTTP calls by mocking the `XMLHttpRequest` object or the `fetch` method in the browser. The mock should have a pre-populated list of objects and add a new object to the list when a `POST` request is sent.
+## **Conclusion**
 
-Other methods of mocking are also acceptable as long as there is no actual HTTP calls sent out.
+Cet exercice a pour but d'évaluer votre compétence en tant que développeur front-end et de voir comment vous abordez le développement d'une application web et d'autres pratiques de développement clés.
 
-## Expectations
+Si vous souhaitez ajouter des fonctionnalités supplémentaires ou démontrer vos compétences avancées, n'hésitez pas à le faire. Cependant, veuillez noter que cela n'est pas requis. L'objectif est de ne pas consacrer plus de 2 heures à ce test. Notre principale préoccupation est d'évaluer vos capacités de base dans un délai raisonnable. Notre objectif est de voir votre compréhension et votre application des concepts fondamentaux du développement front-end, plutôt que la complexité ou l'exhaustivité de l'application.
 
-Your code will be reviewed by multiple engineers at Didomi and will serve as the base for a discussion in interviews.  
-We want to see how you approach working on a complete project and strongly recommend that you work on this challenge alone. We will particularly focus on your attention to details and expect the code to be professionally structured, commented, documented, and tested.
+Nous sommes impatients de découvrir votre code et d'en discuter lors de notre prochain entretien technique. Bonne chance et n'hésitez pas à nous contacter si vous avez des questions supplémentaires. Nous sommes là pour vous aider !
 
-If anything is unclear, feel free to ask any question that might help you understand the specifications or requirements better.
+## Glossaire
 
-## Delivery
+**Chirurgien :** Utilisateur avec un rôle chirurgien
 
-Your application can be sent to us as a GitHub repository (in which case you are welcome to fork this repository) or as a compressed archive containing all the deliverables.
-
-# The challenge
-
-In some specific cases, companies need to collect consent from consumers before using their data. For instance, website visitors might need to explicitly consent to receive email newsletters through a form before a company can send emails to those visitors.
-
-The goal of this challenge is to build the simplest possible consent collection and management application where a user can enter its information and agree to a list of data processing. It's not very user-friendly but that'll do the trick for this time.
-
-## Product specification
-
-The application is composed of two views.
-
-### 1. Consent collection form
-
-A form that allows a user to enter her name, email address and to select data processes that she agrees to.
-
-When the user fills out the form and clicks on the "Give consent" button, the consent gets added to the list of consents that appears on the second view.
-
-![Mockup](https://github.com/didomi/challenges/raw/master/frontend/wireframes/1%20-%20Give%20consent.png)
-
-### 2. Consent management
-
-A list of consents that were given by users. This view simply displays items from a list with client-side pagination.
-
-![Mockup](https://github.com/didomi/challenges/raw/master/frontend/wireframes/2%20-%20Collected%20consents.png)
-
-## Review session
-
-After receiving your code challenge, we organize a review session with you and a few engineers from Didomi. During the review session, we will:
-
-- Ask you to share you screen and do a quick demo of the app you built
-- Ask you to present your project structure and walk us through the code (the different components, the state management, etc.)
-- Ask you general technical questions related to your project and frontend architecture
-
-A few examples of the topic that we like to discuss in more details:
-
-- Scaling of an SPA
-- Smart/dumb components
-- UI libraries
-- State management
-- Styling
-- Testing
+**Suivi patient :** processus par lequel les professionnels de santé recueillent et enregistrent régulièrement des informations sur un patient dans le but de surveiller sa santé, d'évaluer son état et de suivre l'évolution de sa condition médicale. Le suivi contient des questionnaires à destination des patients et de son équipe médicale.
