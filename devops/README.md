@@ -1,72 +1,62 @@
-# DevOps challenge
+# Test technique devops
 
-This challenge is used by Didomi for evaluating candidates for DevOps positions.
+Ce test a pour but de servir de base à la discussion avec l'équipe technique pour les candidats à un poste Devops
+C'est une opportunité pour l'équipe tech de Digikare de voir comment vous déployez une architecture et organisez un projet.
 
-The challenge is a chance for engineers at Didomi to see how you deploy architecture and organize a project.
+## Livrables
 
-## Deliverables
+Le livrable attendus est un projet et une stratégie permettant de déployer un environnement complet tous les soirs dédié au recettage en cours de sprint des fonctionnalités ajoutées à la plateforme Orthense. Cet environnement est appelé Environnement de Nightly.
+Le projet n'a pas besoin d'être 100% fonctionnel mais doit permettre de mettre en lumière votre stratégie et vos principes d'implémentation d'une telle architecture.
 
-The expected deliverable is a project that includes the following:
+## Architecture de la solution
 
-- All the resources/configuration to be deployed
-- Documentation and comments where appropriate
+L'architecture de la solution en place est la suivante :
 
-## Technical stack
+```mermaid
+flowchart TD
+  subgraph MD[Données médicales]
+  API[API - Données médicales]
+  API-->MONGO{MongoDB}
+  end
 
-For the purpose of this challenge you will use the following:
+  subgraph PD[Données personnelles]
+  STS[API - Gestion compte] <-->|jwt| API
+  STS-->SQL{SQL Server}
+  end
+  
+  subgraph SPAs
+  API-->|jwt|PRO[Site PRO]
+  API-->|jwt|PATIENT[Site PATIENT]
+  API-->|jwt|BO[Site Backoffice]
+  end
 
-- [terraform](https://www.terraform.io/) for deploying the resources/infrastructure
-- [serverless](https://www.serverless.com/) for deploying the lambda
+  subgraph Autres
+  Sendgrid
+  Cloudflare
+  appInsight[Application Insights]
+  end
 
-It's up to you to decide how much infrastructure you would like to deploy via serverless.
+  PD<-->|OAuth/OpenId|SPAs
+  API-->Sendgrid
+  STS-->Sendgrid
+  API-->appInsight
+  STS-->appInsight
+```
 
-## Expectations
+## Stack technique
 
-Your code will be reviewed by multiple engineers at Didomi and will serve as the base for a discussion in interviews.  
-We want to see how you approach working on a complete project and strongly recommend that you work on this challenge alone. We expect the code to be professionally structured, commented, and documented.
+Dans le cadre de cet exercice vous utiliserez Terraform/Ansible pour décrire et déployer les ressources et l'infrastructure.
+Le cloud provider cible est Azure.
 
-If anything is unclear, feel free to ask any questions that might help you understand the specifications or requirements better.
+## Objectif
 
-## Delivery
+Décrire comment vous concevriez le déploiement d'un tel environnement. Une attention particulière sera donnée sur la gestion des configurations/secrets, la modularité, l'automatisation et la destruction de cet environnement éphémère.
 
-Your application can be sent to us as a GitHub repository or as a compressed archive containing all the deliverables.
+## Session de revue
 
-# The challenge
+Lors de l'entretien technique avec l'équipe, vous présenterez votre solution permettant de répondre à la problématique ciblée ici, à savoir le déploiement d'un environnement de recettage "nightly".
 
-The Preference Management Platform (PMP) team has decided on their architecture. They want to create an API using the following technologies:
+## Glossaire
 
-- an [API Gateway](https://aws.amazon.com/api-gateway/)
-- a [Postgresql Database](https://aws.amazon.com/rds/)
-- a single [lambda](https://aws.amazon.com/lambda/) deployed with [serverless](https://www.serverless.com/). The lambda needs to make requests to a 3rd party public API. The Lambda also needs to fetch large amounts of data from S3.
+Environnement de recettage nightly: environnement dédié permettant le recettage fonctionnel des US livrées par les équipes de developpement. Cet environnement bénéficie de jeux de données spécifiques permettant d'évoluer dans un environnement maitrisé.
 
-The PMP team uses Gitlab runners for CI/CD and needs to be able to deploy their changes using the pipeline. Another problem the team is thinking about is how they can run their migrations inside the pipeline.
-
-![Architecture](/devops/architecture/PMP%20Architecture.png)
-
-## Product specification
-
-To keep the challenge as brief as possible we advise you to focus strictly on defining resources. To focus efforts consider the following:
-
-- We do not expect this stack to be deployed
-- We do not expect any programmatic logic in the Lambda, please use a placeholder (eg. a mock handler that always returns 200)
-- We do not expect a CI/CD process
-- The actual code used in the Lambda to connect to the RDS is not in the scope of this challenge
-
-The architecture will be deployed in a single AWS account. As a result, we will need the following resources to be present:
-
-- A VPC with private subnets
-- An IAM user for Gitlab to run the deployment for the lambda in the pipeline
-- Policies for the Gitlab user with the minimal required permissions to run the deployment
-- An API Gateway that will handle the incoming requests
-- A lambda that would connect to the RDS, do some processing, and return a response
-- An RDS database that can handle at scale concurrency for our deployed Lambda
-- The configuration required to make requests go through a custom domain (Route53, ACM, etc.)
-- Other resources that you think are appropriate to deploy this architecture at scale
-
-## Review session
-
-After receiving your code challenge, we organize a review session with you and a few engineers from Didomi. During the review session, we will:
-
-- Ask you to share your screen and do a quick presentation of the infrastructure you would deploy
-- Ask you general technical questions related to your project and the architecture
-- Do an architecture exercise where you will sketch out an architecture (think about APIs, clients, queues, jobs, etc) using <http://draw.io/>, <http://miro.com/> or a similar tool of your choice
