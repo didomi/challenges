@@ -26,7 +26,7 @@ Vous devez développer une application front-end avec le Framework de votre choi
 
 # API :
 
-Le fichier API Swagger décrivant l’API est disponible dans [./docs/api-swagger.yaml](`docs/api-swagger.yaml`)
+Le fichier API Swagger décrivant l’API est disponible dans  [api-swagger.yaml](docs/api-swagger.yaml)
 
 ## **Bonus**
 
