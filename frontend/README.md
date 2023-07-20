@@ -50,7 +50,7 @@ En tant qu'équipe chez Digikare, nous valorisons les bonnes pratiques de dével
 
 Cet exercice a pour but d'évaluer votre compétence en tant que développeur front-end et de voir comment vous abordez le développement d'une application web et d'autres pratiques de développement clés.
 
-Si vous souhaitez ajouter des fonctionnalités supplémentaires ou démontrer vos compétences avancées, n'hésitez pas à le faire. Cependant, veuillez noter que cela n'est pas requis. L'objectif est de ne pas consacrer plus de 2 heures à ce test. Notre principale préoccupation est d'évaluer vos capacités de base dans un délai raisonnable. Notre objectif est de voir votre compréhension et votre application des concepts fondamentaux du développement front-end, plutôt que la complexité ou l'exhaustivité de l'application.
+Si vous souhaitez ajouter des fonctionnalités supplémentaires ou démontrer vos compétences avancées, n'hésitez pas à le faire. Cependant, veuillez noter que cela n'est pas requis. Notre principale préoccupation est d'évaluer vos capacités de base dans un délai raisonnable. Notre objectif est de voir votre compréhension et votre application des concepts fondamentaux du développement front-end, plutôt que la complexité ou l'exhaustivité de l'application.
 
 Nous sommes impatients de découvrir votre code et d'en discuter lors de notre prochain entretien technique. Bonne chance et n'hésitez pas à nous contacter si vous avez des questions supplémentaires. Nous sommes là pour vous aider !
 
