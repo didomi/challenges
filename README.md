@@ -1,24 +1,59 @@
-# Hiring process at Didomi
+# Consent Manager
+A small React SPA for collecting and listing user consents. It provides a validated form to submit consents and a paginated list to review them, backed by a mock data layer with React Query caching, accessible UI components, and strict TypeScript.
+## Features
+- Give consent form with validation (name, email, consent type)
+- Persisted in-memory mock API (no network calls)
+- Paginated consent list (client-side, via mock API abstraction)
+- React Query caching & invalidation
+- Accessible, keyboard-friendly UI
+- Strict TypeScript & ESLint rules
 
-For engineering positions at Didomi, our hiring process is made of 4 steps:
+## Getting Started
+### Prerequisites
+- Node.js >= 20
+- pnpm >= 9
 
-- Introductory call with a Tech Lead or the CTO
-- A code challenge to build a simple project (API, SPA, etc.). This is used as the basis of discussion for the next step. You can find all our challenges on this repository. We also accept suitable open-source or personal projects in place of the challenge.
-- A ˜1h code review and architecture session with 3-4 Didomi engineers
-- A set of 1:1 30-minute calls with the CTO, engineers, and (occasionally) a product manager
+### Install
+`pnpm install`
 
-The whole process should not take more than 2 weeks start to end. After the challenge has been sent by the candidate, scheduling and interviewing should be done within 1 week.
+### Development
+`pnpm dev` 
 
-## Challenges
+Visit: http://localhost:5173
 
-We use the following challenges for our review sessions:
+### Type Check
+`pnpm typecheck`
 
-- [Backend engineering](./backend/README.md)
-- [Data engineering](./data/README.md)
-- [Devops](./devops/README.md)
-- [Frontend engineering](./frontend/README.md)
-- [Mobile engineering](./mobile/README.md)
-- [QA engineering](./qa/README.md)
-- [Webx engineering](./webx/README.md)
+### Lint & Format
+`pnpm lint`
+`pnpm format`
 
-Candidates for a full-stack position can do either the [Backend engineering](./backend/README.md) or the [Frontend engineering](./frontend/README.md) challenge.
+### Tests
+Run all tests:
+`pnpm test`
+
+Run with coverage:
+`pnpm test:coverage`
+
+### Build
+`pnpm build`
+
+`pnpm preview`  # Serves production build
+
+## Project Structure
+```text
+src/
+  main.tsx              App entry
+  router.tsx            Route configuration
+  tests/                Tests setup
+  utils/                Global utilities
+  components/           Reusable app-wide components
+  features/             Feature-first modules
+    <feature>/
+      api/
+      components/
+      hooks/
+      pages/
+      validation/
+      types.ts
+```

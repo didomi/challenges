@@ -1,0 +1,14 @@
+{
+  "extends": ["eslint:recommended", "plugin:react-hooks/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "react-refresh"],
+  "env": { "browser": true, "es2020": true, "node": true },
+  "ignorePatterns": ["dist", "coverage"],
+  "parserOptions": { "sourceType": "module", "ecmaVersion": 2020, "project": ["./tsconfig.json"] },
+  "rules": {
+    "react-refresh/only-export-components": ["warn", { "allowConstantExport": true }],
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "@typescript-eslint/consistent-type-imports": ["error", { "prefer": "type-imports" }],
+    "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }]
+  }
+}
