@@ -1,0 +1,27 @@
+services:
+  db:
+    image: postgres:14
+    environment:
+      POSTGRES_USER: ae_interview
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: analytics_db
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ae_interview -d analytics_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  analytics-env:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - .:/app
+    working_dir: /app
+    tty: true
+    command: ["tail", "-f", "/dev/null"]

@@ -1,0 +1,12 @@
+interview_project:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: db
+      user: ae_interview
+      password: password
+      dbname: analytics_db
+      port: 5432
+      schema: main
+      threads: 4

@@ -1,0 +1,16 @@
+name: 'interview_project'
+version: '1.0.0'
+config-version: 2
+
+profile: 'interview_project'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+target-path: "target"
+clean-targets:
+  - "target"
+  - "logs"
+
+models:
+  interview_project:
+    materialized: view
