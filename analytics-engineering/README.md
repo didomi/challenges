@@ -87,6 +87,12 @@ Both formats contain the same schema with approximately 2,000-3,000 events per c
 - `BROWSER_FAMILY` (string): Browser or SDK identifier (e.g., "Didomi SDK", "Chrome", "Safari")
 - `DEVICE_TYPE` (string): Type of device (e.g., "smartphone", "desktop", "tablet")
 
+#### Important: Event Sampling
+
+The volume of events we receive is prohibitively large to analyze every pageview cost-effectively. Therefore, we sample non-critical events, with the company-specific sampling rate provided in the `RATE` field for each individual event.
+
+**When calculating metrics based on this events data, you must apply the sampling rate to extrapolate the actual event counts.** For example, if an event has `RATE=0.1` and `COUNT=10`, the extrapolated actual count would be `10 / 0.1 = 100` events.
+
 **Sample Data:**
 
 ```
@@ -96,7 +102,6 @@ EVENT_ID,TYPE,RATE,PARAMETERS,EVENT_TIME,WINDOW_START,APIKEY,CONSENT,COUNT,EXPER
 
 **Notes:**
 
-- The PARAMETERS field contains complex JSON that may span multiple lines in CSV files
 - Country and region codes are wrapped in triple quotes (e.g., `"""ES"""`)
 - The APIKEY field links events to companies in the company information dataset
 - Parquet files provide the same data in a more efficient binary format
@@ -128,6 +133,8 @@ This assignment is designed to test your skills in data engineering, data modeli
 1. Define dbt sources for the table(s) you created in Part 1
 2. Create dbt models that calculate the following metrics:
 
+   **Important:** Remember to apply the sampling rate from the `RATE` field to extrapolate actual event volumes (see Event Sampling section above).
+
    **Consent Metrics:**
 
    - Consent conversion rate per company (ratio of `consent.given` to `consent.asked` events)
@@ -138,7 +145,6 @@ This assignment is designed to test your skills in data engineering, data modeli
 
    - Total event volume per company
    - Breakdown by event type (pageview, consent.given, consent.asked, ui.action)
-   - Device type distribution (smartphone, desktop, tablet)
    - Geographic reach (number of distinct countries where events occurred)
    - All metrics enriched with company industry and headquarters country
 
@@ -181,6 +187,27 @@ Create a `SOLUTION.md` file in the root directory that documents your work. This
 
 5. **Caveats & Notes:**
    - Anything else the reviewer should know about your solution
+
+### Part 4: Data Visualization (ONLY for Live Review)
+
+**IMPORTANT: You do NOT need to create any visualizations when submitting your assignment. This section only applies IF you are invited to a live code review.**
+
+If you are scheduled for a live review of your work, you will be asked to present a dashboard or visualizations based on the metrics you calculated in Part 2. During the live session, you will screenshare and walk us through your visualizations.
+
+**Requirements for the live review:**
+
+- Create visualizations showcasing the metrics from your dbt models
+- Use any tool of your choice (e.g., Metabase, Tableau, Superset, Python notebooks, Streamlit, Looker, Power BI, or any other tool you're comfortable with)
+- Be prepared to screenshare and present your dashboard during the live session
+- Focus on clarity and storytelling - help us understand the insights from the data
+
+**What to visualize:**
+
+- At minimum, visualize 3-4 key metrics from your models (e.g., consent conversion rates by company, event type distribution, geographic reach)
+- Choose visualizations that best communicate the insights (bar charts, line charts, tables, etc.)
+- Feel free to add any additional analysis or visualizations you find interesting
+
+**Again: Do not spend time on this until you are scheduled for a live review!**
 
 ## Evaluation Criteria
 
