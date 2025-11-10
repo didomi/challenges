@@ -1,5 +1,5 @@
-EVENT_ID,TYPE,RATE,PARAMETERS,EVENT_TIME,WINDOW_START,APIKEY,CONSENT,COUNT,EXPERIMENT,SDK_TYPE,DOMAIN,DEPLOYMENT_ID,COUNTRY,REGION,BROWSER_FAMILY,DEVICE_TYPE
-99132d17-7416-4e45-be72-32182a81cf3e,consent.given,1,"{
+EVENT_ID,USER_ID,TYPE,RATE,PARAMETERS,EVENT_TIME,WINDOW_START,APIKEY,CONSENT,COUNT,EXPERIMENT,SDK_TYPE,DOMAIN,DEPLOYMENT_ID,COUNTRY,REGION,BROWSER_FAMILY,DEVICE_TYPE
+99132d17-7416-4e45-be72-32182a81cf3e,49fd439c-c48b-44b9-8995-52bbe6f2f195,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -102,7 +102,7 @@ EVENT_ID,TYPE,RATE,PARAMETERS,EVENT_TIME,WINDOW_START,APIKEY,CONSENT,COUNT,EXPER
     ]
   }
 }",2025-09-10 21:42:21.623,2025-09-10 21:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""NAQ""",Didomi SDK,smartphone
-1bcc4555-93ff-497c-927c-ff64aeb7880a,consent.asked,0.2,"{
+1bcc4555-93ff-497c-927c-ff64aeb7880a,893d4157-75b4-4ced-a8e0-11bf1d6145c7,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -180,7 +180,7 @@ EVENT_ID,TYPE,RATE,PARAMETERS,EVENT_TIME,WINDOW_START,APIKEY,CONSENT,COUNT,EXPER
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-05 08:22:46.159,2025-09-05 08:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""NAQ""",Didomi SDK,smartphone
-5bfcf3de-7ecb-42bf-a6f7-2849cc9f2af7,consent.given,1,"{
+5bfcf3de-7ecb-42bf-a6f7-2849cc9f2af7,9c24ca2b-2574-45b1-9eda-d9e7922d596f,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -284,10 +284,10 @@ EVENT_ID,TYPE,RATE,PARAMETERS,EVENT_TIME,WINDOW_START,APIKEY,CONSENT,COUNT,EXPER
     ]
   }
 }",2025-09-05 12:17:46.288,2025-09-05 12:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""BFC""",Didomi SDK,smartphone
-7b3db42e-0e78-474f-851b-93e3c92f9047,pageview,0.1,,2025-09-05 13:34:30.543,2025-09-05 13:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-9ddf2bef-2d1f-4d32-a725-0be31f7aa1cb,pageview,0.1,,2025-09-05 14:27:48.847,2025-09-05 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-7a91ac53-d193-4ce9-81da-c83ade5f406a,pageview,0.1,,2025-09-05 14:55:12.285,2025-09-05 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-28169142-1f22-4c9f-90e4-bde0db9183be,consent.given,1,"{
+7b3db42e-0e78-474f-851b-93e3c92f9047,d7b44d02-5e5d-48cc-8714-f7b394298d23,pageview,0.1,,2025-09-05 13:34:30.543,2025-09-05 13:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
+9ddf2bef-2d1f-4d32-a725-0be31f7aa1cb,5d75bb42-e48b-4bd4-a1fd-5e86dbc3d226,pageview,0.1,,2025-09-05 14:27:48.847,2025-09-05 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
+7a91ac53-d193-4ce9-81da-c83ade5f406a,c7a174b2-30b8-4e68-9ee3-629c7c8e42cb,pageview,0.1,,2025-09-05 14:55:12.285,2025-09-05 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
+28169142-1f22-4c9f-90e4-bde0db9183be,893d4157-75b4-4ced-a8e0-11bf1d6145c7,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -391,7 +391,7 @@ EVENT_ID,TYPE,RATE,PARAMETERS,EVENT_TIME,WINDOW_START,APIKEY,CONSENT,COUNT,EXPER
     ]
   }
 }",2025-09-05 15:25:25.239,2025-09-05 15:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-461d5ac4-c57c-411c-b884-54ea5e022a0c,consent.given,1,"{
+461d5ac4-c57c-411c-b884-54ea5e022a0c,893d4157-75b4-4ced-a8e0-11bf1d6145c7,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -494,7 +494,7 @@ EVENT_ID,TYPE,RATE,PARAMETERS,EVENT_TIME,WINDOW_START,APIKEY,CONSENT,COUNT,EXPER
     ]
   }
 }",2025-09-05 18:42:29.479,2025-09-05 18:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Mobile Safari,tablet
-a2940b62-c623-4329-9698-291288b18ba6,consent.given,1,"{
+a2940b62-c623-4329-9698-291288b18ba6,893d4157-75b4-4ced-a8e0-11bf1d6145c7,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -597,7 +597,7 @@ a2940b62-c623-4329-9698-291288b18ba6,consent.given,1,"{
     ]
   }
 }",2025-09-10 20:57:36.883,2025-09-10 20:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""OCC""",Didomi SDK,smartphone
-45af2ff2-4d88-4592-8615-a839d5b8a470,consent.given,1,"{
+45af2ff2-4d88-4592-8615-a839d5b8a470,86eb66cf-e267-4442-be28-37cdd63258b0,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -700,7 +700,7 @@ a2940b62-c623-4329-9698-291288b18ba6,consent.given,1,"{
     ]
   }
 }",2025-09-10 20:57:43.096,2025-09-10 20:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-02e94437-5f55-411c-9092-ef3c93898ae1,consent.asked,0.2,"{
+02e94437-5f55-411c-9092-ef3c93898ae1,4d3e8c69-7b7a-4879-88af-c3d0101458cb,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -783,7 +783,7 @@ a2940b62-c623-4329-9698-291288b18ba6,consent.given,1,"{
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-05 22:07:01.238,2025-09-05 22:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""DZ""","""25""",Didomi SDK,smartphone
-0cfc39d0-1203-4e83-b425-09b715860887,consent.given,1,"{
+0cfc39d0-1203-4e83-b425-09b715860887,893d4157-75b4-4ced-a8e0-11bf1d6145c7,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -887,7 +887,7 @@ a2940b62-c623-4329-9698-291288b18ba6,consent.given,1,"{
     ]
   }
 }",2025-09-06 11:29:30.122,2025-09-06 11:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-8b0b50a4-f907-4655-9826-a696d0fca421,consent.given,1,"{
+8b0b50a4-f907-4655-9826-a696d0fca421,cc969593-e1b3-4136-8ff3-0876d4a25dad,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -991,7 +991,7 @@ a2940b62-c623-4329-9698-291288b18ba6,consent.given,1,"{
     ]
   }
 }",2025-09-05 07:40:13.858,2025-09-05 07:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""OCC""",Didomi SDK,smartphone
-3611ef34-8bbc-40a9-8b4c-f44a19f36e94,consent.given,1,"{
+3611ef34-8bbc-40a9-8b4c-f44a19f36e94,4d3e8c69-7b7a-4879-88af-c3d0101458cb,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -1096,7 +1096,7 @@ a2940b62-c623-4329-9698-291288b18ba6,consent.given,1,"{
     ]
   }
 }",2025-09-05 08:58:41.700,2025-09-05 08:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Android Browser,tablet
-1e772156-e08b-457b-8bfd-9c1f48445de1,consent.given,1,"{
+1e772156-e08b-457b-8bfd-9c1f48445de1,893d4157-75b4-4ced-a8e0-11bf1d6145c7,consent.given,1.0,"{
   ""action"": ""external"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -1248,7 +1248,7 @@ a2940b62-c623-4329-9698-291288b18ba6,consent.given,1,"{
     ""enabled"": []
   }
 }",2025-09-05 07:37:52.486,2025-09-05 07:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-36ed5a37-b987-4d99-9b14-3b1f3f0ec7df,consent.given,1,"{
+36ed5a37-b987-4d99-9b14-3b1f3f0ec7df,a9756ffb-0414-4ade-8def-0e0f2e93c1a4,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -1353,10 +1353,10 @@ a2940b62-c623-4329-9698-291288b18ba6,consent.given,1,"{
     ]
   }
 }",2025-09-05 14:33:23.857,2025-09-05 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-7c5f9c23-2a24-419d-aff6-214a0bd9c964,pageview,0.1,,2025-09-05 16:36:16.353,2025-09-05 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
-e24c6bc3-9e9c-4f29-85ca-1125774159d8,pageview,0.1,,2025-09-05 17:02:39.042,2025-09-05 17:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-a308ffd5-c1d0-4aee-ab66-689c86393caa,pageview,0.1,,2025-09-05 18:22:41.335,2025-09-05 18:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-1b977533-43da-4eec-9eb4-9e8195ee89fd,consent.given,1,"{
+7c5f9c23-2a24-419d-aff6-214a0bd9c964,c8c0a536-de3b-4aab-ba7a-977ded0fdaf8,pageview,0.1,,2025-09-05 16:36:16.353,2025-09-05 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
+e24c6bc3-9e9c-4f29-85ca-1125774159d8,7eb15703-6a65-4299-91c6-1dc35bab6147,pageview,0.1,,2025-09-05 17:02:39.042,2025-09-05 17:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
+a308ffd5-c1d0-4aee-ab66-689c86393caa,fc66d312-e6bd-4455-a582-b32220611f36,pageview,0.1,,2025-09-05 18:22:41.335,2025-09-05 18:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
+1b977533-43da-4eec-9eb4-9e8195ee89fd,c8934162-5433-471b-a5ae-7a75158902ff,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -1461,7 +1461,7 @@ a308ffd5-c1d0-4aee-ab66-689c86393caa,pageview,0.1,,2025-09-05 18:22:41.335,2025-
     ]
   }
 }",2025-09-06 07:03:32.961,2025-09-06 07:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""OCC""",Didomi SDK,smartphone
-461e7286-993b-4169-a46e-1bf7657789ff,consent.given,1,"{
+461e7286-993b-4169-a46e-1bf7657789ff,4d3e8c69-7b7a-4879-88af-c3d0101458cb,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -1566,7 +1566,7 @@ a308ffd5-c1d0-4aee-ab66-689c86393caa,pageview,0.1,,2025-09-05 18:22:41.335,2025-
     ]
   }
 }",2025-09-06 08:25:36.973,2025-09-06 08:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-b6d921a2-af27-48cd-a3da-f46e7b4b406d,consent.given,1,"{
+b6d921a2-af27-48cd-a3da-f46e7b4b406d,4d3e8c69-7b7a-4879-88af-c3d0101458cb,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -1669,7 +1669,7 @@ b6d921a2-af27-48cd-a3da-f46e7b4b406d,consent.given,1,"{
     ]
   }
 }",2025-09-06 11:44:50.375,2025-09-06 11:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-11d74b51-f2ef-4c75-9ab1-c41f8d650099,consent.asked,0.2,"{
+11d74b51-f2ef-4c75-9ab1-c41f8d650099,c6c8caf8-ab84-442d-9bfe-320ecf06afa5,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -1748,7 +1748,7 @@ b6d921a2-af27-48cd-a3da-f46e7b4b406d,consent.given,1,"{
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-06 12:19:54.424,2025-09-06 12:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""NAQ""",Didomi SDK,smartphone
-e3c77026-3964-41cf-b1c2-3a55415a928e,consent.given,1,"{
+e3c77026-3964-41cf-b1c2-3a55415a928e,c6c8caf8-ab84-442d-9bfe-320ecf06afa5,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -1851,8 +1851,8 @@ e3c77026-3964-41cf-b1c2-3a55415a928e,consent.given,1,"{
     ]
   }
 }",2025-09-05 10:17:10.566,2025-09-05 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-92567ef7-25a8-4d9d-9491-0b442a18cb43,pageview,0.1,,2025-09-05 13:46:00.075,2025-09-05 13:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-09938681-b9d1-4485-bd31-d1eb8480ab10,consent.asked,0.2,"{
+92567ef7-25a8-4d9d-9491-0b442a18cb43,c8c0a536-de3b-4aab-ba7a-977ded0fdaf8,pageview,0.1,,2025-09-05 13:46:00.075,2025-09-05 13:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
+09938681-b9d1-4485-bd31-d1eb8480ab10,9fce8706-ab82-4621-98cb-da5fc9016b7b,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""CookiePerso"",
@@ -1928,7 +1928,7 @@ e3c77026-3964-41cf-b1c2-3a55415a928e,consent.given,1,"{
     ""c:bliink-a4P6zDBK""
   ]
 }",2025-09-05 17:02:45.904,2025-09-05 17:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-730ac6c2-19d2-47da-a5b8-cc1f3cf96f90,consent.asked,0.2,"{
+730ac6c2-19d2-47da-a5b8-cc1f3cf96f90,54d125e5-e77f-4fed-aee8-50cf1f45cb78,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -2011,7 +2011,7 @@ e3c77026-3964-41cf-b1c2-3a55415a928e,consent.given,1,"{
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-05 18:22:50.254,2025-09-05 18:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-2bec886d-8252-42cd-8906-7ecf8dec18f6,consent.given,1,"{
+2bec886d-8252-42cd-8906-7ecf8dec18f6,9fce8706-ab82-4621-98cb-da5fc9016b7b,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -2116,7 +2116,7 @@ e3c77026-3964-41cf-b1c2-3a55415a928e,consent.given,1,"{
     ]
   }
 }",2025-09-05 18:18:01.972,2025-09-05 18:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-0d123f8e-d4b3-4f8a-85d0-fd60607a4751,consent.given,1,"{
+0d123f8e-d4b3-4f8a-85d0-fd60607a4751,893d4157-75b4-4ced-a8e0-11bf1d6145c7,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -2221,7 +2221,7 @@ e3c77026-3964-41cf-b1c2-3a55415a928e,consent.given,1,"{
     ]
   }
 }",2025-09-05 20:49:22.508,2025-09-05 20:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""NOR""",Didomi SDK,smartphone
-6211f552-de89-4cf1-a6c5-a844bff0fe57,consent.given,1,"{
+6211f552-de89-4cf1-a6c5-a844bff0fe57,2adfd596-32a2-404d-b509-99c410a86aca,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -2324,7 +2324,7 @@ e3c77026-3964-41cf-b1c2-3a55415a928e,consent.given,1,"{
     ]
   }
 }",2025-09-05 22:07:03.705,2025-09-05 22:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""DZ""","""25""",Didomi SDK,smartphone
-215acc4c-d5d7-4131-bbff-9b7ce6b1fb37,consent.given,1,"{
+215acc4c-d5d7-4131-bbff-9b7ce6b1fb37,893d4157-75b4-4ced-a8e0-11bf1d6145c7,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -2427,7 +2427,7 @@ e3c77026-3964-41cf-b1c2-3a55415a928e,consent.given,1,"{
     ]
   }
 }",2025-09-06 09:03:53.426,2025-09-06 09:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-e455ad90-b3a7-4af9-a701-6de2218a7b86,consent.given,1,"{
+e455ad90-b3a7-4af9-a701-6de2218a7b86,9fce8706-ab82-4621-98cb-da5fc9016b7b,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -2530,7 +2530,7 @@ e455ad90-b3a7-4af9-a701-6de2218a7b86,consent.given,1,"{
     ]
   }
 }",2025-09-06 10:54:04.031,2025-09-06 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-c35f1b9c-31ca-4a0c-a325-c1ffaa95d9ad,consent.given,1,"{
+c35f1b9c-31ca-4a0c-a325-c1ffaa95d9ad,9fce8706-ab82-4621-98cb-da5fc9016b7b,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -2633,7 +2633,7 @@ c35f1b9c-31ca-4a0c-a325-c1ffaa95d9ad,consent.given,1,"{
     ]
   }
 }",2025-09-06 13:49:38.802,2025-09-06 13:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-a67adbc6-b041-4d2b-b997-2070f8e87404,consent.given,1,"{
+a67adbc6-b041-4d2b-b997-2070f8e87404,88ac02c2-c30a-4a89-a7aa-93825ea4e7aa,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -2736,8 +2736,8 @@ a67adbc6-b041-4d2b-b997-2070f8e87404,consent.given,1,"{
     ]
   }
 }",2025-09-06 14:12:48.535,2025-09-06 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-1da22ef1-10c9-4810-84b8-34ffbc2b4b99,pageview,0.1,,2025-09-06 14:20:43.408,2025-09-06 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-259b2457-7bf7-468e-b93d-700afdb849f2,consent.given,1,"{
+1da22ef1-10c9-4810-84b8-34ffbc2b4b99,3453ffad-e6d6-472c-9555-d10310b7b563,pageview,0.1,,2025-09-06 14:20:43.408,2025-09-06 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
+259b2457-7bf7-468e-b93d-700afdb849f2,54d125e5-e77f-4fed-aee8-50cf1f45cb78,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -2842,9 +2842,9 @@ a67adbc6-b041-4d2b-b997-2070f8e87404,consent.given,1,"{
     ]
   }
 }",2025-09-05 13:34:40.081,2025-09-05 13:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-3aa019ac-6c36-4372-9450-0d66bc27bbc1,pageview,0.1,,2025-09-05 15:10:48.131,2025-09-05 15:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-5e311508-c294-459e-b6a0-7d8d3049ed8e,pageview,0.1,,2025-09-06 05:38:20.546,2025-09-06 05:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-36090fe1-4c34-48bd-b4fa-cd30d45ca69f,consent.given,1,"{
+3aa019ac-6c36-4372-9450-0d66bc27bbc1,3257decf-8526-42ae-b64e-adeb54e31b28,pageview,0.1,,2025-09-05 15:10:48.131,2025-09-05 15:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
+5e311508-c294-459e-b6a0-7d8d3049ed8e,22fb01e7-c279-454f-b64f-0cb57eb08da1,pageview,0.1,,2025-09-06 05:38:20.546,2025-09-06 05:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
+36090fe1-4c34-48bd-b4fa-cd30d45ca69f,893d4157-75b4-4ced-a8e0-11bf1d6145c7,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -2948,7 +2948,7 @@ a67adbc6-b041-4d2b-b997-2070f8e87404,consent.given,1,"{
     ]
   }
 }",2025-09-06 08:45:29.727,2025-09-06 08:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-2eff94f3-771a-43ac-a3dc-916d774bc85f,consent.given,1,"{
+2eff94f3-771a-43ac-a3dc-916d774bc85f,b2e07741-e345-4162-a18b-3b63a6d6c6b1,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -3051,7 +3051,7 @@ a67adbc6-b041-4d2b-b997-2070f8e87404,consent.given,1,"{
     ]
   }
 }",2025-09-06 10:31:36.678,2025-09-06 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-86afd5c8-0e1c-4a58-8e95-a83e8424f634,consent.given,1,"{
+86afd5c8-0e1c-4a58-8e95-a83e8424f634,4d3e8c69-7b7a-4879-88af-c3d0101458cb,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -3155,7 +3155,7 @@ a67adbc6-b041-4d2b-b997-2070f8e87404,consent.given,1,"{
     ]
   }
 }",2025-09-06 10:16:12.525,2025-09-06 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
-63e1ad04-d022-4e79-8c69-ae1255f4f51b,consent.given,1,"{
+63e1ad04-d022-4e79-8c69-ae1255f4f51b,893d4157-75b4-4ced-a8e0-11bf1d6145c7,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -3258,7 +3258,7 @@ a67adbc6-b041-4d2b-b997-2070f8e87404,consent.given,1,"{
     ]
   }
 }",2025-09-06 12:49:13.007,2025-09-06 12:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-f6366bdc-6ce4-4449-b104-6d83a007aaae,consent.given,1,"{
+f6366bdc-6ce4-4449-b104-6d83a007aaae,9fce8706-ab82-4621-98cb-da5fc9016b7b,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -3361,7 +3361,7 @@ f6366bdc-6ce4-4449-b104-6d83a007aaae,consent.given,1,"{
     ]
   }
 }",2025-09-10 18:27:00.671,2025-09-10 18:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""OCC""",Didomi SDK,smartphone
-2827110f-66fd-4aab-b917-690b33027c0a,consent.given,1,"{
+2827110f-66fd-4aab-b917-690b33027c0a,1d6e1a23-b20f-4d0f-9485-d3bd2676d6d3,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -3464,9 +3464,9 @@ f6366bdc-6ce4-4449-b104-6d83a007aaae,consent.given,1,"{
     ]
   }
 }",2025-09-06 13:32:16.017,2025-09-06 13:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-6c63e55e-e815-41b4-a579-8c3e0307eaae,pageview,0.1,,2025-09-06 14:19:29.728,2025-09-06 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-2c47ff09-02e9-4348-850a-930157c38a53,pageview,0.1,,2025-09-06 15:51:27.296,2025-09-06 15:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
-7698c9d2-f44b-492b-adb5-63d1a1b04850,consent.given,1,"{
+6c63e55e-e815-41b4-a579-8c3e0307eaae,aa845dc4-0210-4b53-9bfa-1be6ad17944a,pageview,0.1,,2025-09-06 14:19:29.728,2025-09-06 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
+2c47ff09-02e9-4348-850a-930157c38a53,eb23b380-6a40-4a05-9697-bbd6f612b4f9,pageview,0.1,,2025-09-06 15:51:27.296,2025-09-06 15:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
+7698c9d2-f44b-492b-adb5-63d1a1b04850,54d125e5-e77f-4fed-aee8-50cf1f45cb78,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -3569,7 +3569,7 @@ f6366bdc-6ce4-4449-b104-6d83a007aaae,consent.given,1,"{
     ]
   }
 }",2025-09-06 17:06:19.244,2025-09-06 17:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-f0c2d949-252b-4876-a36e-db2d11760a8d,consent.given,1,"{
+f0c2d949-252b-4876-a36e-db2d11760a8d,a49cedae-b717-4c0b-8900-24f412208223,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -3672,8 +3672,8 @@ f0c2d949-252b-4876-a36e-db2d11760a8d,consent.given,1,"{
     ]
   }
 }",2025-09-10 17:52:37.406,2025-09-10 17:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Mobile Safari,tablet
-bfe23e30-fb01-447f-8ff4-9094873af1c7,pageview,0.1,,2025-09-06 19:55:50.686,2025-09-06 19:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-725253da-655f-4fac-93e3-7607d3dde740,consent.given,1,"{
+bfe23e30-fb01-447f-8ff4-9094873af1c7,8080e5f2-76b3-4874-b5a3-11e410584248,pageview,0.1,,2025-09-06 19:55:50.686,2025-09-06 19:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
+725253da-655f-4fac-93e3-7607d3dde740,6db0445b-a4c6-4290-a5db-0ed1fa34b37d,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -3776,7 +3776,7 @@ bfe23e30-fb01-447f-8ff4-9094873af1c7,pageview,0.1,,2025-09-06 19:55:50.686,2025-
     ]
   }
 }",2025-09-05 05:49:51.042,2025-09-05 05:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-81698c83-d934-4cc6-90f1-32e5aed2aa15,consent.given,1,"{
+81698c83-d934-4cc6-90f1-32e5aed2aa15,9fce8706-ab82-4621-98cb-da5fc9016b7b,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -3879,7 +3879,7 @@ bfe23e30-fb01-447f-8ff4-9094873af1c7,pageview,0.1,,2025-09-06 19:55:50.686,2025-
     ]
   }
 }",2025-09-05 07:37:52.488,2025-09-05 07:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-3706c671-7a18-4f4f-8c52-11eeb2f4b554,consent.given,1,"{
+3706c671-7a18-4f4f-8c52-11eeb2f4b554,862b17be-27cb-42bb-b105-7fde74231b8e,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -3983,8 +3983,8 @@ bfe23e30-fb01-447f-8ff4-9094873af1c7,pageview,0.1,,2025-09-06 19:55:50.686,2025-
     ]
   }
 }",2025-09-05 12:02:21.691,2025-09-05 12:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-5fb02f8d-5fae-47bf-9150-0b019507354e,pageview,0.1,,2025-09-05 13:47:40.772,2025-09-05 13:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-7c54ec4c-650a-432d-becf-37f6b98f0d52,consent.given,1,"{
+5fb02f8d-5fae-47bf-9150-0b019507354e,52094e8a-2e63-4aa9-b21c-9a3ced55dbd5,pageview,0.1,,2025-09-05 13:47:40.772,2025-09-05 13:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
+7c54ec4c-650a-432d-becf-37f6b98f0d52,54d125e5-e77f-4fed-aee8-50cf1f45cb78,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -4089,7 +4089,7 @@ bfe23e30-fb01-447f-8ff4-9094873af1c7,pageview,0.1,,2025-09-06 19:55:50.686,2025-
     ]
   }
 }",2025-09-05 16:25:08.964,2025-09-05 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-ae84f755-3339-40b4-882c-e0e704420016,consent.given,1,"{
+ae84f755-3339-40b4-882c-e0e704420016,54d125e5-e77f-4fed-aee8-50cf1f45cb78,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -4193,7 +4193,7 @@ ae84f755-3339-40b4-882c-e0e704420016,consent.given,1,"{
     ]
   }
 }",2025-09-05 17:23:56.550,2025-09-05 17:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-82d7fc70-f97f-4577-9e34-75e40a2b2140,consent.given,1,"{
+82d7fc70-f97f-4577-9e34-75e40a2b2140,4d3e8c69-7b7a-4879-88af-c3d0101458cb,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -4296,7 +4296,7 @@ ae84f755-3339-40b4-882c-e0e704420016,consent.given,1,"{
     ]
   }
 }",2025-09-05 22:00:06.050,2025-09-05 22:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""OCC""",Didomi SDK,smartphone
-321100d9-ae55-4690-9222-4a104bd4d35e,consent.given,1,"{
+321100d9-ae55-4690-9222-4a104bd4d35e,86264855-cbd2-45a9-b019-fdfaaf787f4b,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -4399,7 +4399,7 @@ ae84f755-3339-40b4-882c-e0e704420016,consent.given,1,"{
     ]
   }
 }",2025-09-10 18:31:43.292,2025-09-10 18:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-0bd7af8e-ef86-43b9-b4c4-4f1f188f84be,consent.asked,0.2,"{
+0bd7af8e-ef86-43b9-b4c4-4f1f188f84be,98098cb5-875d-4a04-a4e4-d3602d85fd0d,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -4477,8 +4477,8 @@ ae84f755-3339-40b4-882c-e0e704420016,consent.given,1,"{
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-06 14:19:36.853,2025-09-06 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-c71634f1-e90e-40f1-8a3f-10a8f5f27bee,pageview,0.1000000015,,2025-09-06 20:09:30.899,2025-09-06 20:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Mobile Safari,tablet
-425d33d5-146f-49af-bf7a-e478e61bbe69,consent.given,1,"{
+c71634f1-e90e-40f1-8a3f-10a8f5f27bee,83ce71b3-49bc-49fa-86c0-941f749d994d,pageview,0.1000000015,,2025-09-06 20:09:30.899,2025-09-06 20:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Mobile Safari,tablet
+425d33d5-146f-49af-bf7a-e478e61bbe69,893d4157-75b4-4ced-a8e0-11bf1d6145c7,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -4581,8 +4581,8 @@ c71634f1-e90e-40f1-8a3f-10a8f5f27bee,pageview,0.1000000015,,2025-09-06 20:09:30.
     ]
   }
 }",2025-09-07 10:29:59.352,2025-09-07 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-493681a3-f6f7-41c9-a66d-4ce1692e09c8,pageview,0.1,,2025-09-05 05:08:18.045,2025-09-05 05:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-3e23f40d-5692-444c-bfb3-f55815a97aee,consent.given,1,"{
+493681a3-f6f7-41c9-a66d-4ce1692e09c8,19d03083-ed14-4f87-970a-8e46802eeab6,pageview,0.1,,2025-09-05 05:08:18.045,2025-09-05 05:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
+3e23f40d-5692-444c-bfb3-f55815a97aee,4d3e8c69-7b7a-4879-88af-c3d0101458cb,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -4685,13 +4685,13 @@ c71634f1-e90e-40f1-8a3f-10a8f5f27bee,pageview,0.1000000015,,2025-09-06 20:09:30.
     ]
   }
 }",2025-09-05 07:37:48.358,2025-09-05 07:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-134a179e-810b-43c0-9240-bd7460306687,pageview,0.1,,2025-09-05 11:51:54.479,2025-09-05 11:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-3c6c1fd0-7d9f-4d7a-88d3-202954a41db0,ui.action,1,"{
+134a179e-810b-43c0-9240-bd7460306687,22fb01e7-c279-454f-b64f-0cb57eb08da1,pageview,0.1,,2025-09-05 11:51:54.479,2025-09-05 11:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
+3c6c1fd0-7d9f-4d7a-88d3-202954a41db0,aa845dc4-0210-4b53-9bfa-1be6ad17944a,ui.action,1.0,"{
   ""action"": ""preferences.shownpurposes""
 }",2025-09-05 12:38:10.190,2025-09-05 12:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Android Browser,tablet
-c47e482d-f9da-4c9e-8be6-1053c2d84d48,pageview,0.1,,2025-09-05 12:39:21.396,2025-09-05 12:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
-66aa7fc0-83a6-448a-b90d-342ccc13d025,pageview,0.1,,2025-09-05 14:33:14.921,2025-09-05 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-5a8f4b06-4471-4dd0-b8e1-bbf660005e33,consent.asked,0.2,"{
+c47e482d-f9da-4c9e-8be6-1053c2d84d48,52094e8a-2e63-4aa9-b21c-9a3ced55dbd5,pageview,0.1,,2025-09-05 12:39:21.396,2025-09-05 12:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
+66aa7fc0-83a6-448a-b90d-342ccc13d025,c7cf8779-ea1b-4b0a-b000-a5525cf14dbb,pageview,0.1,,2025-09-05 14:33:14.921,2025-09-05 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
+5a8f4b06-4471-4dd0-b8e1-bbf660005e33,49a553bb-2e26-496c-b95d-8fe16996f552,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -4771,10 +4771,10 @@ c47e482d-f9da-4c9e-8be6-1053c2d84d48,pageview,0.1,,2025-09-05 12:39:21.396,2025-
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-05 14:33:21.219,2025-09-05 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-efe0bcff-9a8e-4206-abed-481b0f7b3334,pageview,0.1,,2025-09-05 17:14:05.420,2025-09-05 17:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-69c41a7d-e608-4c8a-9d58-d9782367faf8,pageview,0.1,,2025-09-05 19:16:14.632,2025-09-05 19:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-143f5f90-259c-4507-9f95-328c40c82fc0,pageview,0.1,,2025-09-05 19:11:31.106,2025-09-05 19:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-d7423f40-9af7-4c05-852f-3e62d8ed5dad,consent.given,1,"{
+efe0bcff-9a8e-4206-abed-481b0f7b3334,be7a84b0-b227-4615-a8e0-464900d23b02,pageview,0.1,,2025-09-05 17:14:05.420,2025-09-05 17:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
+69c41a7d-e608-4c8a-9d58-d9782367faf8,3257decf-8526-42ae-b64e-adeb54e31b28,pageview,0.1,,2025-09-05 19:16:14.632,2025-09-05 19:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
+143f5f90-259c-4507-9f95-328c40c82fc0,d4e17d7f-c31e-4da2-99c1-7d2a518dd028,pageview,0.1,,2025-09-05 19:11:31.106,2025-09-05 19:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
+d7423f40-9af7-4c05-852f-3e62d8ed5dad,4d3e8c69-7b7a-4879-88af-c3d0101458cb,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -4877,7 +4877,7 @@ d7423f40-9af7-4c05-852f-3e62d8ed5dad,consent.given,1,"{
     ]
   }
 }",2025-09-06 06:58:52.021,2025-09-06 06:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""CVL""",Didomi SDK,smartphone
-744b6c7d-89a6-4e98-8dd3-5ef9e377e81c,consent.given,1,"{
+744b6c7d-89a6-4e98-8dd3-5ef9e377e81c,b76e74c1-8784-4964-b5d8-e8f2055f0b10,consent.given,1.0,"{
   ""action"": ""external"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -5029,7 +5029,7 @@ d7423f40-9af7-4c05-852f-3e62d8ed5dad,consent.given,1,"{
     ""enabled"": []
   }
 }",2025-09-06 09:03:53.426,2025-09-06 09:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-0135da4a-68a9-4ebe-8099-98e8b8bd9b5e,consent.asked,0.2,"{
+0135da4a-68a9-4ebe-8099-98e8b8bd9b5e,b2c2723f-4bd4-44ff-9937-96492f205c58,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -5107,8 +5107,8 @@ d7423f40-9af7-4c05-852f-3e62d8ed5dad,consent.given,1,"{
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-06 10:54:00.343,2025-09-06 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-72101d9b-055f-4967-aae7-7d175ade97cf,pageview,0.1,,2025-09-06 12:19:45.611,2025-09-06 12:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""NAQ""",Didomi SDK,smartphone
-f6054ab0-370e-4307-bfdb-62b05387e896,consent.asked,0.2,"{
+72101d9b-055f-4967-aae7-7d175ade97cf,d2716db5-a182-4685-907d-7a55d67a833c,pageview,0.1,,2025-09-06 12:19:45.611,2025-09-06 12:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""NAQ""",Didomi SDK,smartphone
+f6054ab0-370e-4307-bfdb-62b05387e896,b124cb18-499b-4886-bc4a-5bc32d4fb2c3,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -5186,7 +5186,7 @@ f6054ab0-370e-4307-bfdb-62b05387e896,consent.asked,0.2,"{
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-06 14:41:35.937,2025-09-06 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-cca8e2ed-9173-48fc-963a-bd811d684a30,consent.given,1,"{
+cca8e2ed-9173-48fc-963a-bd811d684a30,c6c8caf8-ab84-442d-9bfe-320ecf06afa5,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -5289,7 +5289,7 @@ cca8e2ed-9173-48fc-963a-bd811d684a30,consent.given,1,"{
     ]
   }
 }",2025-09-06 16:48:33.769,2025-09-06 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-0dc559be-64eb-43cf-878b-b5062b00e31d,consent.given,1,"{
+0dc559be-64eb-43cf-878b-b5062b00e31d,4d3e8c69-7b7a-4879-88af-c3d0101458cb,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -5392,7 +5392,7 @@ cca8e2ed-9173-48fc-963a-bd811d684a30,consent.given,1,"{
     ]
   }
 }",2025-09-07 07:47:32.036,2025-09-07 07:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-bfeab199-c325-464f-b1fa-9241ad0a7ab6,consent.given,1,"{
+bfeab199-c325-464f-b1fa-9241ad0a7ab6,b124cb18-499b-4886-bc4a-5bc32d4fb2c3,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -5495,7 +5495,7 @@ bfeab199-c325-464f-b1fa-9241ad0a7ab6,consent.given,1,"{
     ]
   }
 }",2025-09-05 08:08:55.240,2025-09-05 08:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-ddab4b55-ba63-465e-92f3-090f3bd9b42c,consent.given,1,"{
+ddab4b55-ba63-465e-92f3-090f3bd9b42c,72aa4d93-2655-4754-9e07-f72883636dae,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -5598,7 +5598,7 @@ ddab4b55-ba63-465e-92f3-090f3bd9b42c,consent.given,1,"{
     ]
   }
 }",2025-09-05 08:39:48.796,2025-09-05 08:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
-19673233-57be-4578-92c3-54110dd3dbd6,consent.given,1,"{
+19673233-57be-4578-92c3-54110dd3dbd6,1cf0ba3d-c80c-4f90-b75b-b066ec92652d,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -5701,7 +5701,7 @@ ddab4b55-ba63-465e-92f3-090f3bd9b42c,consent.given,1,"{
     ]
   }
 }",2025-09-05 11:30:15.105,2025-09-05 11:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-45e08b1f-0a62-4641-a9d8-c22501025ad7,consent.asked,0.2,"{
+45e08b1f-0a62-4641-a9d8-c22501025ad7,4b49d5c9-9a68-4574-88e1-4cf4f1476866,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -5781,8 +5781,8 @@ ddab4b55-ba63-465e-92f3-090f3bd9b42c,consent.given,1,"{
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-05 13:34:38.372,2025-09-05 13:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-252ba593-ecd2-4ffd-910c-dece31d4be61,pageview,0.1,,2025-09-05 15:16:45.628,2025-09-05 15:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-24e13cd8-aa71-40a7-94f9-8d68f71ea082,consent.given,1,"{
+252ba593-ecd2-4ffd-910c-dece31d4be61,b6d9729c-0953-4405-8fa1-e7739c7a6fb8,pageview,0.1,,2025-09-05 15:16:45.628,2025-09-05 15:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
+24e13cd8-aa71-40a7-94f9-8d68f71ea082,54d125e5-e77f-4fed-aee8-50cf1f45cb78,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -5886,8 +5886,8 @@ ddab4b55-ba63-465e-92f3-090f3bd9b42c,consent.given,1,"{
     ]
   }
 }",2025-09-05 23:24:31.657,2025-09-05 23:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-ca3fbb27-1509-407c-96f8-fc4710798afe,pageview,0.1,,2025-09-06 06:48:39.548,2025-09-06 06:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""OCC""",Didomi SDK,smartphone
-062398a9-4e9b-4240-80ab-91715c17d974,consent.given,1,"{
+ca3fbb27-1509-407c-96f8-fc4710798afe,7f561ce3-8c03-409e-8b5c-ddc94ddc19d2,pageview,0.1,,2025-09-06 06:48:39.548,2025-09-06 06:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""OCC""",Didomi SDK,smartphone
+062398a9-4e9b-4240-80ab-91715c17d974,9fce8706-ab82-4621-98cb-da5fc9016b7b,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -5990,11 +5990,11 @@ ca3fbb27-1509-407c-96f8-fc4710798afe,pageview,0.1,,2025-09-06 06:48:39.548,2025-
     ]
   }
 }",2025-09-06 07:06:13.971,2025-09-06 07:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
-910e7aa1-8b25-4391-8cd7-6321f72414ef,pageview,0.1,,2025-09-06 12:42:37.054,2025-09-06 12:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-735d6777-4bc9-4154-a99d-bf7d54c83383,pageview,0.1,,2025-09-06 13:27:25.018,2025-09-06 13:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-9fbf0afc-dc9e-453b-ad56-0cc5d8428ccb,pageview,0.1,,2025-09-06 14:12:41.856,2025-09-06 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-446b572d-9ce9-4786-af27-42dc62527209,pageview,0.1,,2025-09-06 14:41:29.986,2025-09-06 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-fb6cbd16-1024-463d-af0f-b3172111d9a0,consent.given,1,"{
+910e7aa1-8b25-4391-8cd7-6321f72414ef,00a43363-1ed6-4a9e-b1ca-aaa39a0af241,pageview,0.1,,2025-09-06 12:42:37.054,2025-09-06 12:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
+735d6777-4bc9-4154-a99d-bf7d54c83383,df593113-8eb2-4a69-b9c0-35bf3cc9b70c,pageview,0.1,,2025-09-06 13:27:25.018,2025-09-06 13:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
+9fbf0afc-dc9e-453b-ad56-0cc5d8428ccb,97e3b586-1f07-40e2-ac60-452675b2c066,pageview,0.1,,2025-09-06 14:12:41.856,2025-09-06 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
+446b572d-9ce9-4786-af27-42dc62527209,574cde6a-4dac-4346-971e-04242b28b7a6,pageview,0.1,,2025-09-06 14:41:29.986,2025-09-06 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
+fb6cbd16-1024-463d-af0f-b3172111d9a0,699e7ffb-4053-4a9b-a0f6-542393765402,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -6097,7 +6097,7 @@ fb6cbd16-1024-463d-af0f-b3172111d9a0,consent.given,1,"{
     ]
   }
 }",2025-09-06 15:45:31.013,2025-09-06 15:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
-8c12d8ba-cff0-4304-ac62-2fdf22f7f502,consent.given,1,"{
+8c12d8ba-cff0-4304-ac62-2fdf22f7f502,4d3e8c69-7b7a-4879-88af-c3d0101458cb,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -6200,8 +6200,8 @@ fb6cbd16-1024-463d-af0f-b3172111d9a0,consent.given,1,"{
     ]
   }
 }",2025-09-07 11:10:19.843,2025-09-07 11:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-555c28cb-d0d0-4f3c-92e2-c516d609b33c,pageview,0.1,,2025-09-10 16:12:51.259,2025-09-10 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,,"""FR""","""ARA""",Didomi SDK,smartphone
-657e0a6e-5f7f-4456-9d41-37d19441543d,consent.given,1,"{
+555c28cb-d0d0-4f3c-92e2-c516d609b33c,fc66d312-e6bd-4455-a582-b32220611f36,pageview,0.1,,2025-09-10 16:12:51.259,2025-09-10 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,,"""FR""","""ARA""",Didomi SDK,smartphone
+657e0a6e-5f7f-4456-9d41-37d19441543d,4e86680e-f371-44fb-8d03-8e5958262aa3,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -6305,10 +6305,10 @@ fb6cbd16-1024-463d-af0f-b3172111d9a0,consent.given,1,"{
     ]
   }
 }",2025-09-07 16:29:10.375,2025-09-07 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-dcca8c26-2537-459e-ae26-bd665596acc0,pageview,0.1,,2025-09-05 04:54:39.979,2025-09-05 04:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-b5bf3b3e-9b7b-4151-ad7c-3c11e4edaefd,pageview,0.1,,2025-09-05 04:17:31.347,2025-09-05 04:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-05e86150-4471-408d-a0d2-85b1cb5f7450,pageview,0.1,,2025-09-05 04:56:38.178,2025-09-05 04:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-93e4a216-dfaa-41e5-9b99-ecb471691801,consent.given,1,"{
+dcca8c26-2537-459e-ae26-bd665596acc0,e36bf986-5be7-4776-bea6-f736794b398a,pageview,0.1,,2025-09-05 04:54:39.979,2025-09-05 04:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
+b5bf3b3e-9b7b-4151-ad7c-3c11e4edaefd,0770bae3-f334-4545-807d-c391e24e52de,pageview,0.1,,2025-09-05 04:17:31.347,2025-09-05 04:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
+05e86150-4471-408d-a0d2-85b1cb5f7450,2719b4fe-6be3-4e88-ab6c-350de44299f9,pageview,0.1,,2025-09-05 04:56:38.178,2025-09-05 04:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
+93e4a216-dfaa-41e5-9b99-ecb471691801,b2c2723f-4bd4-44ff-9937-96492f205c58,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -6411,7 +6411,7 @@ b5bf3b3e-9b7b-4151-ad7c-3c11e4edaefd,pageview,0.1,,2025-09-05 04:17:31.347,2025-
     ]
   }
 }",2025-09-05 08:22:48.298,2025-09-05 08:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""NAQ""",Didomi SDK,smartphone
-28cb3987-65ce-4b1d-837a-21a9c7d2cf85,consent.asked,0.2,"{
+28cb3987-65ce-4b1d-837a-21a9c7d2cf85,c9275507-1271-436b-a1a4-5d621f4f473c,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -6494,7 +6494,7 @@ b5bf3b3e-9b7b-4151-ad7c-3c11e4edaefd,pageview,0.1,,2025-09-05 04:17:31.347,2025-
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-06 10:31:35.348,2025-09-06 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-4ead7ad0-dbba-4c1a-a327-ff0f8d08f42d,consent.given,1,"{
+4ead7ad0-dbba-4c1a-a327-ff0f8d08f42d,4b49d5c9-9a68-4574-88e1-4cf4f1476866,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -6598,7 +6598,7 @@ b5bf3b3e-9b7b-4151-ad7c-3c11e4edaefd,pageview,0.1,,2025-09-05 04:17:31.347,2025-
     ]
   }
 }",2025-09-06 12:17:09.198,2025-09-06 12:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-0d62bb1a-d9c8-4100-9880-d4915fa92046,consent.asked,0.2,"{
+0d62bb1a-d9c8-4100-9880-d4915fa92046,b5890a5c-9705-4481-bd99-2d7673945d15,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""CookiePerso"",
@@ -6674,7 +6674,7 @@ b5bf3b3e-9b7b-4151-ad7c-3c11e4edaefd,pageview,0.1,,2025-09-05 04:17:31.347,2025-
     ""132""
   ]
 }",2025-09-06 14:12:47.249,2025-09-06 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-780915ab-a7b6-44bd-8dd7-b41f5fdd8e5d,consent.given,1,"{
+780915ab-a7b6-44bd-8dd7-b41f5fdd8e5d,98098cb5-875d-4a04-a4e4-d3602d85fd0d,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -6777,7 +6777,7 @@ b5bf3b3e-9b7b-4151-ad7c-3c11e4edaefd,pageview,0.1,,2025-09-05 04:17:31.347,2025-
     ]
   }
 }",2025-09-06 14:41:46.435,2025-09-06 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-3a247a8e-5a87-41da-a750-db94a163f5b9,consent.given,1,"{
+3a247a8e-5a87-41da-a750-db94a163f5b9,b2c2723f-4bd4-44ff-9937-96492f205c58,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -6881,7 +6881,7 @@ b5bf3b3e-9b7b-4151-ad7c-3c11e4edaefd,pageview,0.1,,2025-09-05 04:17:31.347,2025-
     ]
   }
 }",2025-09-06 14:24:08.626,2025-09-06 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-fc6356e7-5d14-4ef4-b266-0dcd3c8e31bd,consent.given,1,"{
+fc6356e7-5d14-4ef4-b266-0dcd3c8e31bd,1a416e4f-2835-488e-a961-07a1765f5b42,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -6985,7 +6985,7 @@ fc6356e7-5d14-4ef4-b266-0dcd3c8e31bd,consent.given,1,"{
     ]
   }
 }",2025-09-06 18:25:00.663,2025-09-06 18:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-44c1e4f4-bc0c-4c3a-9e04-c93f4871c8b9,consent.given,1,"{
+44c1e4f4-bc0c-4c3a-9e04-c93f4871c8b9,92779a01-901e-4253-8a2d-96932456eb87,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -7090,7 +7090,7 @@ fc6356e7-5d14-4ef4-b266-0dcd3c8e31bd,consent.given,1,"{
     ]
   }
 }",2025-09-07 13:32:49.483,2025-09-07 13:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-202db535-2b1d-4a2a-9b4f-ad2b97933bbb,consent.given,1,"{
+202db535-2b1d-4a2a-9b4f-ad2b97933bbb,b5890a5c-9705-4481-bd99-2d7673945d15,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -7193,7 +7193,7 @@ fc6356e7-5d14-4ef4-b266-0dcd3c8e31bd,consent.given,1,"{
     ]
   }
 }",2025-09-07 16:34:37.056,2025-09-07 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-1777ce9f-1ca8-42be-b4e0-179b03a705f0,consent.given,1,"{
+1777ce9f-1ca8-42be-b4e0-179b03a705f0,c6c8caf8-ab84-442d-9bfe-320ecf06afa5,consent.given,1.0,"{
   ""action"": ""external"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -7345,7 +7345,7 @@ fc6356e7-5d14-4ef4-b266-0dcd3c8e31bd,consent.given,1,"{
     ""enabled"": []
   }
 }",2025-09-06 14:12:48.620,2025-09-06 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-fc3f5531-18e7-48f7-9845-047a9be12670,consent.given,1,"{
+fc3f5531-18e7-48f7-9845-047a9be12670,b2c2723f-4bd4-44ff-9937-96492f205c58,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -7449,7 +7449,7 @@ fc3f5531-18e7-48f7-9845-047a9be12670,consent.given,1,"{
     ]
   }
 }",2025-09-06 20:55:21.200,2025-09-06 20:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-0cfd9925-a0a1-4460-ba5e-b704a28a6d57,consent.given,1,"{
+0cfd9925-a0a1-4460-ba5e-b704a28a6d57,b05a3d12-93f8-4989-bdd4-f3bca6595b28,consent.given,1.0,"{
   ""action"": ""external"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -7601,7 +7601,7 @@ fc3f5531-18e7-48f7-9845-047a9be12670,consent.given,1,"{
     ""enabled"": []
   }
 }",2025-09-10 17:52:37.441,2025-09-10 17:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Mobile Safari,tablet
-e164e713-4c2f-4cd9-afd9-df8b017f57f4,consent.given,1,"{
+e164e713-4c2f-4cd9-afd9-df8b017f57f4,9749d016-a418-4c69-a04d-5a2c963efa94,consent.given,1.0,"{
   ""previous_purposes"": {
     ""disabled"": [],
     ""enabled"": []
@@ -7703,7 +7703,7 @@ e164e713-4c2f-4cd9-afd9-df8b017f57f4,consent.given,1,"{
     ]
   }
 }",2025-09-10 16:14:19.394,2025-09-10 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,,"""FR""","""ARA""",Didomi SDK,smartphone
-70aa193f-6ca0-41c3-8195-d19b9f5fc034,consent.given,1,"{
+70aa193f-6ca0-41c3-8195-d19b9f5fc034,4d3e8c69-7b7a-4879-88af-c3d0101458cb,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -7807,7 +7807,7 @@ e164e713-4c2f-4cd9-afd9-df8b017f57f4,consent.given,1,"{
     ]
   }
 }",2025-09-07 14:52:11.430,2025-09-07 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-63530203-3fe0-4457-9735-f310794a9079,consent.given,1,"{
+63530203-3fe0-4457-9735-f310794a9079,c440aabe-d926-4d1f-ab76-1960b5ae90f2,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -7911,7 +7911,7 @@ e164e713-4c2f-4cd9-afd9-df8b017f57f4,consent.given,1,"{
     ]
   }
 }",2025-09-07 16:15:38.504,2025-09-07 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-f2bdc9fe-5ef4-491c-ad26-26337394e784,consent.given,1,"{
+f2bdc9fe-5ef4-491c-ad26-26337394e784,54d125e5-e77f-4fed-aee8-50cf1f45cb78,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -8015,7 +8015,7 @@ f2bdc9fe-5ef4-491c-ad26-26337394e784,consent.given,1,"{
     ]
   }
 }",2025-09-10 16:10:41.599,2025-09-10 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-e0f0b798-bc8c-43d7-a8aa-cdc98ec77511,consent.given,1,"{
+e0f0b798-bc8c-43d7-a8aa-cdc98ec77511,b124cb18-499b-4886-bc4a-5bc32d4fb2c3,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -8118,8 +8118,8 @@ e0f0b798-bc8c-43d7-a8aa-cdc98ec77511,consent.given,1,"{
     ]
   }
 }",2025-09-07 16:58:10.449,2025-09-07 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""OCC""",Didomi SDK,smartphone
-d283a474-3215-46fb-9ec7-eb8537016c68,pageview,0.1,,2025-09-10 15:16:19.826,2025-09-10 15:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-001eb648-31c2-4de5-8aaf-9d7f8946b9e3,consent.asked,0.2,"{
+d283a474-3215-46fb-9ec7-eb8537016c68,7eb15703-6a65-4299-91c6-1dc35bab6147,pageview,0.1,,2025-09-10 15:16:19.826,2025-09-10 15:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
+001eb648-31c2-4de5-8aaf-9d7f8946b9e3,12133be7-f96f-4ebb-8918-e5ccf6ddb1f6,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -8199,7 +8199,7 @@ d283a474-3215-46fb-9ec7-eb8537016c68,pageview,0.1,,2025-09-10 15:16:19.826,2025-
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-08 05:24:41.861,2025-09-08 05:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""TN""","""12""",Didomi SDK,smartphone
-b74042b6-e6d6-49b4-8e43-8ddff09875b7,consent.given,1,"{
+b74042b6-e6d6-49b4-8e43-8ddff09875b7,4d3e8c69-7b7a-4879-88af-c3d0101458cb,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -8302,8 +8302,8 @@ b74042b6-e6d6-49b4-8e43-8ddff09875b7,consent.given,1,"{
     ]
   }
 }",2025-09-08 10:48:47.362,2025-09-08 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""OCC""",Didomi SDK,smartphone
-ddda806f-6b72-4e80-9190-6fa1349a37a4,pageview,0.1,,2025-09-08 12:15:52.307,2025-09-08 12:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-2abdca74-4e52-47d5-a2aa-43d45938ee91,consent.given,1,"{
+ddda806f-6b72-4e80-9190-6fa1349a37a4,8cc3a278-48d0-41bf-8ffb-2d368a69e58b,pageview,0.1,,2025-09-08 12:15:52.307,2025-09-08 12:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
+2abdca74-4e52-47d5-a2aa-43d45938ee91,893d4157-75b4-4ced-a8e0-11bf1d6145c7,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -8407,8 +8407,8 @@ ddda806f-6b72-4e80-9190-6fa1349a37a4,pageview,0.1,,2025-09-08 12:15:52.307,2025-
     ]
   }
 }",2025-09-06 15:53:20.270,2025-09-06 15:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-1787730d-ee8c-427c-a104-5dfcec397961,pageview,0.1,,2025-09-06 19:44:42.345,2025-09-06 19:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-36119ffa-c5dc-4df0-9b13-b022bcc4af73,consent.given,1,"{
+1787730d-ee8c-427c-a104-5dfcec397961,90b2ae50-a129-408e-bda6-c9b7d02bdc80,pageview,0.1,,2025-09-06 19:44:42.345,2025-09-06 19:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
+36119ffa-c5dc-4df0-9b13-b022bcc4af73,c6c8caf8-ab84-442d-9bfe-320ecf06afa5,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -8512,7 +8512,7 @@ ddda806f-6b72-4e80-9190-6fa1349a37a4,pageview,0.1,,2025-09-08 12:15:52.307,2025-
     ]
   }
 }",2025-09-07 06:06:07.690,2025-09-07 06:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
-dffb27e4-1aa4-468c-8faf-020ee03f793a,consent.given,1,"{
+dffb27e4-1aa4-468c-8faf-020ee03f793a,3bbc9817-13c0-4f97-9b3a-2fb0b206daf8,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -8616,7 +8616,7 @@ dffb27e4-1aa4-468c-8faf-020ee03f793a,consent.given,1,"{
     ]
   }
 }",2025-09-07 13:52:42.532,2025-09-07 13:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""BFC""",Didomi SDK,smartphone
-9f74cea4-5da4-4bc3-b7be-e4b78062bc2a,consent.asked,0.2,"{
+9f74cea4-5da4-4bc3-b7be-e4b78062bc2a,ff494580-2048-4b94-9682-58ccc1badef3,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -8699,7 +8699,7 @@ dffb27e4-1aa4-468c-8faf-020ee03f793a,consent.given,1,"{
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-07 20:31:23.689,2025-09-07 20:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-e3318d2a-d3dc-4b50-80cb-74afb584c271,consent.given,1,"{
+e3318d2a-d3dc-4b50-80cb-74afb584c271,12133be7-f96f-4ebb-8918-e5ccf6ddb1f6,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -8802,7 +8802,7 @@ e3318d2a-d3dc-4b50-80cb-74afb584c271,consent.given,1,"{
     ]
   }
 }",2025-09-08 09:43:42.373,2025-09-08 09:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-031fcbc8-5df2-42e0-990f-4293d6a41377,consent.given,1,"{
+031fcbc8-5df2-42e0-990f-4293d6a41377,b2c2723f-4bd4-44ff-9937-96492f205c58,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -8907,7 +8907,7 @@ e3318d2a-d3dc-4b50-80cb-74afb584c271,consent.given,1,"{
     ]
   }
 }",2025-09-08 10:16:38.688,2025-09-08 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-042ba929-237a-4ab8-a688-e0ae48609386,consent.given,1,"{
+042ba929-237a-4ab8-a688-e0ae48609386,b5890a5c-9705-4481-bd99-2d7673945d15,consent.given,1.0,"{
   ""action"": ""external"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -9059,7 +9059,7 @@ e3318d2a-d3dc-4b50-80cb-74afb584c271,consent.given,1,"{
     ""enabled"": []
   }
 }",2025-09-08 15:12:06.322,2025-09-08 15:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-95b76860-5557-4ca4-97db-e0a2c807d663,consent.given,1,"{
+95b76860-5557-4ca4-97db-e0a2c807d663,b124cb18-499b-4886-bc4a-5bc32d4fb2c3,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -9162,7 +9162,7 @@ e3318d2a-d3dc-4b50-80cb-74afb584c271,consent.given,1,"{
     ]
   }
 }",2025-09-08 16:07:34.619,2025-09-08 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""OCC""",Didomi SDK,smartphone
-3d0cc61a-6f60-4e62-9d51-a00c5616778f,consent.given,1,"{
+3d0cc61a-6f60-4e62-9d51-a00c5616778f,f0f87f6f-eadc-4c58-a2e5-c0eefd8dc837,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -9265,7 +9265,7 @@ e3318d2a-d3dc-4b50-80cb-74afb584c271,consent.given,1,"{
     ]
   }
 }",2025-09-08 20:32:41.918,2025-09-08 20:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Android Browser,tablet
-265c4d2d-52fa-4c5b-8c62-4a5bec39abcf,consent.given,1,"{
+265c4d2d-52fa-4c5b-8c62-4a5bec39abcf,b124cb18-499b-4886-bc4a-5bc32d4fb2c3,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -9369,7 +9369,7 @@ e3318d2a-d3dc-4b50-80cb-74afb584c271,consent.given,1,"{
     ]
   }
 }",2025-09-07 11:25:31.229,2025-09-07 11:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-3ccb86f0-c47c-430c-9968-20b816296897,consent.asked,0.2,"{
+3ccb86f0-c47c-430c-9968-20b816296897,30180e6b-61cd-4369-b800-f4c6f4d30ce6,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -9449,7 +9449,7 @@ e3318d2a-d3dc-4b50-80cb-74afb584c271,consent.given,1,"{
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-07 13:09:43.663,2025-09-07 13:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-b9925858-c066-4a0d-82ba-e3dfdd1b6c32,consent.given,1,"{
+b9925858-c066-4a0d-82ba-e3dfdd1b6c32,0427817e-881a-4636-a472-f5c5ff3c48a3,consent.given,1.0,"{
   ""action"": ""external"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -9601,7 +9601,7 @@ b9925858-c066-4a0d-82ba-e3dfdd1b6c32,consent.given,1,"{
     ""enabled"": []
   }
 }",2025-09-07 14:49:59.135,2025-09-07 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Mobile Safari,tablet
-33b4c594-5c82-4e37-9740-bf621581b1d4,consent.asked,0.2,"{
+33b4c594-5c82-4e37-9740-bf621581b1d4,6dffe9ad-51fb-48f2-97c5-09c193732f79,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""measure_content_performance"",
@@ -9684,7 +9684,7 @@ b9925858-c066-4a0d-82ba-e3dfdd1b6c32,consent.given,1,"{
     ""c:bliink-a4P6zDBK""
   ]
 }",2025-09-10 16:12:57.721,2025-09-10 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,,"""FR""","""ARA""",Didomi SDK,smartphone
-88fea868-311e-4273-a57e-a33cd2750228,consent.asked,0.2,"{
+88fea868-311e-4273-a57e-a33cd2750228,e58776e8-911b-4d56-8f87-8e397d6a23b7,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -9763,8 +9763,8 @@ b9925858-c066-4a0d-82ba-e3dfdd1b6c32,consent.given,1,"{
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-07 15:13:14.833,2025-09-07 15:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-61bb7248-4990-4ee6-88c8-3684669dacd1,pageview,0.1,,2025-09-07 20:31:17.818,2025-09-07 20:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-134f3039-439e-4741-870d-309435939f36,consent.given,1,"{
+61bb7248-4990-4ee6-88c8-3684669dacd1,fd8be96f-5aad-4d9d-b389-d46bfb271c1c,pageview,0.1,,2025-09-07 20:31:17.818,2025-09-07 20:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
+134f3039-439e-4741-870d-309435939f36,c6c8caf8-ab84-442d-9bfe-320ecf06afa5,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -9868,10 +9868,10 @@ b9925858-c066-4a0d-82ba-e3dfdd1b6c32,consent.given,1,"{
     ]
   }
 }",2025-09-07 21:15:29.312,2025-09-07 21:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-e6bca804-3949-4f56-9a4e-262ce6d7bb2c,ui.action,1,"{
+e6bca804-3949-4f56-9a4e-262ce6d7bb2c,22773042-decf-4fa8-9bc0-98730e65cae9,ui.action,1.0,"{
   ""action"": ""preferences.shownpurposes""
 }",2025-09-10 14:10:13.165,2025-09-10 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""US""","""CA""",Didomi SDK,smartphone
-9f8e3658-88b6-43ce-ba76-35e51126c64c,consent.given,1,"{
+9f8e3658-88b6-43ce-ba76-35e51126c64c,b124cb18-499b-4886-bc4a-5bc32d4fb2c3,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -9975,7 +9975,7 @@ e6bca804-3949-4f56-9a4e-262ce6d7bb2c,ui.action,1,"{
     ]
   }
 }",2025-09-08 12:16:01.290,2025-09-08 12:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-d1e59fb9-4f4f-41b9-b593-4fb05731e7fe,consent.given,1,"{
+d1e59fb9-4f4f-41b9-b593-4fb05731e7fe,20bd88ab-58cb-4a76-a8ba-5533b68ed77b,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -10078,10 +10078,10 @@ d1e59fb9-4f4f-41b9-b593-4fb05731e7fe,consent.given,1,"{
     ]
   }
 }",2025-09-08 13:40:42.378,2025-09-08 13:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-e28c3983-9fa5-4a59-9493-65a9be667c1b,ui.action,1,"{
+e28c3983-9fa5-4a59-9493-65a9be667c1b,9509d6dd-8a1a-4a20-8b1e-cf7e4a622d33,ui.action,1.0,"{
   ""action"": ""preferences.shownpurposes""
 }",2025-09-08 16:22:31.776,2025-09-08 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""OCC""",Didomi SDK,smartphone
-5992d4d1-b67d-4172-b55b-2fe59001eeeb,consent.given,1,"{
+5992d4d1-b67d-4172-b55b-2fe59001eeeb,98098cb5-875d-4a04-a4e4-d3602d85fd0d,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -10184,7 +10184,7 @@ e28c3983-9fa5-4a59-9493-65a9be667c1b,ui.action,1,"{
     ]
   }
 }",2025-09-09 06:00:44.279,2025-09-09 06:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-b7a7686d-d6de-439d-acf6-8b117a505d8f,consent.given,1,"{
+b7a7686d-d6de-439d-acf6-8b117a505d8f,b5890a5c-9705-4481-bd99-2d7673945d15,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -10287,7 +10287,7 @@ b7a7686d-d6de-439d-acf6-8b117a505d8f,consent.given,1,"{
     ]
   }
 }",2025-09-09 09:38:09.752,2025-09-09 09:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""BRE""",Didomi SDK,smartphone
-07919721-a96a-4101-a85b-f403570396b4,consent.given,1,"{
+07919721-a96a-4101-a85b-f403570396b4,893d4157-75b4-4ced-a8e0-11bf1d6145c7,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -10390,7 +10390,7 @@ b7a7686d-d6de-439d-acf6-8b117a505d8f,consent.given,1,"{
     ]
   }
 }",2025-09-06 14:19:38.518,2025-09-06 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-bb5d8371-a808-42b5-a066-ee9b16fad90f,consent.given,1,"{
+bb5d8371-a808-42b5-a066-ee9b16fad90f,6a540f95-3141-4ff9-8154-ad690940b817,consent.given,1.0,"{
   ""action"": ""external"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -10542,7 +10542,7 @@ bb5d8371-a808-42b5-a066-ee9b16fad90f,consent.given,1,"{
     ""enabled"": []
   }
 }",2025-09-07 11:57:32.748,2025-09-07 11:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""TN""","""11""",Didomi SDK,smartphone
-e2e22996-eb1d-40f8-aa77-5fb3f4aafeff,consent.given,1,"{
+e2e22996-eb1d-40f8-aa77-5fb3f4aafeff,893d4157-75b4-4ced-a8e0-11bf1d6145c7,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -10647,12 +10647,12 @@ e2e22996-eb1d-40f8-aa77-5fb3f4aafeff,consent.given,1,"{
     ]
   }
 }",2025-09-07 12:14:11.425,2025-09-07 12:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-85e0de61-22ff-4ae9-8934-0e734e4c0c5a,pageview,0.1,,2025-09-07 18:38:07.798,2025-09-07 18:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-f8004d3e-3a49-4b0a-999f-1a4f4446ebb1,pageview,0.1,,2025-09-08 07:18:11.694,2025-09-08 07:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-936c9ba8-f738-4b43-a004-74453e932b3c,ui.action,1,"{
+85e0de61-22ff-4ae9-8934-0e734e4c0c5a,2719b4fe-6be3-4e88-ab6c-350de44299f9,pageview,0.1,,2025-09-07 18:38:07.798,2025-09-07 18:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
+f8004d3e-3a49-4b0a-999f-1a4f4446ebb1,f39861d3-2944-4144-a884-e96b66adc0c8,pageview,0.1,,2025-09-08 07:18:11.694,2025-09-08 07:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
+936c9ba8-f738-4b43-a004-74453e932b3c,7eb15703-6a65-4299-91c6-1dc35bab6147,ui.action,1.0,"{
   ""action"": ""preferences.shownpurposes""
 }",2025-09-08 20:21:41.806,2025-09-08 20:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-fc7cd114-10ab-4f05-804e-baa20efb838e,consent.given,1,"{
+fc7cd114-10ab-4f05-804e-baa20efb838e,4b49d5c9-9a68-4574-88e1-4cf4f1476866,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -10755,7 +10755,7 @@ fc7cd114-10ab-4f05-804e-baa20efb838e,consent.given,1,"{
     ]
   }
 }",2025-09-10 12:58:00.137,2025-09-10 12:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-83e2c199-99ef-487b-95b0-27e5d6c8aefb,consent.given,1,"{
+83e2c199-99ef-487b-95b0-27e5d6c8aefb,08795c26-845a-46d4-ab1c-7d9e23fa9604,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -10858,7 +10858,7 @@ fc7cd114-10ab-4f05-804e-baa20efb838e,consent.given,1,"{
     ]
   }
 }",2025-09-09 02:29:50.531,2025-09-09 02:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Mobile Safari,tablet
-b42e4178-022a-4fe2-a7b4-cf589c1109f0,consent.given,1,"{
+b42e4178-022a-4fe2-a7b4-cf589c1109f0,c6c8caf8-ab84-442d-9bfe-320ecf06afa5,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -10961,7 +10961,7 @@ b42e4178-022a-4fe2-a7b4-cf589c1109f0,consent.given,1,"{
     ]
   }
 }",2025-09-10 11:57:40.858,2025-09-10 11:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-ffd5a910-4bfc-4191-8f06-b0c922c77021,consent.given,1,"{
+ffd5a910-4bfc-4191-8f06-b0c922c77021,b5890a5c-9705-4481-bd99-2d7673945d15,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -11064,7 +11064,7 @@ ffd5a910-4bfc-4191-8f06-b0c922c77021,consent.given,1,"{
     ]
   }
 }",2025-09-09 17:03:29.969,2025-09-09 17:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-a5067073-4349-459f-9947-2c38cc2ca5fa,consent.given,1,"{
+a5067073-4349-459f-9947-2c38cc2ca5fa,f7c0ac93-0f65-4252-be9c-a8bc7b3c4030,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -11168,7 +11168,7 @@ a5067073-4349-459f-9947-2c38cc2ca5fa,consent.given,1,"{
     ]
   }
 }",2025-09-09 19:46:57.439,2025-09-09 19:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-d448c622-379e-43a3-a995-540c820b5db1,consent.given,1,"{
+d448c622-379e-43a3-a995-540c820b5db1,893d4157-75b4-4ced-a8e0-11bf1d6145c7,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -11271,7 +11271,7 @@ d448c622-379e-43a3-a995-540c820b5db1,consent.given,1,"{
     ]
   }
 }",2025-09-09 19:01:09.542,2025-09-09 19:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""BFC""",Didomi SDK,smartphone
-820f4677-ffab-4204-93dc-5a6ec0334dd1,consent.given,1,"{
+820f4677-ffab-4204-93dc-5a6ec0334dd1,e58776e8-911b-4d56-8f87-8e397d6a23b7,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -11376,7 +11376,7 @@ d448c622-379e-43a3-a995-540c820b5db1,consent.given,1,"{
     ]
   }
 }",2025-09-09 20:30:38.003,2025-09-09 20:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
-185c0c69-f203-4172-bc87-5decb1637629,consent.given,1,"{
+185c0c69-f203-4172-bc87-5decb1637629,e34fe0cd-08bb-40ae-890b-1e51e5016bba,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -11481,7 +11481,7 @@ d448c622-379e-43a3-a995-540c820b5db1,consent.given,1,"{
     ]
   }
 }",2025-09-07 13:09:46.369,2025-09-07 13:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-e9a483e2-2744-48e0-9498-b880452c032a,consent.given,1,"{
+e9a483e2-2744-48e0-9498-b880452c032a,98098cb5-875d-4a04-a4e4-d3602d85fd0d,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -11584,8 +11584,8 @@ e9a483e2-2744-48e0-9498-b880452c032a,consent.given,1,"{
     ]
   }
 }",2025-09-07 14:49:56.902,2025-09-07 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Mobile Safari,tablet
-14fadc11-82aa-463c-9171-f41922b746d8,pageview,0.1,,2025-09-10 16:15:10.309,2025-09-10 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
-b91d102a-27a9-474a-8d5c-5dc8ae238dd0,consent.given,1,"{
+14fadc11-82aa-463c-9171-f41922b746d8,22fb01e7-c279-454f-b64f-0cb57eb08da1,pageview,0.1,,2025-09-10 16:15:10.309,2025-09-10 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
+b91d102a-27a9-474a-8d5c-5dc8ae238dd0,49a553bb-2e26-496c-b95d-8fe16996f552,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -11688,7 +11688,7 @@ b91d102a-27a9-474a-8d5c-5dc8ae238dd0,consent.given,1,"{
     ]
   }
 }",2025-09-08 07:18:21.672,2025-09-08 07:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-c8cd370e-6ba9-42a0-936d-2545621eeb59,consent.asked,0.2,"{
+c8cd370e-6ba9-42a0-936d-2545621eeb59,bd9b62ca-c188-44f3-bf05-9a6561dff2d7,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -11767,7 +11767,7 @@ c8cd370e-6ba9-42a0-936d-2545621eeb59,consent.asked,0.2,"{
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-08 10:29:47.177,2025-09-08 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""NOR""",Didomi SDK,smartphone
-fe433ff9-5f9d-45ac-9609-212547e9a9ac,consent.given,1,"{
+fe433ff9-5f9d-45ac-9609-212547e9a9ac,53e13f7b-3793-4089-89e2-809e1438de00,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -11870,7 +11870,7 @@ fe433ff9-5f9d-45ac-9609-212547e9a9ac,consent.given,1,"{
     ]
   }
 }",2025-09-08 10:57:02.068,2025-09-08 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""NOR""",Didomi SDK,smartphone
-9cdee120-3066-4824-b02a-2415870bc1d4,consent.given,1,"{
+9cdee120-3066-4824-b02a-2415870bc1d4,98098cb5-875d-4a04-a4e4-d3602d85fd0d,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -11974,8 +11974,8 @@ fe433ff9-5f9d-45ac-9609-212547e9a9ac,consent.given,1,"{
     ]
   }
 }",2025-09-08 11:39:56.302,2025-09-08 11:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-2266c664-d6c3-4995-99bc-329075cd93ec,pageview,0.1,,2025-09-08 15:05:25.415,2025-09-08 15:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-46c2d847-2814-48f7-85dd-59c400b50aad,consent.given,1,"{
+2266c664-d6c3-4995-99bc-329075cd93ec,22fb01e7-c279-454f-b64f-0cb57eb08da1,pageview,0.1,,2025-09-08 15:05:25.415,2025-09-08 15:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
+46c2d847-2814-48f7-85dd-59c400b50aad,12133be7-f96f-4ebb-8918-e5ccf6ddb1f6,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -12080,7 +12080,7 @@ fe433ff9-5f9d-45ac-9609-212547e9a9ac,consent.given,1,"{
     ]
   }
 }",2025-09-08 16:03:49.553,2025-09-08 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-c995938a-7f84-4406-9f7a-5fbc9304d91f,consent.given,1,"{
+c995938a-7f84-4406-9f7a-5fbc9304d91f,c7a16fac-e25e-410f-b14a-9b111959002c,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -12184,7 +12184,7 @@ c995938a-7f84-4406-9f7a-5fbc9304d91f,consent.given,1,"{
     ]
   }
 }",2025-09-09 16:17:53.751,2025-09-09 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-514082db-cc24-4769-9695-8e71b9ace57f,consent.given,1,"{
+514082db-cc24-4769-9695-8e71b9ace57f,b2c2723f-4bd4-44ff-9937-96492f205c58,consent.given,1.0,"{
   ""action"": ""external"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -12336,7 +12336,7 @@ c995938a-7f84-4406-9f7a-5fbc9304d91f,consent.given,1,"{
     ""enabled"": []
   }
 }",2025-09-09 19:01:09.577,2025-09-09 19:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""BFC""",Didomi SDK,smartphone
-31e95d76-c2a6-47aa-afaf-48d09dfad142,consent.given,1,"{
+31e95d76-c2a6-47aa-afaf-48d09dfad142,39ab13bf-644a-4cf1-b9c1-b04d39e92ad8,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -12440,7 +12440,7 @@ c995938a-7f84-4406-9f7a-5fbc9304d91f,consent.given,1,"{
     ]
   }
 }",2025-09-09 20:47:51.789,2025-09-09 20:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-35246200-6262-4020-bbbb-7e0d6f515573,consent.given,1,"{
+35246200-6262-4020-bbbb-7e0d6f515573,b5890a5c-9705-4481-bd99-2d7673945d15,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -12544,7 +12544,7 @@ c995938a-7f84-4406-9f7a-5fbc9304d91f,consent.given,1,"{
     ]
   }
 }",2025-09-10 17:13:02.792,2025-09-10 17:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-e6c952d2-8049-4aa1-9a28-f472e35dc0a4,consent.given,1,"{
+e6c952d2-8049-4aa1-9a28-f472e35dc0a4,e58776e8-911b-4d56-8f87-8e397d6a23b7,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -12647,7 +12647,7 @@ e6c952d2-8049-4aa1-9a28-f472e35dc0a4,consent.given,1,"{
     ]
   }
 }",2025-09-07 11:57:32.744,2025-09-07 11:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""TN""","""11""",Didomi SDK,smartphone
-4c1bcafc-978e-4c67-b7dc-0309cc5f2e6b,consent.given,1,"{
+4c1bcafc-978e-4c67-b7dc-0309cc5f2e6b,2d96bfd9-6101-4a44-b6a1-7875a89f50f1,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -12750,10 +12750,10 @@ e6c952d2-8049-4aa1-9a28-f472e35dc0a4,consent.given,1,"{
     ]
   }
 }",2025-09-07 14:27:12.137,2025-09-07 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-9778dd20-1eeb-487d-b43f-5bb0c30c0854,ui.action,1,"{
+9778dd20-1eeb-487d-b43f-5bb0c30c0854,9509d6dd-8a1a-4a20-8b1e-cf7e4a622d33,ui.action,1.0,"{
   ""action"": ""preferences.shownpurposes""
 }",2025-09-10 16:11:42.073,2025-09-10 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
-853702ad-83b3-4625-8b92-9b5a7f5d62c8,consent.given,1,"{
+853702ad-83b3-4625-8b92-9b5a7f5d62c8,f2651ee7-ba7d-479f-a3c9-f660c2e0fdd1,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -12856,7 +12856,7 @@ e6c952d2-8049-4aa1-9a28-f472e35dc0a4,consent.given,1,"{
     ]
   }
 }",2025-09-07 17:02:55.098,2025-09-07 17:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-cd0d9cd0-4d57-4059-a6dd-86c4e903bb96,consent.given,1,"{
+cd0d9cd0-4d57-4059-a6dd-86c4e903bb96,49a553bb-2e26-496c-b95d-8fe16996f552,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -12959,8 +12959,8 @@ cd0d9cd0-4d57-4059-a6dd-86c4e903bb96,consent.given,1,"{
     ]
   }
 }",2025-09-07 22:47:33.675,2025-09-07 22:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-ed90628c-282b-42f2-816b-5931ae6a58f4,pageview,0.1,,2025-09-08 07:23:27.526,2025-09-08 07:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-19bc874a-0fb7-4b61-b12b-fe63545abf9b,consent.given,1,"{
+ed90628c-282b-42f2-816b-5931ae6a58f4,fc66d312-e6bd-4455-a582-b32220611f36,pageview,0.1,,2025-09-08 07:23:27.526,2025-09-08 07:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
+19bc874a-0fb7-4b61-b12b-fe63545abf9b,92074d73-d349-4498-99c5-5fabc10a5d70,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -13065,7 +13065,7 @@ ed90628c-282b-42f2-816b-5931ae6a58f4,pageview,0.1,,2025-09-08 07:23:27.526,2025-
     ]
   }
 }",2025-09-08 11:28:14.744,2025-09-08 11:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-83577ff4-c656-44e4-a679-a48a80530fe4,consent.asked,0.2,"{
+83577ff4-c656-44e4-a679-a48a80530fe4,3aa8ff6d-27f4-48c6-831b-f272dfd8fa0b,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -13143,8 +13143,8 @@ ed90628c-282b-42f2-816b-5931ae6a58f4,pageview,0.1,,2025-09-08 07:23:27.526,2025-
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-09 09:37:09.133,2025-09-09 09:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-cb9f4070-8ff4-4e71-9fee-0f8e988bf5d5,pageview,0.1,,2025-09-10 10:33:44.955,2025-09-10 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-0410d886-9ffd-4b75-b646-cd35da57f33a,consent.given,1,"{
+cb9f4070-8ff4-4e71-9fee-0f8e988bf5d5,b5aa95c2-957a-4204-bcab-fd6394419d48,pageview,0.1,,2025-09-10 10:33:44.955,2025-09-10 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
+0410d886-9ffd-4b75-b646-cd35da57f33a,3aa8ff6d-27f4-48c6-831b-f272dfd8fa0b,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -13249,7 +13249,7 @@ cb9f4070-8ff4-4e71-9fee-0f8e988bf5d5,pageview,0.1,,2025-09-10 10:33:44.955,2025-
     ]
   }
 }",2025-09-10 10:53:03.778,2025-09-10 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
-3b5d5303-3202-4f7a-976c-20b581449c61,consent.given,1,"{
+3b5d5303-3202-4f7a-976c-20b581449c61,fbe565ac-1eb6-4a3d-b089-5a9896fa7de2,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -13352,7 +13352,7 @@ cb9f4070-8ff4-4e71-9fee-0f8e988bf5d5,pageview,0.1,,2025-09-10 10:33:44.955,2025-
     ]
   }
 }",2025-09-10 06:26:22.378,2025-09-10 06:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-2900c0af-f991-4cc1-8cf9-d77be1d9b5b2,consent.given,1,"{
+2900c0af-f991-4cc1-8cf9-d77be1d9b5b2,bd9b62ca-c188-44f3-bf05-9a6561dff2d7,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -13456,7 +13456,7 @@ cb9f4070-8ff4-4e71-9fee-0f8e988bf5d5,pageview,0.1,,2025-09-10 10:33:44.955,2025-
     ]
   }
 }",2025-09-10 07:51:10.826,2025-09-10 07:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-32679aad-cf3f-4899-bbc3-83b2827efc64,consent.given,1,"{
+32679aad-cf3f-4899-bbc3-83b2827efc64,ebcc2eaa-fe71-4c4b-9445-1a21ab672be0,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -13559,8 +13559,8 @@ cb9f4070-8ff4-4e71-9fee-0f8e988bf5d5,pageview,0.1,,2025-09-10 10:33:44.955,2025-
     ]
   }
 }",2025-09-07 20:31:25.316,2025-09-07 20:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-8e0e78db-e752-4ea3-a2da-dd070ee41779,pageview,0.1,,2025-09-08 07:19:05.388,2025-09-08 07:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-6331793d-410c-4082-978f-445eca3461d9,consent.asked,0.2,"{
+8e0e78db-e752-4ea3-a2da-dd070ee41779,40480200-fe54-4e10-bad2-7b8394caac0a,pageview,0.1,,2025-09-08 07:19:05.388,2025-09-08 07:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
+6331793d-410c-4082-978f-445eca3461d9,decfd535-2b42-4007-a8ff-6351bf136920,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -13643,7 +13643,7 @@ cb9f4070-8ff4-4e71-9fee-0f8e988bf5d5,pageview,0.1,,2025-09-10 10:33:44.955,2025-
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-08 07:18:18.281,2025-09-08 07:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-49d43137-5215-459d-9b99-7737dadae516,consent.given,1,"{
+49d43137-5215-459d-9b99-7737dadae516,49a553bb-2e26-496c-b95d-8fe16996f552,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -13746,7 +13746,7 @@ cb9f4070-8ff4-4e71-9fee-0f8e988bf5d5,pageview,0.1,,2025-09-10 10:33:44.955,2025-
     ]
   }
 }",2025-09-10 13:37:21.029,2025-09-10 13:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
-b466f084-a860-44a0-a85c-ae5a9c4f6cf8,consent.given,1,"{
+b466f084-a860-44a0-a85c-ae5a9c4f6cf8,4464b85a-3bf4-4ca5-a78d-4c4d291e7e49,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -13849,7 +13849,7 @@ b466f084-a860-44a0-a85c-ae5a9c4f6cf8,consent.given,1,"{
     ]
   }
 }",2025-09-09 20:00:54.893,2025-09-09 20:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
-75e5a72c-fb9f-4a5a-adc2-197c773909f6,consent.given,1,"{
+75e5a72c-fb9f-4a5a-adc2-197c773909f6,6dffe9ad-51fb-48f2-97c5-09c193732f79,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -13952,7 +13952,7 @@ b466f084-a860-44a0-a85c-ae5a9c4f6cf8,consent.given,1,"{
     ]
   }
 }",2025-09-10 09:42:09.900,2025-09-10 09:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-4a87154a-edfe-4fe6-8cec-37725dc15adf,consent.given,1,"{
+4a87154a-edfe-4fe6-8cec-37725dc15adf,54d125e5-e77f-4fed-aee8-50cf1f45cb78,consent.given,1.0,"{
   ""previous_purposes"": {
     ""disabled"": [],
     ""enabled"": []
@@ -14054,7 +14054,7 @@ b466f084-a860-44a0-a85c-ae5a9c4f6cf8,consent.given,1,"{
     ]
   }
 }",2025-09-10 06:48:51.814,2025-09-10 06:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,,"""FR""",,Didomi SDK,smartphone
-f9776b8c-230f-42aa-8929-f07f8e9fba65,consent.given,1,"{
+f9776b8c-230f-42aa-8929-f07f8e9fba65,9fce8706-ab82-4621-98cb-da5fc9016b7b,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -14157,7 +14157,7 @@ f9776b8c-230f-42aa-8929-f07f8e9fba65,consent.given,1,"{
     ]
   }
 }",2025-09-07 10:53:34.123,2025-09-07 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-c751241c-ab4c-4224-9b04-98c321bbe53d,consent.given,1,"{
+c751241c-ab4c-4224-9b04-98c321bbe53d,decfd535-2b42-4007-a8ff-6351bf136920,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -14260,8 +14260,8 @@ c751241c-ab4c-4224-9b04-98c321bbe53d,consent.given,1,"{
     ]
   }
 }",2025-09-08 14:53:56.572,2025-09-08 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-fdb1c58b-69fa-47cc-a11a-dfe418c5157e,pageview,0.1,,2025-09-08 16:10:18.490,2025-09-08 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""NOR""",Didomi SDK,smartphone
-6db6574c-5c3d-48f8-81cb-25121eb3a657,consent.given,1,"{
+fdb1c58b-69fa-47cc-a11a-dfe418c5157e,10c71523-6e20-49c5-a09b-8b6b40c1167f,pageview,0.1,,2025-09-08 16:10:18.490,2025-09-08 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""NOR""",Didomi SDK,smartphone
+6db6574c-5c3d-48f8-81cb-25121eb3a657,893d4157-75b4-4ced-a8e0-11bf1d6145c7,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -14366,7 +14366,7 @@ fdb1c58b-69fa-47cc-a11a-dfe418c5157e,pageview,0.1,,2025-09-08 16:10:18.490,2025-
     ]
   }
 }",2025-09-08 18:43:37.084,2025-09-08 18:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""ES""","""MD""",Didomi SDK,smartphone
-13b925bf-af0a-40c6-b325-da9b6bdc779a,consent.given,1,"{
+13b925bf-af0a-40c6-b325-da9b6bdc779a,30180e6b-61cd-4369-b800-f4c6f4d30ce6,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -14470,7 +14470,7 @@ fdb1c58b-69fa-47cc-a11a-dfe418c5157e,pageview,0.1,,2025-09-08 16:10:18.490,2025-
     ]
   }
 }",2025-09-08 19:32:09.728,2025-09-08 19:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-4b7d1ab1-b9db-4a22-8442-efeebf032214,consent.given,1,"{
+4b7d1ab1-b9db-4a22-8442-efeebf032214,b124cb18-499b-4886-bc4a-5bc32d4fb2c3,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -14573,8 +14573,8 @@ fdb1c58b-69fa-47cc-a11a-dfe418c5157e,pageview,0.1,,2025-09-08 16:10:18.490,2025-
     ]
   }
 }",2025-09-07 20:21:41.167,2025-09-07 20:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-bd5cbd7d-bb9a-4966-abc8-5537d32f20a8,pageview,0.1,,2025-09-08 10:29:39.969,2025-09-08 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""NOR""",Didomi SDK,smartphone
-3fa786c7-3d5f-4691-9c58-b23d914ff269,consent.asked,0.2,"{
+bd5cbd7d-bb9a-4966-abc8-5537d32f20a8,f39861d3-2944-4144-a884-e96b66adc0c8,pageview,0.1,,2025-09-08 10:29:39.969,2025-09-08 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""NOR""",Didomi SDK,smartphone
+3fa786c7-3d5f-4691-9c58-b23d914ff269,7277553b-0bca-47b8-89ee-3f1e06755b72,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -14653,7 +14653,7 @@ bd5cbd7d-bb9a-4966-abc8-5537d32f20a8,pageview,0.1,,2025-09-08 10:29:39.969,2025-
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-08 12:15:58.490,2025-09-08 12:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-5dfaaaa4-ab7d-4560-a942-2f46eb2e265a,consent.given,1,"{
+5dfaaaa4-ab7d-4560-a942-2f46eb2e265a,4b49d5c9-9a68-4574-88e1-4cf4f1476866,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -14756,7 +14756,7 @@ bd5cbd7d-bb9a-4966-abc8-5537d32f20a8,pageview,0.1,,2025-09-08 10:29:39.969,2025-
     ]
   }
 }",2025-09-08 15:23:01.993,2025-09-08 15:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""OCC""",Didomi SDK,smartphone
-5b0c8d2a-00cd-4530-891a-939b00afc2e9,consent.given,1,"{
+5b0c8d2a-00cd-4530-891a-939b00afc2e9,7277553b-0bca-47b8-89ee-3f1e06755b72,consent.given,1.0,"{
   ""action"": ""external"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -14908,7 +14908,7 @@ bd5cbd7d-bb9a-4966-abc8-5537d32f20a8,pageview,0.1,,2025-09-08 10:29:39.969,2025-
     ""enabled"": []
   }
 }",2025-09-08 20:43:54.091,2025-09-08 20:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-b758fc33-cecd-4542-ac50-a717cda30c51,consent.given,1,"{
+b758fc33-cecd-4542-ac50-a717cda30c51,9fce8706-ab82-4621-98cb-da5fc9016b7b,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -15011,9 +15011,9 @@ b758fc33-cecd-4542-ac50-a717cda30c51,consent.given,1,"{
     ]
   }
 }",2025-09-09 10:26:27.497,2025-09-09 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-302804d0-090a-4ab8-8985-c76bba743fdd,pageview,0.1,,2025-09-07 19:48:32.858,2025-09-07 19:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-62ee2c89-141b-4928-9662-5acc2c43ff4b,pageview,0.1,,2025-09-08 08:02:11.110,2025-09-08 08:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-3ea1184a-2218-4296-96e1-5b500b29924d,consent.given,1,"{
+302804d0-090a-4ab8-8985-c76bba743fdd,83ce71b3-49bc-49fa-86c0-941f749d994d,pageview,0.1,,2025-09-07 19:48:32.858,2025-09-07 19:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
+62ee2c89-141b-4928-9662-5acc2c43ff4b,7f561ce3-8c03-409e-8b5c-ddc94ddc19d2,pageview,0.1,,2025-09-08 08:02:11.110,2025-09-08 08:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
+3ea1184a-2218-4296-96e1-5b500b29924d,c9275507-1271-436b-a1a4-5d621f4f473c,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -15117,7 +15117,7 @@ b758fc33-cecd-4542-ac50-a717cda30c51,consent.given,1,"{
     ]
   }
 }",2025-09-08 10:29:52.164,2025-09-08 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""NOR""",Didomi SDK,smartphone
-4db73d1a-8148-4dab-b515-81e69aae78b8,consent.given,1,"{
+4db73d1a-8148-4dab-b515-81e69aae78b8,98098cb5-875d-4a04-a4e4-d3602d85fd0d,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -15220,7 +15220,7 @@ b758fc33-cecd-4542-ac50-a717cda30c51,consent.given,1,"{
     ]
   }
 }",2025-09-08 10:19:09.663,2025-09-08 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""CVL""",Didomi SDK,smartphone
-aaec3528-2426-484a-b3c7-c00a8d14512a,consent.asked,0.2,"{
+aaec3528-2426-484a-b3c7-c00a8d14512a,a9b1e652-d978-4215-a647-ffebaa06bfa9,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""geolocation_data"",
@@ -15296,7 +15296,7 @@ aaec3528-2426-484a-b3c7-c00a8d14512a,consent.asked,0.2,"{
     ""google""
   ]
 }",2025-09-08 13:40:40.823,2025-09-08 13:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-769edbdf-fe21-43aa-9d98-1d7be1c22942,consent.given,1,"{
+769edbdf-fe21-43aa-9d98-1d7be1c22942,c6c8caf8-ab84-442d-9bfe-320ecf06afa5,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -15400,7 +15400,7 @@ aaec3528-2426-484a-b3c7-c00a8d14512a,consent.asked,0.2,"{
     ]
   }
 }",2025-09-09 19:57:34.979,2025-09-09 19:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""OCC""",Didomi SDK,smartphone
-68c4d399-a115-4fc8-9420-1f330c691bb9,consent.given,1,"{
+68c4d399-a115-4fc8-9420-1f330c691bb9,7277553b-0bca-47b8-89ee-3f1e06755b72,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -15503,7 +15503,7 @@ aaec3528-2426-484a-b3c7-c00a8d14512a,consent.asked,0.2,"{
     ]
   }
 }",2025-09-09 04:03:00.797,2025-09-09 04:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
-56ede53d-b5d2-4aee-8972-895855b0e312,consent.given,1,"{
+56ede53d-b5d2-4aee-8972-895855b0e312,3aa8ff6d-27f4-48c6-831b-f272dfd8fa0b,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -15608,7 +15608,7 @@ aaec3528-2426-484a-b3c7-c00a8d14512a,consent.asked,0.2,"{
     ]
   }
 }",2025-09-09 13:12:12.720,2025-09-09 13:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""BRE""",Didomi SDK,smartphone
-43a409b5-9203-4f86-b6d8-2ed9c11a6b6d,consent.given,1,"{
+43a409b5-9203-4f86-b6d8-2ed9c11a6b6d,893d4157-75b4-4ced-a8e0-11bf1d6145c7,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -15711,7 +15711,7 @@ aaec3528-2426-484a-b3c7-c00a8d14512a,consent.asked,0.2,"{
     ]
   }
 }",2025-09-09 14:57:31.343,2025-09-09 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-11593929-b0d5-43bb-b5bf-22ef22514299,consent.given,1,"{
+11593929-b0d5-43bb-b5bf-22ef22514299,30180e6b-61cd-4369-b800-f4c6f4d30ce6,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -15815,7 +15815,7 @@ aaec3528-2426-484a-b3c7-c00a8d14512a,consent.asked,0.2,"{
     ]
   }
 }",2025-09-09 17:02:20.663,2025-09-09 17:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-167dc8e7-5313-469d-95e9-3f5516ae1070,consent.given,1,"{
+167dc8e7-5313-469d-95e9-3f5516ae1070,bd9b62ca-c188-44f3-bf05-9a6561dff2d7,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -15918,7 +15918,7 @@ aaec3528-2426-484a-b3c7-c00a8d14512a,consent.asked,0.2,"{
     ]
   }
 }",2025-09-09 18:39:48.041,2025-09-09 18:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-aa4bf8d3-a29d-442e-9792-b5e68a9203b0,consent.given,1,"{
+aa4bf8d3-a29d-442e-9792-b5e68a9203b0,54d125e5-e77f-4fed-aee8-50cf1f45cb78,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -16021,7 +16021,7 @@ aa4bf8d3-a29d-442e-9792-b5e68a9203b0,consent.given,1,"{
     ]
   }
 }",2025-09-10 10:35:59.171,2025-09-10 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-aef243b2-188b-4260-aae0-b0f5119eaf94,consent.given,1,"{
+aef243b2-188b-4260-aae0-b0f5119eaf94,f5498cf8-a68a-4473-b024-4e72c96c429f,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -16124,7 +16124,7 @@ aef243b2-188b-4260-aae0-b0f5119eaf94,consent.given,1,"{
     ]
   }
 }",2025-09-08 16:10:29.782,2025-09-08 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""NOR""",Didomi SDK,smartphone
-b1813284-0d53-4ab6-a89b-0e324ec51c8f,consent.given,1,"{
+b1813284-0d53-4ab6-a89b-0e324ec51c8f,bd9b62ca-c188-44f3-bf05-9a6561dff2d7,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -16228,8 +16228,8 @@ b1813284-0d53-4ab6-a89b-0e324ec51c8f,consent.given,1,"{
     ]
   }
 }",2025-09-08 21:02:59.530,2025-09-08 21:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-5279d8ae-841a-439e-90e2-0612f9e5f6f2,pageview,0.1,,2025-09-09 08:24:03.277,2025-09-09 08:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-821a497e-a29a-4bdf-a64f-c63ca24f8e0a,consent.given,1,"{
+5279d8ae-841a-439e-90e2-0612f9e5f6f2,5993ba68-4c76-4ad7-b428-0b0a576cf2af,pageview,0.1,,2025-09-09 08:24:03.277,2025-09-09 08:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
+821a497e-a29a-4bdf-a64f-c63ca24f8e0a,893d4157-75b4-4ced-a8e0-11bf1d6145c7,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -16332,7 +16332,7 @@ b1813284-0d53-4ab6-a89b-0e324ec51c8f,consent.given,1,"{
     ]
   }
 }",2025-09-09 22:36:45.967,2025-09-09 22:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""NOR""",Didomi SDK,smartphone
-a61591b2-d7c8-4cf1-96dc-b0fb939091bb,consent.given,1,"{
+a61591b2-d7c8-4cf1-96dc-b0fb939091bb,12133be7-f96f-4ebb-8918-e5ccf6ddb1f6,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -16435,7 +16435,7 @@ a61591b2-d7c8-4cf1-96dc-b0fb939091bb,consent.given,1,"{
     ]
   }
 }",2025-09-10 08:42:47.608,2025-09-10 08:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-14860263-6d96-4281-b771-a769eafa2c6a,consent.given,1,"{
+14860263-6d96-4281-b771-a769eafa2c6a,b2c2723f-4bd4-44ff-9937-96492f205c58,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -16538,7 +16538,7 @@ a61591b2-d7c8-4cf1-96dc-b0fb939091bb,consent.given,1,"{
     ]
   }
 }",2025-09-08 14:31:55.567,2025-09-08 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-63cb2abb-0a64-498a-bc98-69a66ad2e529,consent.given,1,"{
+63cb2abb-0a64-498a-bc98-69a66ad2e529,98098cb5-875d-4a04-a4e4-d3602d85fd0d,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -16641,7 +16641,7 @@ a61591b2-d7c8-4cf1-96dc-b0fb939091bb,consent.given,1,"{
     ]
   }
 }",2025-09-09 07:59:05.781,2025-09-09 07:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-dadc943a-5284-4e9d-94d4-eb28de63944d,consent.given,1,"{
+dadc943a-5284-4e9d-94d4-eb28de63944d,ff494580-2048-4b94-9682-58ccc1badef3,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -16744,7 +16744,7 @@ dadc943a-5284-4e9d-94d4-eb28de63944d,consent.given,1,"{
     ]
   }
 }",2025-09-09 14:08:27.242,2025-09-09 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-8eb06688-c119-412d-8aca-edad3b07e524,consent.given,1,"{
+8eb06688-c119-412d-8aca-edad3b07e524,4d3e8c69-7b7a-4879-88af-c3d0101458cb,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -16848,7 +16848,7 @@ dadc943a-5284-4e9d-94d4-eb28de63944d,consent.given,1,"{
     ]
   }
 }",2025-09-10 10:26:51.683,2025-09-10 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-3f69a609-a204-4934-bd31-33af830d279c,consent.given,1,"{
+3f69a609-a204-4934-bd31-33af830d279c,632aa254-a0ca-4baf-9827-0510b787f588,consent.given,1.0,"{
   ""previous_purposes"": {
     ""disabled"": [],
     ""enabled"": []
@@ -16950,8 +16950,8 @@ dadc943a-5284-4e9d-94d4-eb28de63944d,consent.given,1,"{
     ]
   }
 }",2025-09-09 16:36:03.418,2025-09-09 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,,"""FR""","""PDL""",Didomi SDK,smartphone
-231c4e09-3224-46c9-a00d-2a9049c47028,pageview,0.1,,2025-09-10 10:25:09.197,2025-09-10 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
-4d2cb46a-152e-43f2-9ed0-beaacf83579b,consent.given,1,"{
+231c4e09-3224-46c9-a00d-2a9049c47028,b5aa95c2-957a-4204-bcab-fd6394419d48,pageview,0.1,,2025-09-10 10:25:09.197,2025-09-10 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
+4d2cb46a-152e-43f2-9ed0-beaacf83579b,9fce8706-ab82-4621-98cb-da5fc9016b7b,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -17055,7 +17055,7 @@ dadc943a-5284-4e9d-94d4-eb28de63944d,consent.given,1,"{
     ]
   }
 }",2025-09-07 15:13:19.772,2025-09-07 15:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-8b4f2809-8149-4f06-9bee-9a999a18b8ea,consent.asked,0.2,"{
+8b4f2809-8149-4f06-9bee-9a999a18b8ea,d5c32f72-91ca-437e-a5ba-644f07ad5698,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -17134,7 +17134,7 @@ dadc943a-5284-4e9d-94d4-eb28de63944d,consent.given,1,"{
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-08 11:39:54.308,2025-09-08 11:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-6ff6a75c-2206-42e8-b11f-0d30e38691e9,consent.given,1,"{
+6ff6a75c-2206-42e8-b11f-0d30e38691e9,cd6000a0-35fa-40fd-a1dc-f0a51ca3ce9c,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -17238,7 +17238,7 @@ dadc943a-5284-4e9d-94d4-eb28de63944d,consent.given,1,"{
     ]
   }
 }",2025-09-08 11:36:36.375,2025-09-08 11:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-376fbe12-476e-4897-a913-634f7f4c0fad,consent.given,1,"{
+376fbe12-476e-4897-a913-634f7f4c0fad,c9275507-1271-436b-a1a4-5d621f4f473c,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -17341,8 +17341,8 @@ dadc943a-5284-4e9d-94d4-eb28de63944d,consent.given,1,"{
     ]
   }
 }",2025-09-09 08:06:10.551,2025-09-09 08:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
-6ab4610d-15e6-49b5-99c7-fba079de60f4,pageview,0.1,,2025-09-09 22:54:50.642,2025-09-09 22:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""GB""","""ENG""",Didomi SDK,smartphone
-870765c5-c6c9-429b-8af8-f8c7d8afe932,consent.given,1,"{
+6ab4610d-15e6-49b5-99c7-fba079de60f4,d4e17d7f-c31e-4da2-99c1-7d2a518dd028,pageview,0.1,,2025-09-09 22:54:50.642,2025-09-09 22:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""GB""","""ENG""",Didomi SDK,smartphone
+870765c5-c6c9-429b-8af8-f8c7d8afe932,e58776e8-911b-4d56-8f87-8e397d6a23b7,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -17446,7 +17446,7 @@ dadc943a-5284-4e9d-94d4-eb28de63944d,consent.given,1,"{
     ]
   }
 }",2025-09-10 08:06:01.841,2025-09-10 08:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-de7e8531-33c0-42ae-b00b-2569b482bc5e,consent.given,1,"{
+de7e8531-33c0-42ae-b00b-2569b482bc5e,9fce8706-ab82-4621-98cb-da5fc9016b7b,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -17549,7 +17549,7 @@ de7e8531-33c0-42ae-b00b-2569b482bc5e,consent.given,1,"{
     ]
   }
 }",2025-09-10 10:33:53.052,2025-09-10 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-36e72f4a-7270-4c47-83cb-fc98a63566c8,consent.asked,0.2,"{
+36e72f4a-7270-4c47-83cb-fc98a63566c8,b1e5f76c-76c4-4e6e-b586-12f5993e55d7,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -17632,7 +17632,7 @@ de7e8531-33c0-42ae-b00b-2569b482bc5e,consent.given,1,"{
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-08 14:53:54.291,2025-09-08 14:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-895ace51-3eec-4faf-af3f-77482a22b524,consent.given,1,"{
+895ace51-3eec-4faf-af3f-77482a22b524,15171db1-df02-4258-b0b7-2e9cb89d1948,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -17735,7 +17735,7 @@ de7e8531-33c0-42ae-b00b-2569b482bc5e,consent.given,1,"{
     ]
   }
 }",2025-09-09 08:24:10.907,2025-09-09 08:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-bcb4ef09-6979-4e9b-964c-73cc2ff03fa7,consent.given,1,"{
+bcb4ef09-6979-4e9b-964c-73cc2ff03fa7,87ba1802-d0cd-458c-8d48-fb135e764528,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -17838,7 +17838,7 @@ bcb4ef09-6979-4e9b-964c-73cc2ff03fa7,consent.given,1,"{
     ]
   }
 }",2025-09-09 22:55:02.456,2025-09-09 22:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""GB""","""ENG""",Didomi SDK,smartphone
-c6487044-8b23-4543-82dc-fd981b25f55c,consent.given,1,"{
+c6487044-8b23-4543-82dc-fd981b25f55c,6dffe9ad-51fb-48f2-97c5-09c193732f79,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -17941,7 +17941,7 @@ c6487044-8b23-4543-82dc-fd981b25f55c,consent.given,1,"{
     ]
   }
 }",2025-09-10 11:55:09.301,2025-09-10 11:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""BFC""",Didomi SDK,smartphone
-842434c7-84c2-48a3-a2c1-6d6a78578713,consent.asked,0.2,"{
+842434c7-84c2-48a3-a2c1-6d6a78578713,2f625b1e-9625-4e7d-9e86-09515fdafda0,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -18024,7 +18024,7 @@ c6487044-8b23-4543-82dc-fd981b25f55c,consent.given,1,"{
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-09 08:24:09.264,2025-09-09 08:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-4f87ab17-c793-426c-a661-6b313e1034b5,consent.asked,0.2,"{
+4f87ab17-c793-426c-a661-6b313e1034b5,210b0661-aea1-406d-8349-996169c3afa9,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -18102,7 +18102,7 @@ c6487044-8b23-4543-82dc-fd981b25f55c,consent.given,1,"{
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-10 08:42:44.723,2025-09-10 08:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PAC""",Didomi SDK,smartphone
-80957993-8d66-495c-a631-f197636ff1e9,consent.asked,0.2,"{
+80957993-8d66-495c-a631-f197636ff1e9,db6038e5-192b-4294-98d2-384fff335423,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -18180,7 +18180,7 @@ c6487044-8b23-4543-82dc-fd981b25f55c,consent.given,1,"{
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-10 10:33:51.904,2025-09-10 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-d27567ee-0dc8-4638-b591-08398e73c0ed,consent.given,1,"{
+d27567ee-0dc8-4638-b591-08398e73c0ed,278df5b3-f07a-4e7d-851f-0e472c533edb,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -18285,7 +18285,7 @@ d27567ee-0dc8-4638-b591-08398e73c0ed,consent.given,1,"{
     ]
   }
 }",2025-09-09 15:45:44.207,2025-09-09 15:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-c0bc52d3-d543-4bc0-b606-a74ce3766df7,consent.given,1,"{
+c0bc52d3-d543-4bc0-b606-a74ce3766df7,b6e01efd-7426-4935-b097-03565b6517c4,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -18388,7 +18388,7 @@ c0bc52d3-d543-4bc0-b606-a74ce3766df7,consent.given,1,"{
     ]
   }
 }",2025-09-09 17:52:31.170,2025-09-09 17:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""DZ""",,Didomi SDK,smartphone
-ddc26495-3a4c-4500-a250-514c9393766f,consent.asked,0.200000003,"{
+ddc26495-3a4c-4500-a250-514c9393766f,9a72a21a-ee08-4ab6-acb1-0bc9521c5a77,consent.asked,0.200000003,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""measure_content_performance"",
@@ -18475,7 +18475,7 @@ ddc26495-3a4c-4500-a250-514c9393766f,consent.asked,0.200000003,"{
     ""google""
   ]
 }",2025-09-09 19:01:08.338,2025-09-09 19:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""BFC""",Didomi SDK,smartphone
-4f7be2c1-3057-443d-b94b-3a1db4c91367,consent.given,1,"{
+4f7be2c1-3057-443d-b94b-3a1db4c91367,98098cb5-875d-4a04-a4e4-d3602d85fd0d,consent.given,1.0,"{
   ""action"": ""external"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -18627,7 +18627,7 @@ ddc26495-3a4c-4500-a250-514c9393766f,consent.asked,0.200000003,"{
     ""enabled"": []
   }
 }",2025-09-10 09:42:09.870,2025-09-10 09:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-b802b706-dde9-491a-855f-7ba18624a759,consent.asked,0.2,"{
+b802b706-dde9-491a-855f-7ba18624a759,ff79bbe7-33b3-4e11-8492-8e902489cfaf,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -18706,7 +18706,7 @@ b802b706-dde9-491a-855f-7ba18624a759,consent.asked,0.2,"{
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-07 10:03:55.803,2025-09-07 10:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""OCC""",Didomi SDK,smartphone
-3963e2fa-083c-46f6-a980-55fce5c33b01,consent.given,1,"{
+3963e2fa-083c-46f6-a980-55fce5c33b01,376002c3-4690-4e3f-96e3-f113970e60e4,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -18809,8 +18809,8 @@ b802b706-dde9-491a-855f-7ba18624a759,consent.asked,0.2,"{
     ]
   }
 }",2025-09-08 15:49:48.023,2025-09-08 15:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-f0b29dc1-91a2-4f23-84c6-d84317d86f51,pageview,0.1,,2025-09-08 16:50:54.457,2025-09-08 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-d01a4fdf-7d58-4a0f-bda5-388d4b891955,consent.given,1,"{
+f0b29dc1-91a2-4f23-84c6-d84317d86f51,3af116ac-cff4-48ee-94d8-7267d0604336,pageview,0.1,,2025-09-08 16:50:54.457,2025-09-08 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
+d01a4fdf-7d58-4a0f-bda5-388d4b891955,db6038e5-192b-4294-98d2-384fff335423,consent.given,1.0,"{
   ""previous_purposes"": {
     ""disabled"": [],
     ""enabled"": []
@@ -18912,7 +18912,7 @@ d01a4fdf-7d58-4a0f-bda5-388d4b891955,consent.given,1,"{
     ]
   }
 }",2025-09-10 08:22:08.044,2025-09-10 08:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,,"""FR""","""HDF""",Didomi SDK,smartphone
-54a60d8d-2886-4e69-bbbc-94fe437afda9,consent.asked,0.2,"{
+54a60d8d-2886-4e69-bbbc-94fe437afda9,d7ad31ec-22d5-4e9f-a70d-43993c2847af,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -18990,7 +18990,7 @@ d01a4fdf-7d58-4a0f-bda5-388d4b891955,consent.given,1,"{
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-10 16:11:42.072,2025-09-10 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
-550a9714-513e-4315-8dbd-8a6c43f7799e,consent.given,1,"{
+550a9714-513e-4315-8dbd-8a6c43f7799e,b124cb18-499b-4886-bc4a-5bc32d4fb2c3,consent.given,1.0,"{
   ""previous_purposes"": {
     ""disabled"": [],
     ""enabled"": []
@@ -19092,7 +19092,7 @@ d01a4fdf-7d58-4a0f-bda5-388d4b891955,consent.given,1,"{
     ]
   }
 }",2025-09-09 20:03:09.567,2025-09-09 20:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,,"""FR""","""GES""",Didomi SDK,smartphone
-ca710dbf-a1da-42c7-8d5e-cf1fd083e3bb,consent.given,1,"{
+ca710dbf-a1da-42c7-8d5e-cf1fd083e3bb,12133be7-f96f-4ebb-8918-e5ccf6ddb1f6,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -19195,7 +19195,7 @@ ca710dbf-a1da-42c7-8d5e-cf1fd083e3bb,consent.given,1,"{
     ]
   }
 }",2025-09-07 15:14:53.742,2025-09-07 15:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""NOR""",Didomi SDK,smartphone
-fb56992a-9849-4578-89a8-839793c38e81,consent.given,1,"{
+fb56992a-9849-4578-89a8-839793c38e81,ff79bbe7-33b3-4e11-8492-8e902489cfaf,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -19299,7 +19299,7 @@ fb56992a-9849-4578-89a8-839793c38e81,consent.given,1,"{
     ]
   }
 }",2025-09-08 05:13:00.880,2025-09-08 05:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-c1216b72-f9a5-4450-8960-ab41139487ee,consent.given,1,"{
+c1216b72-f9a5-4450-8960-ab41139487ee,b124cb18-499b-4886-bc4a-5bc32d4fb2c3,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -19402,7 +19402,7 @@ c1216b72-f9a5-4450-8960-ab41139487ee,consent.given,1,"{
     ]
   }
 }",2025-09-08 15:12:06.321,2025-09-08 15:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""ARA""",Didomi SDK,smartphone
-d8c41597-1a6b-4f8f-80f2-3594d021352b,consent.given,1,"{
+d8c41597-1a6b-4f8f-80f2-3594d021352b,2f625b1e-9625-4e7d-9e86-09515fdafda0,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -19505,8 +19505,8 @@ d8c41597-1a6b-4f8f-80f2-3594d021352b,consent.given,1,"{
     ]
   }
 }",2025-09-08 20:43:53.040,2025-09-08 20:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-22ca667b-02c4-45c6-a727-a0af60ffb555,pageview,0.1,,2025-09-09 08:28:28.093,2025-09-09 08:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
-bbce42f2-f58a-4930-81db-6f95c22bee42,consent.asked,0.2,"{
+22ca667b-02c4-45c6-a727-a0af60ffb555,574cde6a-4dac-4346-971e-04242b28b7a6,pageview,0.1,,2025-09-09 08:28:28.093,2025-09-09 08:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""",,Didomi SDK,smartphone
+bbce42f2-f58a-4930-81db-6f95c22bee42,1a549807-3142-4d32-9003-7144c750d4ba,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -19584,7 +19584,7 @@ bbce42f2-f58a-4930-81db-6f95c22bee42,consent.asked,0.2,"{
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-09 08:06:08.564,2025-09-09 08:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
-798e558c-7a58-4706-875a-0f5b14130e1d,consent.asked,0.2,"{
+798e558c-7a58-4706-875a-0f5b14130e1d,030451f6-83e7-4e15-a72a-afad65ef29ca,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -19662,8 +19662,8 @@ bbce42f2-f58a-4930-81db-6f95c22bee42,consent.asked,0.2,"{
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-09 22:54:58.001,2025-09-09 22:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""GB""","""ENG""",Didomi SDK,smartphone
-4a7333ca-6a82-485c-9f96-bcc57fb05f07,pageview,0.1,,2025-09-10 16:11:42.063,2025-09-10 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
-01c1a718-3c51-47b3-a337-c1c6e243edce,consent.given,1,"{
+4a7333ca-6a82-485c-9f96-bcc57fb05f07,eb989b3d-db75-4892-b578-4e0cbc3aa4a9,pageview,0.1,,2025-09-10 16:11:42.063,2025-09-10 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,10,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
+01c1a718-3c51-47b3-a337-c1c6e243edce,30180e6b-61cd-4369-b800-f4c6f4d30ce6,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -19767,7 +19767,7 @@ bbce42f2-f58a-4930-81db-6f95c22bee42,consent.asked,0.2,"{
     ]
   }
 }",2025-09-10 18:25:37.650,2025-09-10 18:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""PDL""",Didomi SDK,smartphone
-1dcd21a7-5d9e-4998-aeb7-df152fa24453,consent.given,1,"{
+1dcd21a7-5d9e-4998-aeb7-df152fa24453,607f8486-674e-4b02-b32b-0f583ec52904,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -19870,7 +19870,7 @@ bbce42f2-f58a-4930-81db-6f95c22bee42,consent.asked,0.2,"{
     ]
   }
 }",2025-09-09 19:16:14.146,2025-09-09 19:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""OCC""",Didomi SDK,smartphone
-f4619b00-94ce-45f4-8323-cc684986393d,consent.given,1,"{
+f4619b00-94ce-45f4-8323-cc684986393d,cf64ca33-90f9-41a7-8a07-73e989fb73f8,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -19973,7 +19973,7 @@ f4619b00-94ce-45f4-8323-cc684986393d,consent.given,1,"{
     ]
   }
 }",2025-09-10 16:11:42.073,2025-09-10 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,full opt-in,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""GES""",Didomi SDK,smartphone
-f5f916f4-1e8b-40e9-afaf-a589fd870cf8,consent.given,1,"{
+f5f916f4-1e8b-40e9-afaf-a589fd870cf8,0d05de45-9442-4488-8e0b-1a40b1c7e222,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -20078,7 +20078,7 @@ f5f916f4-1e8b-40e9-afaf-a589fd870cf8,consent.given,1,"{
     ]
   }
 }",2025-09-10 19:19:48.918,2025-09-10 19:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""HDF""",Didomi SDK,smartphone
-864d1db5-ea32-40f7-8d61-cea1a2bbc5a5,consent.asked,0.2,"{
+864d1db5-ea32-40f7-8d61-cea1a2bbc5a5,6784fe01-b4b1-448a-b76c-b30c24e6a471,consent.asked,0.2,"{
   ""position"": ""popup"",
   ""purposes"": [
     ""cookies"",
@@ -20161,7 +20161,7 @@ f5f916f4-1e8b-40e9-afaf-a589fd870cf8,consent.given,1,"{
     ""c:campaignm-2b8zJA8g""
   ]
 }",2025-09-08 16:10:24.659,2025-09-08 16:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,empty,5,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""NOR""",Didomi SDK,smartphone
-478aadb5-2f7f-435c-b23f-b771a897b2c8,consent.given,1,"{
+478aadb5-2f7f-435c-b23f-b771a897b2c8,1a549807-3142-4d32-9003-7144c750d4ba,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
@@ -20264,7 +20264,7 @@ f5f916f4-1e8b-40e9-afaf-a589fd870cf8,consent.given,1,"{
     ]
   }
 }",2025-09-10 08:17:33.548,2025-09-10 08:00:00.000,29b2ad43-be6b-441a-9324-038b9268c9b6,opt-out,1,,sdk-mobile,beauty.com,Gq2bhTwJ,"""FR""","""IDF""",Didomi SDK,smartphone
-512f7259-4b67-424f-ab3f-9fe63aaf7ebd,consent.given,1,"{
+512f7259-4b67-424f-ab3f-9fe63aaf7ebd,c9275507-1271-436b-a1a4-5d621f4f473c,consent.given,1.0,"{
   ""action"": ""click"",
   ""previous_purposes"": {
     ""disabled"": [],
