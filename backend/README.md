@@ -24,13 +24,57 @@ Except for these requirements, feel free to use whichever libraries, frameworks,
 Your code will be reviewed by multiple engineers at Didomi and will serve as the base for a discussion in interviews.  
 We want to see how you approach working on a complete project and strongly recommend that you work on this challenge alone. We expect the code to be professionally structured, commented, documented, and tested.
 
+### Time Investment
+
+Expected time: 4-8 hours. Please request additional time if needed rather than rushing your submission.
+
+### AI Tools and Development Assistance
+
+We encourage the use of AI development tools (ChatGPT, Claude, GitHub Copilot, etc.) as they reflect modern development practices. However, you must:
+
+- Understand and be able to explain all code you submit
+- Be prepared to discuss technical decisions and trade-offs during the interview
+- Ensure your solution demonstrates your engineering judgment, not just AI-generated code
+
+### Testing Requirements (MANDATORY)
+
+Your submission MUST include:
+
+- Unit tests covering core business logic
+- Integration tests for API endpoints
+- Meaningful test coverage that validates functionality
+- Tests should demonstrate understanding of what/how to test
+
+**Submissions with minimal or superficial tests will be rejected.**
+
+### Requirements Compliance
+
+Missing mandatory specifications will result in rejection:
+
+- All required API endpoints must be implemented (`/users` [GET, POST, DELETE], `/events` [POST])
+- Core business logic must be correctly implemented (consent event sourcing, user uniqueness, etc.)
+- Database schema must properly handle the data model
+- Proper error handling (e.g., 422 responses for invalid data)
+
+Minor deviations may be discussed during the interview, but missing multiple core requirements is a disqualifying factor.
+
+### Code Quality Standards
+
+We expect:
+
+- Clean, modular, and well-structured code
+- Proper separation of concerns
+- Meaningful variable and function names
+- Appropriate error handling
+- Clear documentation for setup and usage
+
 If anything is unclear, feel free to ask any questions that might help you understand the specifications or requirements better.
 
 ## Delivery
 
 Your application can be sent to us as a GitHub repository or as a compressed archive containing all the deliverables.
 
-# The challenge
+## The challenge
 
 You're building a Preference Center for your users where they can manage their choice regarding the channel they want to get notified on. They can choose between getting notified by email, SMS, neither, or both. To do this you need to provide an API to manage your users and their consents.
 
