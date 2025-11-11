@@ -49,12 +49,11 @@ Your submission MUST include:
 
 ### Requirements Compliance
 
-Missing mandatory specifications will result in rejection:
+Missing mandatory specifications according to the challenge outlined below will result in rejection:
 
-- All required API endpoints must be implemented (`/users` [GET, POST, DELETE], `/events` [POST])
-- Core business logic must be correctly implemented (consent event sourcing, user uniqueness, etc.)
-- Database schema must properly handle the data model
-- Proper error handling (e.g., 422 responses for invalid data)
+- All required API endpoints must be implemented having requests and response must match the examples
+- Database schema must properly handle the data model and anticipate deploying future schema updates
+- Proper error handling
 
 Minor deviations may be discussed during the interview, but missing multiple core requirements is a disqualifying factor.
 
@@ -173,7 +172,7 @@ After receiving your code challenge, we organize a review session with you and a
 - Ask you general technical questions related to your project and backend architecture
 - Do an architecture exercise where you will sketch out an architecture (think about APIs, clients, queues, jobs, etc) using <http://draw.io/>, <http://miro.com/> or a similar tool of your choice
 
-A few examples of the topic that we like to discuss in more details:
+A few examples of the topics that we like to discuss in more detail:
 
 - API formats and documentation
 - Schema management and migrations
