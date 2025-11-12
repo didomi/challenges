@@ -51,7 +51,7 @@ Your submission MUST include:
 
 Missing mandatory specifications according to the challenge outlined below will result in rejection:
 
-- All required API endpoints must be implemented having requests and response must match the examples
+- All required API endpoints must be implemented with request and response payloads matching the examples provided in the challenge requirements (these define the expected API contract)
 - Database schema must properly handle the data model and anticipate deploying future schema updates
 - Proper error handling
 
