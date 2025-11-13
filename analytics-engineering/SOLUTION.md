@@ -156,7 +156,7 @@ Trade-offs and important choices
 
 ---
 
-## 🧾 Caveats & Notes
+## Caveats & Notes
 
 - **Sampling bias:** Since data uses company‑specific `RATE`, extrapolated metrics assume representative sampling.  
 - **Temporal limitation:** Dataset duration unknown — metrics represent a snapshot, not time trends.  
