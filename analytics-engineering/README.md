@@ -59,7 +59,7 @@ This directory contains event tracking data for 10 companies, split across two f
 - **CSV format:** Companies 1-5 (`input/events/csv/events-company-1.csv` through `events-company-5.csv`)
 - **Parquet format:** Companies 6-10 (`input/events/parquet/events-company-6.parquet` through `events-company-10.parquet`)
 
-Both formats contain the same schema with approximately 2,000-3,000 events per company file.
+Both formats contain the same schema.
 
 **Schema:**
 
