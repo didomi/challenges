@@ -65,10 +65,10 @@ Both formats contain the same schema with approximately 2,000-3,000 events per c
 
 - `EVENT_ID` (string/UUID): Unique identifier for each event
 - `TYPE` (string): Type of event. Common values include:
-  - `consent.given` - User has granted consent (most common: ~57% of events)
-  - `pageview` - Page view event (~27% of events)
-  - `consent.asked` - Consent prompt was shown (~14% of events)
-  - `ui.action` - User interface interaction (~3% of events)
+  - `consent.given` - User has granted consent 
+  - `pageview` - Page view event
+  - `consent.asked` - Consent prompt was shown 
+  - `ui.action` - User interface interaction 
 - `RATE` (float): Sampling rate for the event (e.g., 0.1 means 10% sample rate, 1 means 100%)
 - `PARAMETERS` (string/JSON): JSON object containing detailed event parameters. Structure varies by event type:
   - For `consent.given` and `consent.asked`: Contains nested objects with purposes, vendors, and previous states
@@ -104,7 +104,7 @@ EVENT_ID,TYPE,RATE,PARAMETERS,EVENT_TIME,WINDOW_START,APIKEY,CONSENT,COUNT,EXPER
 
 - Country and region codes are wrapped in triple quotes (e.g., `"""ES"""`)
 - The APIKEY field links events to companies in the company information dataset
-- Parquet files provide the same data in a more efficient binary format
+- Parquet files provide the similar data in a more efficient binary format
 
 ## The Assignment
 
