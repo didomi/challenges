@@ -21,7 +21,8 @@ services:
       db:
         condition: service_healthy
     volumes:
-      - .:/app
+      - ./scripts:/app/scripts
+      - ./input:/app/input  
     working_dir: /app
     tty: true
     command: ["tail", "-f", "/dev/null"]

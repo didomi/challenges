@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: int_consent__conversion_rate
+    description: >
+      Calculates, per company, the extrapolated counts for consent asked and
+      consent given events, and derives a consent_conversion_rate_pct as
+      given_extrapolated_count / asked_extrapolated_count.
+
+    columns:
+      - name: company_id
+        description: "Unique company identifier."
+        tests:
+          - not_null
+          - unique
+
+      - name: asked_extrapolated_count
+        description: "Total extrapolated count of 'consent.asked' events per company."
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: given_extrapolated_count
+        description: "Total extrapolated count of 'consent.given' events per company."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: consent_conversion_rate_pct
+        description: >
+          Ratio between given and asked extrapolated counts, expressed as a
+          decimal fraction (e.g., 0.75 means 75% conversion).
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 0 and 1"

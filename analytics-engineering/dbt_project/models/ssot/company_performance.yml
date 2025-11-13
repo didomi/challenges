@@ -1,0 +1,74 @@
+version: 2
+
+models:
+  - name: company__performance_enriched
+    description: >
+      Combines company dimension attributes with performance metrics calculated
+      in int_company__performance. Provides a per-company enriched table with
+      both static attributes and aggregated behavior metrics.
+
+    columns:
+      - name: company_id
+        description: "Primary identifier of the company."
+        tests:
+          - not_null
+          - unique
+          # You can ensure that the company_id exists in the raw dimension:
+          - relationships:
+              to: ref('int_company__dim')
+              field: company_id
+
+      - name: company_name
+        description: "Company name or display label from the dimension."
+      - name: country
+        description: "Headquarters country or main operating country."
+      - name: industry
+        description: "Industry classification of the company."
+
+      - name: total_events
+        description: "Total number of extrapolated events recorded for the company."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: total_pageviews
+        description: "Sum of extrapolated 'pageview' events."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: total_consent_given
+        description: "Sum of extrapolated 'consent.given' events."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: total_consent_asked
+        description: "Sum of extrapolated 'consent.asked' events."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: total_ui_actions
+        description: "Sum of extrapolated 'ui.action' events."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: distinct_countries
+        description: "Number of unique countries in which this company has generated events."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      # --- Dimension attributes (examples, adjust to your real fields) ---
+      - name: industry_back
+        description: "Company back-end industry classification."
+
+      - name: industry_front
+        description: "Company front-end industry classification."
+
+      - name: hq_country
+        description: "Country of the company's headquarters."
+        tests:
+          - not_null

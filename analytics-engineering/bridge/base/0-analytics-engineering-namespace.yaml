@@ -1,0 +1,8 @@
+#! 0-analytics-engineering-namespace.yaml
+# Generated code, do not edit
+apiVersion: v1
+kind: Namespace
+metadata:
+    name: analytics-engineering
+    labels:
+        com.docker.compose.project: analytics-engineering

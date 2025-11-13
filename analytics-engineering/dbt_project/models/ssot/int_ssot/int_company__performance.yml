@@ -1,0 +1,49 @@
+version: 2
+
+models:
+  - name: int_company__performance
+    description: "Aggregated event metrics per company, summarizing counts and totals from stg_events."
+
+    columns:
+      - name: company_id
+        description: "Unique identifier for each company."
+        tests:
+          - not_null
+          - unique
+
+      - name: total_events
+        description: "Total number of extrapolated events for the company."
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: total_pageviews
+        description: "Total 'pageview' events."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: total_consent_given
+        description: "Total 'consent.given' events."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: total_consent_asked
+        description: "Total 'consent.asked' events."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: total_ui_actions
+        description: "Total 'ui.action' events."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: distinct_countries
+        description: "Number of unique countries where the company generated events."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"

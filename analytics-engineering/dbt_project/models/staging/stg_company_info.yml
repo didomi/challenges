@@ -1,0 +1,20 @@
+version: 2
+
+models:
+
+  - name: stg_company_info
+    description: >
+      Cleaned staging table for company metadata, used to link events
+      to their industry and HQ country.
+    columns:
+      - name: company_id
+        description: Primary key for the company.
+        tests:
+          - not_null
+          - unique
+      - name: industry_back
+        description: Backend industry classification.
+      - name: industry_front
+        description: Frontend industry classification.
+      - name: hq_country
+        description: Country of headquarters (may be null).

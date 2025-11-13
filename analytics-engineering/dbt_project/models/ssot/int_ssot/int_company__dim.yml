@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: int_company__dim
+    description: "Contains company identifiers and industry information extracted from stg_company_info."
+    columns:
+      - name: company_id
+        description: "Unique identifier for each company."
+        tests:
+          - not_null
+          - unique
+
+      - name: industry_back
+        description: "Company back-end industry classification."
+
+      - name: industry_front
+        description: "Company front-end industry classification."
+
+      - name: hq_country
+        description: "Country of the company's headquarters."
+        tests:
+          - not_null

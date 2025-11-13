@@ -1,0 +1,151 @@
+version: 2
+
+models:
+  - name: stg_events
+    description: >
+      Cleaned and enriched event-level dataset containing all user tracking and consent events.
+      Each record represents one event emitted by a Didomi SDK client or integration instance.
+
+    columns:
+      - name: event_id
+        description: >
+          Unique identifier (UUID string) for each event.
+          Serves as the primary key.
+        data_type: string
+        tests:
+          - not_null
+          - unique
+
+      - name: event_type
+        description: >
+          Type of event. Common values include:
+          • `consent.given` — user granted consent (~57%)  
+          • `pageview` — page view event (~27%)  
+          • `consent.asked` — consent prompt shown (~14%)  
+          • `ui.action` — user interface interaction (~3%)
+        data_type: string
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['consent.given', 'pageview', 'consent.asked', 'ui.action']
+
+      - name: rate
+        description: >
+          Sampling rate for the event (0.1 = 10% sample, 1 = 100% sample).
+          Used to extrapolate true counts.
+        data_type: float
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: "rate >= 0 AND rate <= 1"
+
+      - name: parameters
+        description: >
+          JSON object with detailed event parameters. Structure varies by event type.
+          • For consent.given / consent.asked: nested objects for purposes, vendors, previous states.  
+          • For pageview / ui.action: often empty.
+        data_type: json
+
+      - name: event_time
+        description: >
+          Timestamp when the event occurred (`YYYY-MM-DD HH:MM:SS.mmm`).
+        data_type: timestamp
+        tests:
+          - not_null
+
+      - name: window_start
+        description: >
+          Beginning of the aggregation window (`YYYY-MM-DD HH:MM:SS.mmm`).
+        data_type: timestamp
+
+      - name: company_id
+        description: >
+          Identifier (UUID string) for the company emitting the event.
+          Foreign key to `stg_company_info.public_api_key`.
+        data_type: string
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_company_info')
+              field: public_api_key
+
+      - name: consent_status
+        description: >
+          Users consent state (e.g. "full opt-in", "empty", "partial").
+        data_type: string
+
+      - name: sampled_count
+        description: >
+          Raw observed event count (aggregated events).
+        data_type: integer
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: "sampled_count >= 0"
+
+      - name: extrapolated_count
+        description: >
+          Count extrapolated using the sampling rate (`sampled_count / rate` when rate > 0).
+        data_type: float
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: "extrapolated_count >= 0"
+
+      - name: experiment
+        description: >
+          Experiment or A/B test identifier (nullable).
+        data_type: string
+
+      - name: sdk_type
+        description: >
+          SDK type used to collect the event (e.g. `sdk-mobile`, `sdk-web`).
+        data_type: string
+        tests:
+          - accepted_values:
+              values: ['sdk-mobile', 'sdk-web']
+              quote: true
+              config:
+                severity: warn
+
+      - name: domain
+        description: >
+          Domain where the event occurred (e.g. `service1.org`).
+        data_type: string
+
+      - name: deployment_id
+        description: >
+          Deployment identifier associated with the SDK instance (nullable).
+        data_type: string
+
+      - name: country
+        description: >
+          Cleaned country code(s) (triple quotes removed), e.g. `ES`, `FR`.
+        data_type: string
+        tests:
+          - dbt_utils.length_equal:
+              value: 2
+              config:
+                severity: warn
+
+      - name: region
+        description: >
+          Cleaned region code, e.g. `CM`, `MD`.
+        data_type: string
+        tests:
+          - dbt_utils.length_equal:
+              value: 2
+              config:
+                severity: warn
+
+      - name: browser_family
+        description: >
+          Browser family or SDK identifier (`Didomi SDK`, `Chrome`, `Safari`, etc.).
+        data_type: string
+
+      - name: device_type
+        description: >
+          Device type: `smartphone`, `desktop`, `tablet`.
+        data_type: string
+        tests:
+          - accepted_values:
+              values: ['smartphone', 'desktop', 'tablet']

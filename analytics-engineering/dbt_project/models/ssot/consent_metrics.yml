@@ -1,0 +1,84 @@
+version: 2
+
+models:
+  - name: consent__performance_enriched
+    description: >
+      Final consent performance model per company. Enriches company dimension
+      data with consent conversion rate, consent status distribution metrics,
+      and median time to consent.
+
+    columns:
+      - name: company_id
+        description: "Primary key for the company."
+        tests:
+          - not_null
+          - unique
+          - relationships:
+              to: ref('int_company__dim')
+              field: company_id
+
+      # --- Conversion metrics ---
+      - name: given_extrapolated_count
+        description: "Extrapolated count of 'consent.given' events per company."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: asked_extrapolated_count
+        description: "Extrapolated count of 'consent.asked' events per company."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: consent_conversion_rate_pct
+        description: >
+          Ratio of given_extrapolated_count / asked_extrapolated_count (0–1).
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: "consent_conversion_rate_pct IS NULL OR (consent_conversion_rate_pct BETWEEN 0 AND 1)"
+
+      # --- Status distribution metrics ---
+      - name: total_events
+        description: "Total extrapolated events recorded for the company."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: total_empty_consent_statuses
+        description: "Events with consent_status = 'empty'."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: total_full_opt_in_consent_statuses
+        description: "Events with consent_status = 'full opt-in'."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: total_partial_opt_in_consent_statuses
+        description: "Events with consent_status = 'partial'."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      # --- Time metric ---
+      - name: median_seconds_to_consented
+        description: >
+          Median number of seconds elapsed between first consent asked and first
+          consent given events per company (median across time windows).
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: "median_seconds_to_consented IS NULL OR median_seconds_to_consented >= 0"
+
+      # --- Dimension attributes (examples, adjust to your real fields) ---
+      - name: industry_back
+        description: "Company back-end industry classification."
+
+      - name: industry_front
+        description: "Company front-end industry classification."
+
+      - name: hq_country
+        description: "Country of the company's headquarters."
+        tests:
+          - not_null

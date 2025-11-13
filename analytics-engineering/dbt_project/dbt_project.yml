@@ -13,4 +13,4 @@ clean-targets:
 
 models:
   interview_project:
-    materialized: view
+    +materialized: table

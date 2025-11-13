@@ -1,0 +1,39 @@
+version: 2
+
+models:
+  - name: int_consent__status_distribution
+    description: >
+      Aggregates extrapolated event counts by company and consent_status. 
+      Summarizes total events and totals by status (empty, full opt-in, partial).
+
+    columns:
+      - name: company_id
+        description: "Unique identifier for each company."
+        tests:
+          - not_null
+          - unique
+
+      - name: total_events
+        description: "Sum of extrapolated_count for all events of the company."
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: total_empty_consent_statuses
+        description: "Sum of extrapolated_count for events with consent_status = 'empty'."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: total_full_opt_in_consent_statuses
+        description: "Sum of extrapolated_count for events with consent_status = 'full opt-in'."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: total_partial_opt_in_consent_statuses
+        description: "Sum of extrapolated_count for events with consent_status = 'partial'."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"

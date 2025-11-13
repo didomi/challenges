@@ -1,0 +1,55 @@
+#! db-deployment.yaml
+# Generated code, do not edit
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: db
+    namespace: analytics-engineering
+    labels:
+        com.docker.compose.project: analytics-engineering
+        com.docker.compose.service: db
+spec:
+    replicas: 1
+    selector:
+        matchLabels:
+            com.docker.compose.project: analytics-engineering
+            com.docker.compose.service: db
+    strategy:
+        type: Recreate
+    template:
+        metadata:
+            labels:
+                com.docker.compose.project: analytics-engineering
+                com.docker.compose.service: db
+                com.docker.compose.network.default: "true"
+        spec:
+            containers:
+                - name: db
+                  image: postgres:14
+                  imagePullPolicy: IfNotPresent
+                  env:
+                    - name: POSTGRES_DB
+                      value: "analytics_db"
+                    - name: POSTGRES_PASSWORD
+                      value: "password"
+                    - name: POSTGRES_USER
+                      value: "ae_interview"
+                  livenessProbe:
+                    exec:
+                        command:
+                            - /bin/sh
+                            - -c
+                            - pg_isready -U ae_interview -d analytics_db
+                    periodSeconds: 10
+                    timeoutSeconds: 5
+                    failureThreshold: 5
+                  ports:
+                    - name: db-5432
+                      containerPort: 5432
+                  volumeMounts:
+                    - name: var-lib-postgresql-data
+                      mountPath: /var/lib/postgresql/data
+            volumes:
+                - name: var-lib-postgresql-data
+                  hostPath:
+                    path: /Users/mac/challenges/analytics-engineering/postgres-data

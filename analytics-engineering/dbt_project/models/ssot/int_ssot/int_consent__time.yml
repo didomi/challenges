@@ -1,0 +1,42 @@
+version: 2
+
+models:
+  - name: int_consent__time
+    description: >
+      Calculates time (in seconds) between the earliest consent request and
+      the earliest consent given event, grouped by company_id and window_start.
+
+    columns:
+      - name: company_id
+        description: "Unique company identifier."
+        tests:
+          - not_null
+
+      - name: window_start
+        description: "Event time window (e.g., day/hour)."
+        tests:
+          - not_null
+
+      # The pair company_id + window_start should uniquely identify each row
+      - tests:
+          - unique:
+              column_name: "(company_id || '-' || window_start)"
+
+      - name: asked_at
+        description: "Timestamp of the first 'consent.asked' event within the window."
+        tests:
+          - not_null
+
+      - name: given_at
+        description: >
+          Timestamp of the first 'consent.given' event within the window (if any).
+          Can be null when consent has not yet been given.
+        tests: []
+
+      - name: seconds_to_consented
+        description: >
+          Number of seconds between `asked_at` and `given_at`.
+          Null when no consent was given yet.
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: "seconds_to_consented IS NULL OR seconds_to_consented >= 0"

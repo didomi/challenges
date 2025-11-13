@@ -1,0 +1,97 @@
+version: 2
+
+models:
+  - name: company__performance_metrics
+    description: >
+      Final company performance and consent summary table.
+      Combines event activity and consent metrics per company into a single
+      view used for top-level analytics.
+
+    columns:
+      - name: company_id
+        description: "Primary key for each company."
+        tests:
+          - not_null
+          - unique
+
+      # ---- Overall performance metrics ----
+      - name: total_events
+        description: "Total extrapolated events per company."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: total_pageviews
+        description: "Sum of extrapolated 'pageview' events."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: total_consent_given
+        description: "Sum of extrapolated 'consent.given' events."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: total_consent_asked
+        description: "Sum of extrapolated 'consent.asked' events."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: total_ui_actions
+        description: "Sum of extrapolated 'ui.action' events."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: distinct_countries
+        description: "Number of distinct countries where events occurred."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      # ---- Consent metrics ----
+      - name: given_extrapolated_count
+        description: "Total extrapolated count for 'consent.given' events."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: asked_extrapolated_count
+        description: "Total extrapolated count for 'consent.asked' events."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: consent_conversion_rate_pct
+        description: "Conversion rate = given_extrapolated_count / asked_extrapolated_count (0–1 range)."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: "consent_conversion_rate_pct IS NULL OR (consent_conversion_rate_pct BETWEEN 0 AND 1)"
+
+      # ---- Status distribution ----
+      - name: total_empty_consent_statuses
+        description: "Extrapolated events with consent_status = 'empty'."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: total_full_opt_in_consent_statuses
+        description: "Extrapolated events with consent_status = 'full opt-in'."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      - name: total_partial_opt_in_consent_statuses
+        description: "Extrapolated events with consent_status = 'partial'."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: ">= 0"
+
+      # ---- Time metric ----
+      - name: median_seconds_to_consented
+        description: "Median seconds elapsed between consent asked and given events per company."
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: "median_seconds_to_consented IS NULL OR median_seconds_to_consented >= 0"

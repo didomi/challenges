@@ -1,6 +1,10 @@
 [project]
 name = "analytics-interview"
 version = "0.1.0"
+
 dependencies = [
-    "dbt-postgres~=1.8.0"
+    "dbt-postgres~=1.8.0",
+    "pandas",
+    "sqlalchemy",
+    "psycopg2-binary"
 ]

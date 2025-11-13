@@ -1,0 +1,46 @@
+#! analytics-env-deployment.yaml
+# Generated code, do not edit
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: analytics-env
+    namespace: analytics-engineering
+    labels:
+        com.docker.compose.project: analytics-engineering
+        com.docker.compose.service: analytics-env
+spec:
+    replicas: 1
+    selector:
+        matchLabels:
+            com.docker.compose.project: analytics-engineering
+            com.docker.compose.service: analytics-env
+    strategy:
+        type: Recreate
+    template:
+        metadata:
+            labels:
+                com.docker.compose.project: analytics-engineering
+                com.docker.compose.service: analytics-env
+                com.docker.compose.network.default: "true"
+        spec:
+            containers:
+                - name: analytics-env
+                  image: analytics-engineering-analytics-env
+                  imagePullPolicy: IfNotPresent
+                  args:
+                    - tail
+                    - -f
+                    - /dev/null
+                  workingDir: /app
+                  volumeMounts:
+                    - name: app-scripts
+                      mountPath: /app/scripts
+                    - name: app-input
+                      mountPath: /app/input
+            volumes:
+                - name: app-scripts
+                  hostPath:
+                    path: /Users/mac/challenges/analytics-engineering/scripts
+                - name: app-input
+                  hostPath:
+                    path: /Users/mac/challenges/analytics-engineering/input
